@@ -1,22 +1,20 @@
 package com.example.routes;
 
 import android.content.DialogInterface;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.location.Location;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -49,7 +47,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static android.R.attr.bitmap;
 import static android.graphics.Color.parseColor;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
@@ -137,27 +134,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mLocation = location;
     }
 
-
-    public class Stop {
-        int id;
-        String name;
-        double lat;
-        double lon;
-        int buddy;
-
-        LatLng getLatLng() {
-            return new LatLng(lat, lon);
-        }
-    }
-
-    public class Route {
-        int id;
-        String name;
-        String short_name;
-        int color;
-        List<LatLng> path;
-        List<Integer> stops;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
