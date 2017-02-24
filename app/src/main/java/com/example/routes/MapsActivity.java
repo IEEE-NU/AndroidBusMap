@@ -18,6 +18,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -32,6 +33,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static android.R.attr.bitmap;
 import static android.graphics.Color.parseColor;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -213,7 +215,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(stop.getLatLng())
                 .title(stop.name)
-                .visible(false);
+                .visible(false)
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.piny));
         Marker marker = mMap.addMarker(markerOptions);
         mMarkerMap.put(stop.id, marker);
     }
