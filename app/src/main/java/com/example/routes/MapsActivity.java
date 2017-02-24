@@ -1,8 +1,10 @@
 package com.example.routes;
 
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -41,21 +43,24 @@ import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 import static android.graphics.Color.parseColor;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
+    private static final String ROUTE_KEY = "use_this_to_save_user_preferences";
+
     private GoogleMap mMap;
     private List<Stop> mStopList;
-    private List<Stop2> mStop2List;
     private List<Route> mRouteList;
-    private List<Route2> mRoute2List;
     private HashMap<Integer, Marker> mMarkerMap; // maps stop id to google maps marker
     private HashMap<Integer, Polyline> mPolylineMap; // maps route id to google maps polyline
     private RequestQueue mRequestQueue;
     private boolean[] mSelectedRoutes;
+    private SharedPreferences mPref;
+    private HashSet<String> mPrefRoutes;
 
     public class Stop {
         int id;
@@ -70,14 +75,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
-    public class Stop2 {
-        String name;
-        String routeName;
-        double lat;
-        double lon;
-        String stopTimes;
-    }
-
     public class Route {
         int id;
         String name;
@@ -85,11 +82,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         int color;
         List<LatLng> path;
         List<Integer> stops;
-    }
-
-    public class Route2 {
-        String name;
-        List<LatLng> path;
     }
 
     @Override
@@ -103,16 +95,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // set up queue for http requests (for route/stop info)
         mRequestQueue = Volley.newRequestQueue(this);
+        
+        mPref = PreferenceManager.getDefaultSharedPreferences(this);
+        mPrefRoutes = (HashSet<String>) mPref.getStringSet(ROUTE_KEY,null);
 
         mRouteList = new ArrayList<>();
         getRoutes();
 
         mStopList = new ArrayList<>();
         getStops();
-
-        mStop2List = new ArrayList<>();
-        mRoute2List = new ArrayList<>();
-        getStopTimes();
 
         Button selectRouteButton = (Button) findViewById(R.id.select_route_button);
         selectRouteButton.setOnClickListener(new View.OnClickListener() {
@@ -157,7 +148,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     // by default, show all routes
                     mSelectedRoutes = new boolean[mRouteList.size()];
                     for (int i = 0; i < mRouteList.size(); i++) {
-                        mSelectedRoutes[i] = true;
+                        mSelectedRoutes[i] = mPrefRoutes == null || mPrefRoutes.contains(mRouteList.get(i).name);
+                    }
+
+                    if (mPrefRoutes == null) {
+                        mPrefRoutes = new HashSet<>();
                     }
 
                     drawMaps();
@@ -209,79 +204,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
 
         mRequestQueue.add(jsonArrayRequest);
-    }
-
-    public String getJSONString(String filename) {
-        InputStream is = getResources().openRawResource(
-                getResources().getIdentifier(filename,
-                "raw", getPackageName()));
-        Writer writer = new StringWriter();
-        char[] buffer = new char[1024];
-        try {
-            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-            int n;
-            while ((n = reader.read(buffer)) != -1) {
-                writer.write(buffer, 0, n);
-            }
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                is.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-
-        String jsonString = writer.toString();
-        return jsonString;
-    }
-
-    public void getStopTimes() {
-        String jsonString = getJSONString("campus_loop");
-        JSONObject jsonObject = null;
-        try {
-            jsonObject = new JSONObject(jsonString);
-            JSONArray features = jsonObject.getJSONArray("features");
-
-            // get route info stored in last feature
-            Route2 route2 = new Route2();
-            JSONObject routeFeature = features.getJSONObject(features.length()-1);
-            JSONObject routeProperties = routeFeature.getJSONObject("properties");
-            String routeName = routeProperties.getString("Name");
-            route2.name = routeName;
-
-            // get path of route
-            route2.path = new ArrayList<>();
-            JSONObject routeGeometry = routeFeature.getJSONObject("geometry");
-            JSONArray routeCoordinates = routeGeometry.getJSONArray("coordinates");
-            for (int i = 0; i < routeGeometry.length(); i++) {
-                JSONArray coordinate = routeCoordinates.getJSONArray(i);
-                LatLng latLng = new LatLng(coordinate.getDouble(0),coordinate.getDouble(1));
-                route2.path.add(latLng);
-            }
-
-            // get stop info stored in first n-1 features
-            for (int i = 0; i < features.length()-1; i++) {
-                Stop2 stop2 = new Stop2();
-                stop2.routeName = routeName;
-                JSONObject feature = features.getJSONObject(i);
-                JSONObject properties = feature.getJSONObject("properties");
-                stop2.name = properties.getString("Name");
-                stop2.stopTimes = properties.getString("description");
-
-                JSONObject geometry = feature.getJSONObject("geometry");
-                JSONArray coordinates = geometry.getJSONArray("coordinates");
-                stop2.lat = coordinates.getDouble(0);
-                stop2.lon = coordinates.getDouble(1);
-                mStop2List.add(stop2);
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
     }
 
     public void drawMaps() {
@@ -413,6 +335,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i, boolean b) {
                         mSelectedRoutes[i] = b;
+                        // update user preferences (which routes to show)
+                        if (b) {
+                            mPrefRoutes.add(mRouteList.get(i).name);
+                        }
+                        else {
+                            mPrefRoutes.remove(mRouteList.get(i).name);
+                        }
+                        SharedPreferences.Editor editor = mPref.edit();
+                        editor.remove(ROUTE_KEY);
+                        editor.commit();
+                        editor.putStringSet(ROUTE_KEY,mPrefRoutes);
+                        editor.apply();
+                        mPrefRoutes = (HashSet<String>) mPref.getStringSet(ROUTE_KEY,null);
+
                         updateMaps();
                     }
                 })
