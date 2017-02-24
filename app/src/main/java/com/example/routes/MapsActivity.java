@@ -1,12 +1,19 @@
 package com.example.routes;
 
+import android.*;
 import android.content.DialogInterface;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.location.Location;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -14,6 +21,14 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.PendingResult;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.LocationSettingsRequest;
+import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -34,7 +49,7 @@ import java.util.List;
 
 import static android.graphics.Color.parseColor;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
 
     private GoogleMap mMap;
     private List<Stop> mStopList;
@@ -43,6 +58,81 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private HashMap<Integer, Polyline> mPolylineMap; // maps route id to google maps polyline
     private RequestQueue mRequestQueue;
     private boolean[] mSelectedRoutes;
+    private GoogleApiClient mGoogleApiClient;
+    private Location mLocation;
+    private LocationRequest mLocationRequest;
+
+    @Override
+    public void onConnected(@Nullable Bundle bundle) {
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission
+                .ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat
+                .checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED) {
+
+            ActivityCompat.requestPermissions(this,
+                    new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+                    2);
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        mLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+        createLocationRequest();
+        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
+                .addLocationRequest(mLocationRequest);
+
+        PendingResult<LocationSettingsResult> result =
+                LocationServices.SettingsApi.checkLocationSettings(mGoogleApiClient, builder.build());
+
+        startLocationUpdates();
+        displayClosestStop(findClosestStop());
+    }
+
+    protected void startLocationUpdates() {
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
+        {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        LocationServices.FusedLocationApi.requestLocationUpdates(
+                mGoogleApiClient, mLocationRequest, (LocationListener) this);
+    }
+
+    protected void createLocationRequest() {
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(10000);
+        mLocationRequest.setFastestInterval(5000);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+        mLocation = location;
+    }
+
 
     public class Stop {
         int id;
@@ -90,6 +180,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 routeSelectionDialog();
             }
         });
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .addApi(LocationServices.API)
+                .build();
+
+        mGoogleApiClient.connect();
     }
 
     public void getRoutes() {
@@ -131,6 +229,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     }
 
                     drawMaps();
+                    displayClosestStop(findClosestStop());
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -164,6 +263,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     }
 
                     drawMaps();
+                    displayClosestStop(findClosestStop());
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -176,6 +276,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
 
         mRequestQueue.add(jsonArrayRequest);
+        displayClosestStop(findClosestStop());
     }
 
     public void drawMaps() {
@@ -254,40 +355,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
-
-
-/*
-    public void drawStops() {
-        if (mMap == null) {
-            return;
-        }
-        if (mStopList == null) {
-            return;
-        }
-        // we also need to get routes before this runs
-        if (mRouteList == null) {
-            return;
-        }
-
-        mMarkerList = new HashMap<>();
-        for (int i = 0; i < mStopList.size(); i++) {
-            Stop stop = mStopList.get(i);
-            Marker marker = mMap.addMarker(new MarkerOptions().position(stop.getLatLng()).title(stop.name).visible(false));
-            mMarkerList.put(stop.id, marker);
-        }
-
-        for (int i = 0; i < mRouteList.size(); i++) {
-            Route route = mRouteList.get(i);
-            for (int j = 0; j < route.stops.size(); j++) {
-                int stop_id = route.stops.get(j);
-                Marker marker = mMarkerList.get(stop_id);
-                marker.setVisible(true);
-            }
-        }
-
-    }
-*/
-
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -330,4 +397,36 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         AlertDialog dialog = builder.create();
         dialog.show();
     }
+
+    private Stop findClosestStop(){
+        if (mLocation == null) {
+            return null;
+        }
+        if (mStopList.size() == 0) {
+            return null;
+        }
+        double min = Double.MAX_VALUE;
+        Location stop = new Location("");
+        int index = 0;
+        for (int i = 0; i < mStopList.size() ; i++) {
+            stop.setLatitude(mStopList.get(i).lat);
+            stop.setLongitude(mStopList.get(i).lon);
+            if (mLocation.distanceTo(stop) < min){
+                index = i;
+            }
+
+        }
+        return mStopList.get(index);
+    }
+
+    private void displayClosestStop(Stop closest_stop){
+        if (closest_stop == null) {
+            return;
+        }
+        TextView text = (TextView) findViewById(R.id.textView);
+        text.setText("You are closest to " + closest_stop.name );
+    }
 }
+
+
+
