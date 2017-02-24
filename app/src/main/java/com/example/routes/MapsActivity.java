@@ -1,7 +1,8 @@
 package com.example.routes;
 
-import android.*;
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
@@ -60,6 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private HashMap<Integer, Polyline> mPolylineMap; // maps route id to google maps polyline
     private RequestQueue mRequestQueue;
     private boolean[] mSelectedRoutes;
+    private Bitmap imageBitmap;
     private GoogleApiClient mGoogleApiClient;
     private Location mLocation;
     private LocationRequest mLocationRequest;
@@ -165,6 +167,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        imageBitmap = BitmapFactory.decodeResource(getResources(),R.drawable.piny);
+        imageBitmap = resizeMapIcons(imageBitmap,30,30);
 
         // set up queue for http requests (for route/stop info)
         mRequestQueue = Volley.newRequestQueue(this);
@@ -311,13 +316,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // show selected routes by making their lines and markers visible
         updateMaps();
     }
+    public Bitmap resizeMapIcons(Bitmap imageBitmap, int width, int height){
+        Bitmap resizedBitmap = Bitmap.createScaledBitmap(imageBitmap, width, height, false);
+        return resizedBitmap;
+    }
 
     private void drawStopMarker(Stop stop) {
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(stop.getLatLng())
                 .title(stop.name)
                 .visible(false)
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.piny));
+                .icon(BitmapDescriptorFactory.fromBitmap(imageBitmap));
         Marker marker = mMap.addMarker(markerOptions);
         mMarkerMap.put(stop.id, marker);
     }
