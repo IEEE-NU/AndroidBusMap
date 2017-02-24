@@ -2,11 +2,13 @@ package com.example.routes;
 
 import android.content.DialogInterface;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -23,11 +25,20 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.android.gms.vision.text.Text;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.StringWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -38,7 +49,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     private List<Stop> mStopList;
+    private List<Stop2> mStop2List;
     private List<Route> mRouteList;
+    private List<Route2> mRoute2List;
     private HashMap<Integer, Marker> mMarkerMap; // maps stop id to google maps marker
     private HashMap<Integer, Polyline> mPolylineMap; // maps route id to google maps polyline
     private RequestQueue mRequestQueue;
@@ -50,10 +63,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         double lat;
         double lon;
         int buddy;
+        String nextStopTime;
 
         LatLng getLatLng() {
             return new LatLng(lat, lon);
         }
+    }
+
+    public class Stop2 {
+        String name;
+        String routeName;
+        double lat;
+        double lon;
+        String stopTimes;
     }
 
     public class Route {
@@ -63,6 +85,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         int color;
         List<LatLng> path;
         List<Integer> stops;
+    }
+
+    public class Route2 {
+        String name;
+        List<LatLng> path;
     }
 
     @Override
@@ -82,6 +109,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mStopList = new ArrayList<>();
         getStops();
+
+        mStop2List = new ArrayList<>();
+        mRoute2List = new ArrayList<>();
+        getStopTimes();
 
         Button selectRouteButton = (Button) findViewById(R.id.select_route_button);
         selectRouteButton.setOnClickListener(new View.OnClickListener() {
@@ -112,7 +143,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         for (int j = 0; j < path_arr.length() && j + 1 < path_arr.length(); j += 2) {
                             route.path.add(new LatLng(path_arr.getDouble(j), path_arr.getDouble(j + 1)));
                         }
-
 
                         // get points on route's path
                         JSONArray stops_arr = object.getJSONArray("stops");
@@ -160,6 +190,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         stop.lat = object.getDouble("lat");
                         stop.lon = object.getDouble("lon");
 
+                        // TODO
+                        // actually get stop times
+                        stop.nextStopTime = "N: 3:52pm \nS: 3:57pm";
                         mStopList.add(stop);
                     }
 
@@ -176,6 +209,79 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
 
         mRequestQueue.add(jsonArrayRequest);
+    }
+
+    public String getJSONString(String filename) {
+        InputStream is = getResources().openRawResource(
+                getResources().getIdentifier(filename,
+                "raw", getPackageName()));
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        String jsonString = writer.toString();
+        return jsonString;
+    }
+
+    public void getStopTimes() {
+        String jsonString = getJSONString("campus_loop");
+        JSONObject jsonObject = null;
+        try {
+            jsonObject = new JSONObject(jsonString);
+            JSONArray features = jsonObject.getJSONArray("features");
+
+            // get route info stored in last feature
+            Route2 route2 = new Route2();
+            JSONObject routeFeature = features.getJSONObject(features.length()-1);
+            JSONObject routeProperties = routeFeature.getJSONObject("properties");
+            String routeName = routeProperties.getString("Name");
+            route2.name = routeName;
+
+            // get path of route
+            route2.path = new ArrayList<>();
+            JSONObject routeGeometry = routeFeature.getJSONObject("geometry");
+            JSONArray routeCoordinates = routeGeometry.getJSONArray("coordinates");
+            for (int i = 0; i < routeGeometry.length(); i++) {
+                JSONArray coordinate = routeCoordinates.getJSONArray(i);
+                LatLng latLng = new LatLng(coordinate.getDouble(0),coordinate.getDouble(1));
+                route2.path.add(latLng);
+            }
+
+            // get stop info stored in first n-1 features
+            for (int i = 0; i < features.length()-1; i++) {
+                Stop2 stop2 = new Stop2();
+                stop2.routeName = routeName;
+                JSONObject feature = features.getJSONObject(i);
+                JSONObject properties = feature.getJSONObject("properties");
+                stop2.name = properties.getString("Name");
+                stop2.stopTimes = properties.getString("description");
+
+                JSONObject geometry = feature.getJSONObject("geometry");
+                JSONArray coordinates = geometry.getJSONArray("coordinates");
+                stop2.lat = coordinates.getDouble(0);
+                stop2.lon = coordinates.getDouble(1);
+                mStop2List.add(stop2);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public void drawMaps() {
@@ -213,6 +319,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(stop.getLatLng())
                 .title(stop.name)
+                .snippet(stop.nextStopTime)
                 .visible(false);
         Marker marker = mMap.addMarker(markerOptions);
         mMarkerMap.put(stop.id, marker);
@@ -255,39 +362,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
-
-/*
-    public void drawStops() {
-        if (mMap == null) {
-            return;
-        }
-        if (mStopList == null) {
-            return;
-        }
-        // we also need to get routes before this runs
-        if (mRouteList == null) {
-            return;
-        }
-
-        mMarkerList = new HashMap<>();
-        for (int i = 0; i < mStopList.size(); i++) {
-            Stop stop = mStopList.get(i);
-            Marker marker = mMap.addMarker(new MarkerOptions().position(stop.getLatLng()).title(stop.name).visible(false));
-            mMarkerList.put(stop.id, marker);
-        }
-
-        for (int i = 0; i < mRouteList.size(); i++) {
-            Route route = mRouteList.get(i);
-            for (int j = 0; j < route.stops.size(); j++) {
-                int stop_id = route.stops.get(j);
-                Marker marker = mMarkerList.get(stop_id);
-                marker.setVisible(true);
-            }
-        }
-
-    }
-*/
-
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -303,6 +377,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         LatLng northwestern = new LatLng(42.056437, -87.675900);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(northwestern, 12));
+
+        // set custom marker info window view so stop times are visible
+        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+            @Override
+            public View getInfoWindow(Marker marker) {
+                return null;
+            }
+
+            @Override
+            public View getInfoContents(Marker marker) {
+                View view = getLayoutInflater().inflate(R.layout.marker_text, null);
+
+                TextView stopName = (TextView) view.findViewById(R.id.stop_name);
+                stopName.setText(marker.getTitle());
+                stopName.setTypeface(null, Typeface.BOLD);
+
+                TextView stopTime = (TextView) view.findViewById(R.id.stop_time);
+                stopTime.setText(marker.getSnippet());
+
+                return view;
+            }
+        });
 
         drawMaps();
     }
