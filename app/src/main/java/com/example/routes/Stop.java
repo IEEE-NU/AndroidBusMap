@@ -11,6 +11,7 @@ public class Stop {
     double lat;
     double lon;
     int buddy;
+    String nextStopTime;
 
     LatLng getLatLng() {
         return new LatLng(lat, lon);

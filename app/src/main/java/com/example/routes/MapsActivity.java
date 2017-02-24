@@ -1,10 +1,16 @@
 package com.example.routes;
 
 import android.content.DialogInterface;
+
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.location.Location;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.preference.PreferenceManager;
+import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -38,18 +44,30 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.android.gms.vision.text.Text;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.StringWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 import static android.graphics.Color.parseColor;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
+
+    private static final String ROUTE_KEY = "use_this_to_save_user_preferences";
 
     private GoogleMap mMap;
     private List<Stop> mStopList;
@@ -62,6 +80,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleApiClient mGoogleApiClient;
     private Location mLocation;
     private LocationRequest mLocationRequest;
+    private SharedPreferences mPref;
+    private HashSet<String> mPrefRoutes;
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
@@ -149,6 +169,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // set up queue for http requests (for route/stop info)
         mRequestQueue = Volley.newRequestQueue(this);
+        
+        mPref = PreferenceManager.getDefaultSharedPreferences(this);
+        mPrefRoutes = (HashSet<String>) mPref.getStringSet(ROUTE_KEY,null);
 
         mRouteList = new ArrayList<>();
         getRoutes();
@@ -194,7 +217,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             route.path.add(new LatLng(path_arr.getDouble(j), path_arr.getDouble(j + 1)));
                         }
 
-
                         // get points on route's path
                         JSONArray stops_arr = object.getJSONArray("stops");
                         route.stops = new ArrayList<>();
@@ -208,7 +230,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     // by default, show all routes
                     mSelectedRoutes = new boolean[mRouteList.size()];
                     for (int i = 0; i < mRouteList.size(); i++) {
-                        mSelectedRoutes[i] = true;
+                        mSelectedRoutes[i] = mPrefRoutes == null || mPrefRoutes.contains(mRouteList.get(i).name);
+                    }
+
+                    if (mPrefRoutes == null) {
+                        mPrefRoutes = new HashSet<>();
                     }
 
                     drawMaps();
@@ -242,6 +268,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         stop.lat = object.getDouble("lat");
                         stop.lon = object.getDouble("lon");
 
+                        // TODO
+                        // actually get stop times
+                        stop.nextStopTime = "N: 3:52pm \nS: 3:57pm";
                         mStopList.add(stop);
                     }
 
@@ -301,8 +330,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(stop.getLatLng())
                 .title(stop.name)
-                .visible(false)
-                .icon(BitmapDescriptorFactory.fromBitmap(imageBitmap));
+                .icon(BitmapDescriptorFactory.fromBitmap(imageBitmap))
+                .snippet(stop.nextStopTime)
+                .visible(false);
         Marker marker = mMap.addMarker(markerOptions);
         mMarkerMap.put(stop.id, marker);
     }
@@ -359,6 +389,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng northwestern = new LatLng(42.056437, -87.675900);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(northwestern, 12));
 
+        // set custom marker info window view so stop times are visible
+        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+            @Override
+            public View getInfoWindow(Marker marker) {
+                return null;
+            }
+
+            @Override
+            public View getInfoContents(Marker marker) {
+                View view = getLayoutInflater().inflate(R.layout.marker_text, null);
+
+                TextView stopName = (TextView) view.findViewById(R.id.stop_name);
+                stopName.setText(marker.getTitle());
+                stopName.setTypeface(null, Typeface.BOLD);
+
+                TextView stopTime = (TextView) view.findViewById(R.id.stop_time);
+                stopTime.setText(marker.getSnippet());
+
+                return view;
+            }
+        });
+
         drawMaps();
     }
 
@@ -372,6 +424,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i, boolean b) {
                         mSelectedRoutes[i] = b;
+                        // update user preferences (which routes to show)
+                        if (b) {
+                            mPrefRoutes.add(mRouteList.get(i).name);
+                        }
+                        else {
+                            mPrefRoutes.remove(mRouteList.get(i).name);
+                        }
+                        SharedPreferences.Editor editor = mPref.edit();
+                        editor.remove(ROUTE_KEY);
+                        editor.commit();
+                        editor.putStringSet(ROUTE_KEY,mPrefRoutes);
+                        editor.apply();
+                        mPrefRoutes = (HashSet<String>) mPref.getStringSet(ROUTE_KEY,null);
+
                         updateMaps();
                     }
                 })
