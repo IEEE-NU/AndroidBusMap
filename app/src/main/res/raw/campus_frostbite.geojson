@@ -1,1 +1,492 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"Library/Norris Center","description":"7:40am, 8:10am, 8:40am, 9:10am, 9:40am, 10:10am, 11:10am, 11:40am, 12:10pm, 12:40pm, 1:10pm, 2:10pm, 2:40pm, 3:10pm, 3:40pm, 4:10pm, 4:40pm, 5:10pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6735162,42.053286,0]}},{"type":"Feature","properties":{"Name":"Fisk Hall","description":"7:41am, 8:11am, 8:41am, 9:11am, 9:41am, 10:11am, 11:11am, 11:41am, 12:11pm, 12:41pm, 1:11pm, 2:11pm, 2:41pm, 3:11pm, 3:41pm, 4:11pm, 4:41pm, 5:11pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6738727,42.0506062,0]}},{"type":"Feature","properties":{"Name":"Weber Arch","description":"7:44am, 8:14am, 8:44am, 9:14am, 9:44am, 10:14am, 11:14am, 11:44am, 12:14pm, 12:44pm, 1:14pm, 2:14pm, 2:44pm, 3:14pm, 3:44pm, 4:14pm, 4:44pm, 5:14pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6771624,42.051981,0]}},{"type":"Feature","properties":{"Name":"Jacobs Center","description":"7:45am, 8:15am, 8:45am, 9:15am, 9:45am, 10:15am, 11:15am, 11:45am, 12:15pm, 12:45pm, 1:15pm, 2:15pm, 2:45pm, 3:15pm, 3:45pm, 4:15pm, 4:45pm, 5:15pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6771154,42.054301,0]}},{"type":"Feature","properties":{"Name":"Tech Institute","description":"7:46am, 8:16am, 8:46am, 9:16am, 9:46am, 10:16am, 11:16am, 11:46am, 12:16pm, 12:46pm, 1:16pm, 2:16pm, 2:46pm, 3:16pm, 3:46pm, 4:16pm, 4:46pm, 5:16pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6770431,42.057858,0]}},{"type":"Feature","properties":{"Name":"Patten Gym","description":"7:47am, 8:17am, 8:47am, 9:17am, 9:47am, 10:17am, 11:17am, 11:47am, 12:17pm, 12:47pm, 1:17pm, 2:17pm, 2:47pm, 3:17pm, 3:47pm, 4:17pm, 4:47pm, 5:17pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6769815,42.060909,0]}},{"type":"Feature","properties":{"Name":"Henry Crown Sports Pavilion","description":"7:59am, 8:29am, 8:59am, 9:29am, 9:59am, 10:29am, 11:29am, 11:59am, 12:29pm, 12:59pm, 1:29pm, 2:29pm, 2:59pm, 3:29pm, 3:59pm, 4:29pm, 4:59pm, 5:29pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6741149,42.0591148,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Lincoln","description":"8:02am, 8:32am, 9:02am, 9:32am, 10:02am, 10:32am, 11:32am, 12:02pm, 12:32pm, 1:02pm, 1:32pm, 2:32pm, 3:02pm, 3:32pm, 4:02pm, 4:32pm, 5:02pm, 5:32pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6772376,42.0613161,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Noyes","description":"8:03am, 8:33am, 9:03am, 9:33am, 10:03am, 10:33am, 11:33am, 12:03pm, 12:33pm, 1:03pm, 1:33pm, 2:33pm, 3:03pm, 3:33pm, 4:03pm, 4:33pm, 5:03pm, 5:33pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6772986,42.058167,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Foster","description":"8:05am, 8:35am, 9:05am, 9:35am, 10:05am, 10:35am, 11:35am, 12:05pm, 12:35pm, 1:05pm, 1:35pm, 2:35pm, 3:05pm, 3:35pm, 4:05pm, 4:35pm, 5:05pm, 5:35pm","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6773594,42.0540374,0]}},{"type":"Feature","properties":{"Name":"Campus Frostbite Route","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"LineString","coordinates":[[-87.67725,42.050962,0],[-87.6747562,42.050272,0],[-87.6743063,42.0500651,0],[-87.6739774,42.0501652,0],[-87.6737022,42.0503241,0],[-87.6735861,42.050707,0],[-87.6734379,42.0511378,0],[-87.6734989,42.0513764,0],[-87.6735063,42.0517105,0],[-87.67347,42.052402,0],[-87.6732451,42.0527978,0],[-87.6731914,42.0536659,0],[-87.6734151,42.0536703,0],[-87.6734287,42.05349,0],[-87.6734529,42.052766,0],[-87.67364,42.052512,0],[-87.6736444,42.0515168,0],[-87.6736573,42.0512861,0],[-87.6735844,42.051143,0],[-87.6739324,42.0504241,0],[-87.6743181,42.0502409,0],[-87.6744311,42.0503285,0],[-87.6749129,42.0504609,0],[-87.67718,42.051122,0],[-87.67697,42.061562,0],[-87.6742376,42.061499,0],[-87.6742404,42.0606767,0],[-87.6748789,42.0603304,0],[-87.6748842,42.0593103,0],[-87.6747688,42.0591594,0],[-87.6746055,42.0590733,0],[-87.6742933,42.059028,0],[-87.6741867,42.0590012,0],[-87.6741504,42.0591077,0],[-87.6745667,42.0591988,0],[-87.6747363,42.0594134,0],[-87.6747156,42.0602062,0],[-87.6745517,42.0603661,0],[-87.6740485,42.0605887,0],[-87.6740594,42.0616402,0],[-87.67723,42.061702,0],[-87.6774,42.051552,0],[-87.6774278,42.0510783,0],[-87.67725,42.050962,0]]}}]}
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Library/Norris Center",
+        "description": "7:40am, 8:10am, 8:40am, 9:10am, 9:40am, 10:10am, 11:10am, 11:40am, 12:10pm, 12:40pm, 1:10pm, 2:10pm, 2:40pm, 3:10pm, 3:40pm, 4:10pm, 4:40pm, 5:10pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6735162,
+          42.053286,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fisk Hall",
+        "description": "7:41am, 8:11am, 8:41am, 9:11am, 9:41am, 10:11am, 11:11am, 11:41am, 12:11pm, 12:41pm, 1:11pm, 2:11pm, 2:41pm, 3:11pm, 3:41pm, 4:11pm, 4:41pm, 5:11pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6738727,
+          42.0506062,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Weber Arch",
+        "description": "7:44am, 8:14am, 8:44am, 9:14am, 9:44am, 10:14am, 11:14am, 11:44am, 12:14pm, 12:44pm, 1:14pm, 2:14pm, 2:44pm, 3:14pm, 3:44pm, 4:14pm, 4:44pm, 5:14pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6771624,
+          42.051981,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jacobs Center",
+        "description": "7:45am, 8:15am, 8:45am, 9:15am, 9:45am, 10:15am, 11:15am, 11:45am, 12:15pm, 12:45pm, 1:15pm, 2:15pm, 2:45pm, 3:15pm, 3:45pm, 4:15pm, 4:45pm, 5:15pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6771154,
+          42.054301,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tech Institute",
+        "description": "7:46am, 8:16am, 8:46am, 9:16am, 9:46am, 10:16am, 11:16am, 11:46am, 12:16pm, 12:46pm, 1:16pm, 2:16pm, 2:46pm, 3:16pm, 3:46pm, 4:16pm, 4:46pm, 5:16pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6770431,
+          42.057858,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Patten Gym",
+        "description": "7:47am, 8:17am, 8:47am, 9:17am, 9:47am, 10:17am, 11:17am, 11:47am, 12:17pm, 12:47pm, 1:17pm, 2:17pm, 2:47pm, 3:17pm, 3:47pm, 4:17pm, 4:47pm, 5:17pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6769815,
+          42.060909,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Henry Crown Sports Pavilion",
+        "description": "7:59am, 8:29am, 8:59am, 9:29am, 9:59am, 10:29am, 11:29am, 11:59am, 12:29pm, 12:59pm, 1:29pm, 2:29pm, 2:59pm, 3:29pm, 3:59pm, 4:29pm, 4:59pm, 5:29pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6741149,
+          42.0591148,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Lincoln",
+        "description": "8:02am, 8:32am, 9:02am, 9:32am, 10:02am, 10:32am, 11:32am, 12:02pm, 12:32pm, 1:02pm, 1:32pm, 2:32pm, 3:02pm, 3:32pm, 4:02pm, 4:32pm, 5:02pm, 5:32pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6772376,
+          42.0613161,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Noyes",
+        "description": "8:03am, 8:33am, 9:03am, 9:33am, 10:03am, 10:33am, 11:33am, 12:03pm, 12:33pm, 1:03pm, 1:33pm, 2:33pm, 3:03pm, 3:33pm, 4:03pm, 4:33pm, 5:03pm, 5:33pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6772986,
+          42.058167,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Foster",
+        "description": "8:05am, 8:35am, 9:05am, 9:35am, 10:05am, 10:35am, 11:35am, 12:05pm, 12:35pm, 1:05pm, 1:35pm, 2:35pm, 3:05pm, 3:35pm, 4:05pm, 4:35pm, 5:05pm, 5:35pm",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6773594,
+          42.0540374,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Campus Frostbite Route",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": 1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.67725,
+            42.050962,
+            0
+          ],
+          [
+            -87.6747562,
+            42.050272,
+            0
+          ],
+          [
+            -87.6743063,
+            42.0500651,
+            0
+          ],
+          [
+            -87.6739774,
+            42.0501652,
+            0
+          ],
+          [
+            -87.6737022,
+            42.0503241,
+            0
+          ],
+          [
+            -87.6735861,
+            42.050707,
+            0
+          ],
+          [
+            -87.6734379,
+            42.0511378,
+            0
+          ],
+          [
+            -87.6734989,
+            42.0513764,
+            0
+          ],
+          [
+            -87.6735063,
+            42.0517105,
+            0
+          ],
+          [
+            -87.67347,
+            42.052402,
+            0
+          ],
+          [
+            -87.6732451,
+            42.0527978,
+            0
+          ],
+          [
+            -87.6731914,
+            42.0536659,
+            0
+          ],
+          [
+            -87.6734151,
+            42.0536703,
+            0
+          ],
+          [
+            -87.6734287,
+            42.05349,
+            0
+          ],
+          [
+            -87.6734529,
+            42.052766,
+            0
+          ],
+          [
+            -87.67364,
+            42.052512,
+            0
+          ],
+          [
+            -87.6736444,
+            42.0515168,
+            0
+          ],
+          [
+            -87.6736573,
+            42.0512861,
+            0
+          ],
+          [
+            -87.6735844,
+            42.051143,
+            0
+          ],
+          [
+            -87.6739324,
+            42.0504241,
+            0
+          ],
+          [
+            -87.6743181,
+            42.0502409,
+            0
+          ],
+          [
+            -87.6744311,
+            42.0503285,
+            0
+          ],
+          [
+            -87.6749129,
+            42.0504609,
+            0
+          ],
+          [
+            -87.67718,
+            42.051122,
+            0
+          ],
+          [
+            -87.67697,
+            42.061562,
+            0
+          ],
+          [
+            -87.6742376,
+            42.061499,
+            0
+          ],
+          [
+            -87.6742404,
+            42.0606767,
+            0
+          ],
+          [
+            -87.6748789,
+            42.0603304,
+            0
+          ],
+          [
+            -87.6748842,
+            42.0593103,
+            0
+          ],
+          [
+            -87.6747688,
+            42.0591594,
+            0
+          ],
+          [
+            -87.6746055,
+            42.0590733,
+            0
+          ],
+          [
+            -87.6742933,
+            42.059028,
+            0
+          ],
+          [
+            -87.6741867,
+            42.0590012,
+            0
+          ],
+          [
+            -87.6741504,
+            42.0591077,
+            0
+          ],
+          [
+            -87.6745667,
+            42.0591988,
+            0
+          ],
+          [
+            -87.6747363,
+            42.0594134,
+            0
+          ],
+          [
+            -87.6747156,
+            42.0602062,
+            0
+          ],
+          [
+            -87.6745517,
+            42.0603661,
+            0
+          ],
+          [
+            -87.6740485,
+            42.0605887,
+            0
+          ],
+          [
+            -87.6740594,
+            42.0616402,
+            0
+          ],
+          [
+            -87.67723,
+            42.061702,
+            0
+          ],
+          [
+            -87.6774,
+            42.051552,
+            0
+          ],
+          [
+            -87.6774278,
+            42.0510783,
+            0
+          ],
+          [
+            -87.67725,
+            42.050962,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

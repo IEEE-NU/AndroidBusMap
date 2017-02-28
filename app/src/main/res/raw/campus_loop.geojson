@@ -1,21 +1,499 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                                                                  
-"features": [
-{ "type": "Feature", "properties": { "Name": "Library\/Norris Center", "description": "approximate times past each hour:<br>:00 :30", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.673602, 42.053292, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Fisk Hall", "description": "approximate times past each hour<br>:02 :32", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.6738593, 42.0506052, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Weber Arch", "description": "approximate times past each hour:<br>:04 :34", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.6771275, 42.0519531, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Jacobs Center", "description": "approximate times past each hour:<br>:05 :35", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.676992, 42.054296, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Tech Institute", "description": "approximate times past each hour:<br>:06 :36", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.676917, 42.057849, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Patten Gym", "description": "approximate times past each hour:<br>:07 :37", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.6769352, 42.060913, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Henry Crown Sports Pavilion", "description": "approximate times past each hour:<br>:09 :39", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.673903, 42.059744, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Sheridan\/Lincoln", "description": "approximate times past each hour:<br>:12 :42", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.6772993, 42.0612942, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Sheridan\/Noyes", "description": "approximate times past each hour:<br>:13 :43", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.677422, 42.058167, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Sheridan\/Foster", "description": "approximate times past each hour:<br>:15 :45", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.677529, 42.054009, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Chicago\/Sheridan", "description": "approximate times past each hour:<br>:16 :46", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.6776094, 42.0508371, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Chicago\/Grove", "description": "approximate times past each hour:<br>:18 :48", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.6802784, 42.0451495, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Orrington\/Clark", "description": "approximate times past each hour:<br>:20 :50", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -87.68005, 42.04957, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Campus Loop Route", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": -1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ -87.67725, 42.05096, 0.0 ], [ -87.67414, 42.05008, 0.0 ], [ -87.67367, 42.05036, 0.0 ], [ -87.67334, 42.05136, 0.0 ], [ -87.67347, 42.0524, 0.0 ], [ -87.67328, 42.05276, 0.0 ], [ -87.67306, 42.05365, 0.0 ], [ -87.67334, 42.05373, 0.0 ], [ -87.67352, 42.05276, 0.0 ], [ -87.67364, 42.05251, 0.0 ], [ -87.67352, 42.05138, 0.0 ], [ -87.6737447, 42.05068, 0.0 ], [ -87.673904, 42.0503962, 0.0 ], [ -87.6741144, 42.0502494, 0.0 ], [ -87.6743597, 42.0502051, 0.0 ], [ -87.6745682, 42.0503598, 0.0 ], [ -87.6772122, 42.0511001, 0.0 ], [ -87.67697, 42.06156, 0.0 ], [ -87.67431, 42.06149, 0.0 ], [ -87.67427, 42.05972, 0.0 ], [ -87.67399, 42.05974, 0.0 ], [ -87.67407, 42.06167, 0.0 ], [ -87.67723, 42.0617, 0.0 ], [ -87.6774, 42.05155, 0.0 ], [ -87.67746, 42.05115, 0.0 ], [ -87.680275, 42.045134, 0.0 ], [ -87.681842, 42.045564, 0.0 ], [ -87.681735, 42.046217, 0.0 ], [ -87.67993, 42.04986, 0.0 ], [ -87.67798, 42.04927, 0.0 ], [ -87.67725, 42.05096, 0.0 ] ] } }
-]
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Library/Norris Center",
+        "description": "approximate times past each hour:<br>:00 :30",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.673602,
+          42.053292,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fisk Hall",
+        "description": "approximate times past each hour<br>:02 :32",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6738593,
+          42.0506052,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Weber Arch",
+        "description": "approximate times past each hour:<br>:04 :34",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6771275,
+          42.0519531,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jacobs Center",
+        "description": "approximate times past each hour:<br>:05 :35",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676992,
+          42.054296,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tech Institute",
+        "description": "approximate times past each hour:<br>:06 :36",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676917,
+          42.057849,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Patten Gym",
+        "description": "approximate times past each hour:<br>:07 :37",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6769352,
+          42.060913,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Henry Crown Sports Pavilion",
+        "description": "approximate times past each hour:<br>:09 :39",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.673903,
+          42.059744,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Lincoln",
+        "description": "approximate times past each hour:<br>:12 :42",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6772993,
+          42.0612942,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Noyes",
+        "description": "approximate times past each hour:<br>:13 :43",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677422,
+          42.058167,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Foster",
+        "description": "approximate times past each hour:<br>:15 :45",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677529,
+          42.054009,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Sheridan",
+        "description": "approximate times past each hour:<br>:16 :46",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6776094,
+          42.0508371,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Grove",
+        "description": "approximate times past each hour:<br>:18 :48",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6802784,
+          42.0451495,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Orrington/Clark",
+        "description": "approximate times past each hour:<br>:20 :50",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68005,
+          42.04957,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Campus Loop Route",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": 1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.67725,
+            42.05096,
+            0.0
+          ],
+          [
+            -87.67414,
+            42.05008,
+            0.0
+          ],
+          [
+            -87.67367,
+            42.05036,
+            0.0
+          ],
+          [
+            -87.67334,
+            42.05136,
+            0.0
+          ],
+          [
+            -87.67347,
+            42.0524,
+            0.0
+          ],
+          [
+            -87.67328,
+            42.05276,
+            0.0
+          ],
+          [
+            -87.67306,
+            42.05365,
+            0.0
+          ],
+          [
+            -87.67334,
+            42.05373,
+            0.0
+          ],
+          [
+            -87.67352,
+            42.05276,
+            0.0
+          ],
+          [
+            -87.67364,
+            42.05251,
+            0.0
+          ],
+          [
+            -87.67352,
+            42.05138,
+            0.0
+          ],
+          [
+            -87.6737447,
+            42.05068,
+            0.0
+          ],
+          [
+            -87.673904,
+            42.0503962,
+            0.0
+          ],
+          [
+            -87.6741144,
+            42.0502494,
+            0.0
+          ],
+          [
+            -87.6743597,
+            42.0502051,
+            0.0
+          ],
+          [
+            -87.6745682,
+            42.0503598,
+            0.0
+          ],
+          [
+            -87.6772122,
+            42.0511001,
+            0.0
+          ],
+          [
+            -87.67697,
+            42.06156,
+            0.0
+          ],
+          [
+            -87.67431,
+            42.06149,
+            0.0
+          ],
+          [
+            -87.67427,
+            42.05972,
+            0.0
+          ],
+          [
+            -87.67399,
+            42.05974,
+            0.0
+          ],
+          [
+            -87.67407,
+            42.06167,
+            0.0
+          ],
+          [
+            -87.67723,
+            42.0617,
+            0.0
+          ],
+          [
+            -87.6774,
+            42.05155,
+            0.0
+          ],
+          [
+            -87.67746,
+            42.05115,
+            0.0
+          ],
+          [
+            -87.680275,
+            42.045134,
+            0.0
+          ],
+          [
+            -87.681842,
+            42.045564,
+            0.0
+          ],
+          [
+            -87.681735,
+            42.046217,
+            0.0
+          ],
+          [
+            -87.67993,
+            42.04986,
+            0.0
+          ],
+          [
+            -87.67798,
+            42.04927,
+            0.0
+          ],
+          [
+            -87.67725,
+            42.05096,
+            0.0
+          ]
+        ]
+      }
+    }
+  ]
 }

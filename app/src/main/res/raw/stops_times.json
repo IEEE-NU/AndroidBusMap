@@ -1,0 +1,1600 @@
+[
+    {
+        "description": "",
+        "id": 253,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Arrival times: 7:32a, 8:15a, 8:53a, 9:08a, 9:23a, 9:53a, 10:23a, 10:59a, 11:50a, 12:25p, 12:52p, 1:22p, 1:49p, 2:29p, 3:12p, 3:32p, 4:23p, 4:59p, 5:19p, 5:44p, 5:59p, 6:14p, 6:44p, 7:09p, 7:19p, 8:19p, 9:04p, 10:22p, 11:10p<br>Additional Winter Quarter times: 5:34p, 6:59p",
+            "student_game_day": null
+        },
+        "lat": 42.066414,
+        "lon": -87.693939,
+        "buddy": null,
+        "fields": {},
+        "name": "Ryan Field"
+    },
+    {
+        "description": null,
+        "id": 477,
+        "lat": 42.02532,
+        "lon": -87.685232,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 17150
+        },
+        "name": "Ridge & Austin"
+    },
+    {
+        "description": "",
+        "id": 241,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 7:11a, 7:26a, 7:41a, 8:11a, 8:56a, 9:36a, 9:56a, 10:36a, 11:06a, 11:41a, 12:26p, 1:06p, 1:26p, 2:01p, 2:31p, 3:11p, 3:31p, 3:56p, 4:21p, 4:36p, 5:06p, 5:36p, 5:46p, 6:01p, 6:26p, 6:41p, 6:56p, 7:51p, 9:01p, 10:06p<br>Additional Winter Quarter times: 5:26p, 6:16p"
+        },
+        "lat": 42.001522,
+        "lon": -87.661049,
+        "buddy": 301,
+        "fields": {},
+        "name": "Sheridan/Loyola (southbound)"
+    },
+    {
+        "description": "",
+        "id": 156,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:09 :39",
+            "campus_frostbite": "7:59am, 8:29am, 8:59am, 9:29am, 9:59am, 10:29am, 11:29am, 11:59am, 12:29pm, 12:59pm, 1:29pm, 2:29pm, 2:59pm, 3:29pm, 3:59pm, 4:29pm, 4:59pm, 5:29pm",
+            "chicago_express": "12:00p,\t1:55p,\t3:45p,\t6:05p,\t7:55p,\t9:45p"
+        },
+        "lat": 42.058796,
+        "lon": -87.674194,
+        "buddy": null,
+        "fields": {},
+        "name": "Henry Crown Sports Pavilion"
+    },
+    {
+        "description": "",
+        "id": 319,
+        "lat": 41.884507,
+        "lon": -87.624636,
+        "buddy": null,
+        "fields": {},
+        "name": "Millenium Station"
+    },
+    {
+        "description": "",
+        "id": 275,
+        "lat": 42.047802,
+        "lon": -87.686844,
+        "buddy": null,
+        "fields": {},
+        "name": "Oak/Post Office"
+    },
+    {
+        "description": "",
+        "id": 310,
+        "lat": 42.05946,
+        "lon": -87.750313,
+        "buddy": null,
+        "fields": {},
+        "name": "Old Orchard"
+    },
+    {
+        "description": "",
+        "id": 159,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:16 :46",
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:54a, 7:09a, 7:24a, 7:54a, 8:39a, 9:19a, 9:39a, 10:19a, 10:49a, 11:24a, 12:09p, 12:49p, 1:09p, 1:44p, 2:14p, 2:54p, 3:14p, 3:39p, 4:04p, 4:19p, 4:49p, 5:19p, 5:29p, 5:44p, 6:09p, 6:24p, 6:39p, 7:34p, 8:44p, 9:49p<br>Additional Winter Quarter times: 5:09p, 5:59p",
+            "chicago_express": "12:05p,\t2:00p, 3:50p, 6:10p,\t8:00p,\t9:50p"
+        },
+        "lat": 42.050869,
+        "lon": -87.677765,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Sheridan"
+    },
+    {
+        "description": "",
+        "id": 314,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 7:17a, 8:00a, 8:38a, 8:53a, 9:08a, 9:38a, 10:08a, 10:44a, 11:35a, 12:10p, 12:37p, 1:07p, 1:34p, 2:14p, 2:57p, 3:17p, 4:08p, 4:44p, 5:04p, 5:29p, 5:44p, 5:59p, 6:29p, 6:54p, 7:04p, 8:04p, 8:49p, 10:07p, 10:55p<br> Additional Winter Quarter times: 5:19p, 6:44p"
+        },
+        "lat": 42.035637,
+        "lon": -87.679672,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Lee"
+    },
+    {
+        "description": "",
+        "id": 311,
+        "lat": 42.058254,
+        "lon": -87.681755,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Noyes (Southbound)"
+    },
+    {
+        "description": "",
+        "id": 307,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:39a, 6:54a, 7:09a, 7:39a, 8:24a, 9:04a, 9:24a, 10:04a, 10:34a, 11:09a, 11:54a, 12:34p, 12:54p, 1:29p, 1:59p, 2:39p, 2:59p, 3:24p, 3:49p, 4:04p, 4:34p, 5:04p, 5:14p, 5:29p, 5:54p, 6:09p, 6:24p, 7:19p, 8:29p, 9:34p<br>Additional Winter Quarter times: 4:54p, 5:44p",
+            "evanston_frostbite": "7:37am, 8:17am, 8:57am, 9:37am, 10:17am, 11:27am, 12:07pm, 12:47pm, 1:27pm, 2:07pm, 2:47pm, 3:57pm, 4:37pm, 5:17pm",
+            "evanston_loop": "6:08p, 6:48p, 7:08p**, 7:28p, 7:48p**, 8:08p, 8:28p**, 8:48p, 9:08p*, 9:28p, 9:48p*, 10:08p, 10:28p*, 10:48p, 11:08p*, 11:28p, 11:48p*, 12:08a, 12:28a*, 12:48a, 1:080a*, 1:28a, 1:48a*, 2:08a, 2:28a*, 2:48a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.058483,
+        "lon": -87.683502,
+        "buddy": null,
+        "fields": {},
+        "name": "Noyes L Station"
+    },
+    {
+        "description": "",
+        "id": 294,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO <br>Departure times: 6:44a, 6:59a, 7:14a, 7:44a, 8:29a, 9:09a, 9:29a, 10:09a, 10:39a, 11:14a, 11:59a, 12:39p, 12:59p, 1:34p, 2:04p, 2:44p, 3:04p, 3:29p, 3:54p, 4:09p, 4:39p, 5:09p, 5:19p, 5:34p, 5:59p, 6:14p, 6:29p, 7:24p, 8:34p, 9:39p<br>Additional Winter Quarter times: 4:59p, 5:49p",
+            "evanston_frostbite": "7:42am, 8:22am, 9:02am, 9:42am, 10:22am, 11:32am, 12:12pm, 12:52pm, 1:32pm, 2:12pm, 2:52pm, 4:02pm, 4:42pm, 5:22pm",
+            "evanston_loop": "6:12p, 6:52p, 7:12p**, 7:32p, 7:52p**, 8:12p, 8:32p**, 8:52p, 9:12p*, 9:32p, 9:52p*, 10:12p, 10:32p*, 10:52p, 11:12p*, 11:32p, 11:52p*, 12:12a, 12:32a*, 12:52a, 1:12a*, 1:32a, 1:52a*, 2:12a, 2:32a*, 2:52a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.052071,
+        "lon": -87.684875,
+        "buddy": null,
+        "fields": {},
+        "name": "Emerson/Maple"
+    },
+    {
+        "description": "",
+        "id": 181,
+        "times": {
+            "student_game_day": null,
+            "evanston_frostbite": "7:54am, 8:34am, 9:14am, 9:54am, 10:34am, 11:44am, 12:24pm, 1:04pm, 1:44pm, 2:24pm, 3:04pm, 4:14pm, 4:54pm, 5:34pm"
+        },
+        "lat": 42.058086,
+        "lon": -87.681541,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Noyes"
+    },
+    {
+        "description": null,
+        "id": 456,
+        "lat": 42.06444,
+        "lon": -87.707521,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14237
+        },
+        "name": "Central Street & McDaniel"
+    },
+    {
+        "description": null,
+        "id": 471,
+        "lat": 42.019501,
+        "lon": -87.682684,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3516
+        },
+        "name": "Howard & Elmwood"
+    },
+    {
+        "description": "",
+        "id": 184,
+        "times": {
+            "evanston_frostbite": "7:44am, 8:24am, 9:04am, 9:44am, 10:24am, 11:34am, 12:14pm, 12:54pm, 1:34pm, 2:14pm, 2:54pm, 4:04pm, 4:44pm, 5:24pm",
+            "evanston_loop": "6:13p, 6:53p, 7:13p**, 7:33p, 7:53p**, 8:13p, 8:33p**, 8:53p, 9:13p*, 9:33p, 9:53p*, 10:13p, 10:33p*, 10:53p, 11:13p*, 11:33p, 11:53p*, 12:13a, 12:33a*, 12:53a, 1:13a*, 1:33a, 1:53a*, 2:13a, 2:33a*, 2:53a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.050152,
+        "lon": -87.682098,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Clark"
+    },
+    {
+        "description": "",
+        "id": 274,
+        "lat": 42.052345,
+        "lon": -87.690117,
+        "buddy": null,
+        "fields": {},
+        "name": "Asbury/Emerson"
+    },
+    {
+        "description": "",
+        "id": 151,
+        "times": {
+            "campus_loop": "approximate times past each hour<br>:02 :32",
+            "campus_frostbite": "7:41am, 8:11am, 8:41am, 9:11am, 9:41am, 10:11am, 11:11am, 11:41am, 12:11pm, 12:41pm, 1:11pm, 2:11pm, 2:41pm, 3:11pm, 3:41pm, 4:11pm, 4:41pm, 5:11pm",
+            "evanston_frostbite": "7:31am, 8:11am, 8:51am, 9:31am, 10:11am, 11:21am, 12:01pm, 12:41pm, 1:21pm, 2:01pm, 2:41pm, 3:51pm, 4:31pm, 5:11pm",
+            "evanston_loop": "6:02p, 6:42p, 7:02p**, 7:22p, 7:42p**, 8:02p, 8:22p**, 8:42p, 9:02p*, 9:22p, 9:42p*, 10:02p, 10:22p*, 10:42p, 11:02p*, 11:22p, 11:42p*, 12:02a, 12:22a*, 12:42a, 1:02a*, 1:22a, 1:42a*, 2:02a, 2:22a*, 2:42a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.050648,
+        "lon": -87.673988,
+        "buddy": null,
+        "fields": {},
+        "name": "Fisk Hall"
+    },
+    {
+        "description": null,
+        "id": 487,
+        "lat": 42.044022,
+        "lon": -87.688478,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14270
+        },
+        "name": "Ridge & Lake"
+    },
+    {
+        "description": "",
+        "id": 165,
+        "times": {
+            "chicago_express": "12:45p,\t2:40p,\t4:30p,\t6:50p,\t8:40p,\t10:30p"
+        },
+        "lat": 41.897655,
+        "lon": -87.621758,
+        "buddy": null,
+        "fields": {},
+        "name": "Pearson/Mies Van Der Rohe"
+    },
+    {
+        "description": null,
+        "id": 491,
+        "lat": 42.022837,
+        "lon": -87.684953,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14337
+        },
+        "name": "Ridge & Mulford"
+    },
+    {
+        "description": null,
+        "id": 442,
+        "lat": 42.064316,
+        "lon": -87.693676,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14281
+        },
+        "name": "Central Street & Ashland"
+    },
+    {
+        "description": "",
+        "id": 226,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:36a, 6:51a, 7:06a, 7:36a, 8:21a, 9:01a, 9:21a, 10:01a, 10:31a, 11:06a, 11:51a, 12:31p, 12:51p, 1:26p, 1:56p, 2:36p, 2:56p, 3:21p, 3:46p, 4:01p, 4:31p, 5:01p, 5:11p, 5:26p, 5:51p, 6:06p, 6:21p, 7:16p, 8:26p, 9:31p<br>Additional Winter Quarter times: 4:51p, 5:41p"
+        },
+        "lat": 42.064213,
+        "lon": -87.692017,
+        "buddy": null,
+        "fields": {},
+        "name": "Central/Jackson (eastbound)"
+    },
+    {
+        "description": null,
+        "id": 481,
+        "lat": 42.046986,
+        "lon": -87.68866,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12690
+        },
+        "name": "Ridge & Davis"
+    },
+    {
+        "description": null,
+        "id": 470,
+        "lat": 42.019474,
+        "lon": -87.680281,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3515
+        },
+        "name": "Howard & Custer"
+    },
+    {
+        "description": "",
+        "id": 187,
+        "times": {
+            "evanston_frostbite": "7:49am, 8:29am, 9:09am, 9:49am, 10:29am, 11:39am, 12:19pm, 12:59pm, 1:39pm, 2:19pm, 2:59pm, 4:09pm, 4:49pm, 5:29pm",
+            "evanston_loop": "6:18p, 6:58p, 7:18p**, 7:38p, 7:58p**, 8:18p, 8:38p**, 8:58p, 9:18p*, 9:38p, 9:58p*, 10:18p, 10:38p*, 10:58p, 11:18p*, 11:38p, 11:58p*, 12:18a, 12:38a*, 12:58a, 1:18a*, 1:38a, 1:58a*, 2:18a, 2:38a*, 2:58a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.050282,
+        "lon": -87.684525,
+        "buddy": null,
+        "fields": {},
+        "name": "Maple/Clark"
+    },
+    {
+        "description": null,
+        "id": 486,
+        "lat": 42.024439,
+        "lon": -87.685141,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 13149
+        },
+        "name": "Ridge & Hull Terrace"
+    },
+    {
+        "description": "",
+        "id": 162,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:12 :42",
+            "campus_frostbite": "8:02am, 8:32am, 9:02am, 9:32am, 10:02am, 10:32am, 11:32am, 12:02pm, 12:32pm, 1:02pm, 1:32pm, 2:32pm, 3:02pm, 3:32pm, 4:02pm, 4:32pm, 5:02pm, 5:32pm",
+            "chicago_express": "12:02p,\t1:57p,\t3:47p,\t6:07p,\t7:57p,\t9:47p"
+        },
+        "lat": 42.061329,
+        "lon": -87.677361,
+        "buddy": null,
+        "fields": {},
+        "name": "Sheridan/Lincoln"
+    },
+    {
+        "description": null,
+        "id": 485,
+        "lat": 42.045484,
+        "lon": -87.688558,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12693
+        },
+        "name": "Ridge & Grove"
+    },
+    {
+        "description": "",
+        "id": 168,
+        "times": {
+            "chicago_express": "12:58p,\t2:53p,\t4:43p*<br> * 30 minute driver exchange"
+        },
+        "lat": 41.867607,
+        "lon": -87.620567,
+        "buddy": null,
+        "fields": {},
+        "name": "Columbus/Roosevelt"
+    },
+    {
+        "description": "",
+        "id": 239,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 7:00a, 7:15a, 7:30a, 8:00a, 8:45a, 9:25a, 9:45a, 10:25a, 10:55a, 11:30a, 12:15p, 12:55p, 1:15p, 1:50p, 2:20p, 3:00p, 3:20p, 3:45p, 4:10p, 4:25p, 4:55p, 5:25p, 5:35p, 5:50p, 6:15p, 6:30p, 6:45p, 7:40p, 8:50p, 9:55p<br>Additional Winter Quarter times: 5:15p, 6:05p"
+        },
+        "lat": 42.037678,
+        "lon": -87.680328,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Greenleaf"
+    },
+    {
+        "description": "",
+        "id": 182,
+        "times": {
+            "student_game_day": null
+        },
+        "lat": 42.055954,
+        "lon": -87.681885,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Simpson"
+    },
+    {
+        "description": null,
+        "id": 440,
+        "lat": 42.064113,
+        "lon": -87.679304,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14990
+        },
+        "name": "Central & Orrington"
+    },
+    {
+        "description": null,
+        "id": 465,
+        "lat": 42.048468,
+        "lon": -87.685592,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12680
+        },
+        "name": "Church & Maple"
+    },
+    {
+        "description": "",
+        "id": 158,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:20 :50"
+        },
+        "lat": 42.049549,
+        "lon": -87.679886,
+        "buddy": null,
+        "fields": {},
+        "name": "Orrington/Clark"
+    },
+    {
+        "description": "",
+        "id": 316,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:48a, 7:03a, 7:18a, 7:48a, 8:33a, 9:13a, 9:33a, 10:13a, 10:43a, 11:18a, 12:03p, 12:43p, 1:03p, 1:38p, 2:08p, 2:48p, 3:08p, 3:33p, 3:58p, 4:13p, 4:43p, 5:13p, 5:23p, 5:38p, 6:03p, 6:18p, 6:33p, 7:28p, 8:38p, 9:43p<br>Additional Winter Quarter times: 5:03p, 5:53p",
+            "evanston_loop": "6:22p, 7:02p, 7:22p**, 7:42p, 8:02p**, 8:22p, 8:42p**, 9:02p, 9:22p*, 9:42p, 10:02p*, 10:22p, 10:42p*, 11:02p, 11:22p*, 11:42p, 12:02a*, 12:22a, 12:42a*, 1:02a, 1:22a*, 1:42a, 2:02a*, 2:22a, 2:42a*, 3:02a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.056873,
+        "lon": -87.681648,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Gaffield"
+    },
+    {
+        "description": null,
+        "id": 497,
+        "lat": 42.061493,
+        "lon": -87.677025,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14989
+        },
+        "name": "Sheridan & Lincoln"
+    },
+    {
+        "description": null,
+        "id": 443,
+        "lat": 42.064452,
+        "lon": -87.710493,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14285
+        },
+        "name": "Central Street & Bennett"
+    },
+    {
+        "description": null,
+        "id": 462,
+        "lat": 42.064424,
+        "lon": -87.704678,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14283
+        },
+        "name": "Central Street & Walnut"
+    },
+    {
+        "description": null,
+        "id": 474,
+        "lat": 42.06256,
+        "lon": -87.744418,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 15424
+        },
+        "name": "Old Orchard Rd & Beverly"
+    },
+    {
+        "description": null,
+        "id": 353,
+        "lat": 42.019442,
+        "lon": -87.683102,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3630
+        },
+        "name": "Howard & Hoyne"
+    },
+    {
+        "description": null,
+        "id": 343,
+        "lat": 42.050193,
+        "lon": -87.677792,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 17302
+        },
+        "name": "Chicago & Sheridan"
+    },
+    {
+        "description": null,
+        "id": 479,
+        "lat": 42.048408,
+        "lon": -87.688751,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12689
+        },
+        "name": "Ridge & Church"
+    },
+    {
+        "description": null,
+        "id": 320,
+        "lat": 42.062397,
+        "lon": -87.744772,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 15423
+        },
+        "name": "4700 W Old Orchard Rd"
+    },
+    {
+        "description": "",
+        "id": 312,
+        "lat": 42.052135,
+        "lon": -87.681839,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Emerson (Southbound)"
+    },
+    {
+        "description": null,
+        "id": 350,
+        "lat": 42.047106,
+        "lon": -87.686627,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12687
+        },
+        "name": "Davis & Oak"
+    },
+    {
+        "description": null,
+        "id": 460,
+        "lat": 42.064197,
+        "lon": -87.683285,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14681
+        },
+        "name": "Central Street & Ridge"
+    },
+    {
+        "description": null,
+        "id": 483,
+        "lat": 42.037512,
+        "lon": -87.687512,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14264
+        },
+        "name": "Ridge & Greenleaf"
+    },
+    {
+        "description": null,
+        "id": 467,
+        "lat": 42.062524,
+        "lon": -87.730674,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14685
+        },
+        "name": "Gross Point & Harrison"
+    },
+    {
+        "description": null,
+        "id": 466,
+        "lat": 42.048448,
+        "lon": -87.681997,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12648
+        },
+        "name": "Church & Sherman"
+    },
+    {
+        "description": "",
+        "id": 262,
+        "lat": 41.892506,
+        "lon": -87.620361,
+        "buddy": 0,
+        "fields": {},
+        "name": "TimeLife Building"
+    },
+    {
+        "description": "",
+        "id": 446,
+        "lat": 42.06455,
+        "lon": -87.7231,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 17910
+        },
+        "name": "Central Street & Cowper"
+    },
+    {
+        "description": "",
+        "id": 155,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:07 :37",
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 7:26a, 8:09a, 8:47a, 9:02a, 9:17a, 9:47a, 10:17a, 10:53a, 11:44a, 12:19p, 12:46p, 1:16p, 1:43p, 2:23p, 3:06p, 3:26p, 4:17p, 4:53p, 5:13p, 5:38p, 5:53p, 6:08p, 6:38p, 7:03p, 7:13p, 8:13p, 8:58p, 10:16p, 11:04p<br> Additional Winter Quarter times: 5:28p, 6:53p",
+            "campus_frostbite": "7:47am, 8:17am, 8:47am, 9:17am, 9:47am, 10:17am, 11:17am, 11:47am, 12:17pm, 12:47pm, 1:17pm, 2:17pm, 2:47pm, 3:17pm, 3:47pm, 4:17pm, 4:47pm, 5:17pm",
+            "student_game_day": null,
+            "chicago_express": "1:41p,\t3:36p,\t5:55p,\t7:43p,\t9:33p,\t11:23p"
+        },
+        "lat": 42.061234,
+        "lon": -87.67701,
+        "buddy": null,
+        "fields": {},
+        "name": "Patten Gym"
+    },
+    {
+        "description": null,
+        "id": 469,
+        "lat": 42.01945,
+        "lon": -87.677781,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3514
+        },
+        "name": "Howard & Clyde"
+    },
+    {
+        "description": "",
+        "id": 265,
+        "lat": 41.886688,
+        "lon": -87.623047,
+        "buddy": null,
+        "fields": {},
+        "name": "Randolph Street Station"
+    },
+    {
+        "description": null,
+        "id": 445,
+        "lat": 42.064539,
+        "lon": -87.717564,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14236
+        },
+        "name": "Central Street & Central Park"
+    },
+    {
+        "description": null,
+        "id": 492,
+        "lat": 42.026483,
+        "lon": -87.685372,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14254
+        },
+        "name": "Ridge & Oakton"
+    },
+    {
+        "description": "",
+        "id": 259,
+        "lat": 41.878124,
+        "lon": -87.64122,
+        "buddy": null,
+        "fields": {},
+        "name": "Union Station"
+    },
+    {
+        "description": "",
+        "id": 282,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 7:29a, 8:12a, 8:50a, 9:05a, 9:20a, 9:50a, 10:20a, 10:56a, 11:47a, 12:22p, 12:49p, 1:19p, 1:46p, 2:26p, 3:09p, 3:29p, 4:20p, 4:56p, 5:16p, 5:41p, 5:56p, 6:11p, 6:41p, 7:06p, 7:16p, 8:16p, 9:01p, 10:19p, 11:07p<br> Additional Winter Quarter times: 5:31p, 6:56p"
+        },
+        "lat": 42.064228,
+        "lon": -87.685852,
+        "buddy": null,
+        "fields": {},
+        "name": "Central L Station (westbound)"
+    },
+    {
+        "description": null,
+        "id": 463,
+        "lat": 42.047867,
+        "lon": -87.678827,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 15489
+        },
+        "name": "Chicago & Church"
+    },
+    {
+        "description": "",
+        "id": 258,
+        "lat": 41.883774,
+        "lon": -87.641319,
+        "buddy": null,
+        "fields": {},
+        "name": "Ogilvie Transportation Center"
+    },
+    {
+        "description": "",
+        "id": 185,
+        "times": {
+            "evanston_frostbite": "7:46am, 8:26am, 9:06am, 9:46am, 10:26am, 11:36am, 12:16pm, 12:56pm, 1:36pm, 2:16pm, 2:56pm, 4:06pm, 4:46pm, 5:26pm",
+            "evanston_loop": "6:15p, 6:55p, 7:15p**, 7:35p, 7:55p**, 8:15p, 8:35p**, 8:55p, 9:15p*, 9:35p, 9:55p*, 10:15p, 10:35p*, 10:55p, 11:15p*, 11:35p, 11:55p*, 12:15a, 12:35a*, 12:55a, 1:15a*, 1:35a, 1:55a*, 2:15a, 2:35a*, 2:55a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.047173,
+        "lon": -87.682442,
+        "buddy": null,
+        "fields": {},
+        "name": "Davis/Sherman"
+    },
+    {
+        "description": "",
+        "id": 315,
+        "lat": 41.884491,
+        "lon": -87.630971,
+        "buddy": null,
+        "fields": {},
+        "name": "CTA 'L' Station at Thompson Center"
+    },
+    {
+        "description": null,
+        "id": 473,
+        "lat": 42.059513,
+        "lon": -87.750415,
+        "buddy": 357,
+        "fields": {
+            "cta_stop_id": 3574
+        },
+        "name": "Old Orchard Mall - Macys"
+    },
+    {
+        "description": null,
+        "id": 482,
+        "lat": 42.04103,
+        "lon": -87.688274,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14240
+        },
+        "name": "Ridge & Dempster"
+    },
+    {
+        "description": null,
+        "id": 459,
+        "lat": 42.06448,
+        "lon": -87.713787,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14287
+        },
+        "name": "Central Street & Reese"
+    },
+    {
+        "description": "",
+        "id": 257,
+        "lat": 41.895027,
+        "lon": -87.620132,
+        "buddy": null,
+        "fields": {},
+        "name": "Northwestern Memorial Hospital"
+    },
+    {
+        "description": "",
+        "id": 167,
+        "times": {
+            "chicago_express": "12:55p,\t2:50p,\t4:40p,\t7:00p,\t8:50p,\t10:40p"
+        },
+        "lat": 41.880791,
+        "lon": -87.620834,
+        "buddy": null,
+        "fields": {},
+        "name": "Columbus/Monroe"
+    },
+    {
+        "description": "",
+        "id": 152,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:04 :34",
+            "student_game_day": null,
+            "campus_frostbite": "7:44am, 8:14am, 8:44am, 9:14am, 9:44am, 10:14am, 11:14am, 11:44am, 12:14pm, 12:44pm, 1:14pm, 2:14pm, 2:44pm, 3:14pm, 3:44pm, 4:14pm, 4:44pm, 5:14pm",
+            "intercampus": "CHICAGO TO EVANSTON <br>Departure times: 7:23a, 8:06a, 8:44a, 8:59a, 9:14a, 9:44a, 10:14a, 10:50a, 11:41a, 12:16p, 12:43p, 1:13p, 1:40p, 2:20p, 3:03p, 3:23p, 4:14p, 4:50p, 5:10p, 5:35p, 5:50p, 6:05p, 6:35p, 7:00p, 7:10p, 8:10p, 8:55p, 10:13p, 11:01p<br> Additional Winter Quarter times: 5:25p, 6:50p",
+            "chicago_express": "1:38p,\t3:33p,\t5:52p,\t7:40p,\t9:30p,\t11:20p",
+            "evanston_frostbite": "7:33am, 8:13am, 8:53am, 9:33am, 10:13am, 11:23am, 12:03pm, 12:43pm, 1:23pm, 2:03pm, 2:43pm, 3:53pm, 4:33pm, 5:13pm",
+            "evanston_loop": "6:04p, 6:44p, 7:04p**, 7:24p, 7:44p**, 8:04p, 8:24p**, 8:44p, 9:04p*, 9:24p, 9:44p*, 10:04p, 10:24p*, 10:44p, 11:04p*, 11:24p, 11:44p*, 12:04a, 12:24a*, 12:44a, 1:04a*, 1:24a, 1:44a*, 2:04a, 2:24a*, 2:44a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.051987,
+        "lon": -87.677032,
+        "buddy": null,
+        "fields": {},
+        "name": "Weber Arch"
+    },
+    {
+        "description": "",
+        "id": 309,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:47a, 7:02a, 7:17a, 7:47a, 8:32a, 9:12a, 9:32a, 10:12a, 10:42a, 11:17a, 12:02p, 12:42p, 1:02p, 1:37p, 2:07p, 2:47p, 3:07p, 3:32p, 3:57p, 4:12p, 4:42p, 5:12p, 5:22p, 5:37p, 6:02p, 6:17p, 6:32p, 7:27p, 8:37p, 9:42p<br>Additional Winter Quarter times: 5:02p, 5:52p",
+            "evanston_frostbite": "7:52am, 8:32am, 9:12am, 9:52am, 10:32am, 11:42am, 12:22pm, 1:02pm, 1:42pm, 2:22pm, 3:02pm, 4:12pm, 4:52pm, 5:32pm",
+            "evanston_loop": "6:21p, 7:01p, 7:21p**, 7:41p, 8:01p**, 8:21p, 8:41p**, 9:01p, 9:21p*, 9:41p, 10:01p*, 10:21p, 10:41p*, 11:01p, 11:21p*, 11:41p, 12:01a*, 12:21a, 12:41a*, 1:01a, 1:21a*, 1:41a, 2:01a*, 2:21a, 2:41a*, 3:01a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.053944,
+        "lon": -87.681671,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Foster"
+    },
+    {
+        "description": "",
+        "id": 183,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO <br>Departure times: 6:46a, 7:01a, 7:16a, 7:46a, 8:31a, 9:11a, 9:31a, 10:11a, 10:41a, 11:16a, 12:01p, 12:41p, 1:01p, 1:36p, 2:06p, 2:46p, 3:06p, 3:31p, 3:56p, 4:11p, 4:41p, 5:11p, 5:21p, 5:36p, 6:01p, 6:16p, 6:31p, 7:26p, 8:36p, 9:41p<br>Additional Winter Quarter times: 5:01p, 5:51p",
+            "student_game_day": null,
+            "evanston_frostbite": "7:51am, 8:31am, 9:11am, 9:51am, 10:31am, 11:41am, 12:21pm, 1:01pm, 1:41pm, 2:21pm, 3:01pm, 4:11pm, 4:51pm, 5:31pm",
+            "evanston_loop": "6:20p, 7:00p, 7:20p**, 7:40p, 8:00p**, 8:20p, 8:40p**, 9:00p, 9:20p*, 9:40p, 10:00p*, 10:20p, 10:40p*, 11:00p, 11:20p*, 11:40p, 12:00a*, 12:20a, 12:40a*, 1:00a, 1:20a*, 1:40a, 2:00a*, 2:20a, 2:40a*, 3:00a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.051952,
+        "lon": -87.681694,
+        "buddy": null,
+        "fields": {},
+        "name": "Sherman/Emerson"
+    },
+    {
+        "description": null,
+        "id": 488,
+        "lat": 42.035736,
+        "lon": -87.687094,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14262
+        },
+        "name": "Ridge & Lee"
+    },
+    {
+        "description": null,
+        "id": 455,
+        "lat": 42.064508,
+        "lon": -87.715064,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14684
+        },
+        "name": "Central Street & Lincolnwood"
+    },
+    {
+        "description": "",
+        "id": 285,
+        "lat": 42.050392,
+        "lon": -87.675522,
+        "buddy": null,
+        "fields": {},
+        "name": "Hinman/Sheridan"
+    },
+    {
+        "description": null,
+        "id": 475,
+        "lat": 42.062564,
+        "lon": -87.746403,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14235
+        },
+        "name": "Old Orchard Rd & Skokie Blvd"
+    },
+    {
+        "description": "",
+        "id": 293,
+        "times": {
+            "student_game_day": null
+        },
+        "lat": 42.049816,
+        "lon": -87.680321,
+        "buddy": null,
+        "fields": {},
+        "name": "Clark/Burger King"
+    },
+    {
+        "description": null,
+        "id": 476,
+        "lat": 42.018218,
+        "lon": -87.672964,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14093
+        },
+        "name": "Paulina & Howard Terminal"
+    },
+    {
+        "description": null,
+        "id": 352,
+        "lat": 42.01941,
+        "lon": -87.680554,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3631
+        },
+        "name": "Howard & Damen"
+    },
+    {
+        "description": null,
+        "id": 490,
+        "lat": 42.030611,
+        "lon": -87.685924,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14258
+        },
+        "name": "Ridge & Monroe"
+    },
+    {
+        "description": "",
+        "id": 252,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON <br>Departure times: 7:30a, 8:13a, 8:51a, 9:06a, 9:21a, 9:51a, 10:21a, 10:57a, 11:48a, 12:23p, 12:50p, 1:20p, 1:47p, 2:27p, 3:10p, 3:30p, 4:21p, 4:57p, 5:17p, 5:42p, 5:57p, 6:12p, 6:42p, 7:07p, 7:17p, 8:17p, 9:02p, 10:20p, 11:08p<br> Additional Winter Quarter times: 5:32p, 6:57p"
+        },
+        "lat": 42.064346,
+        "lon": -87.691994,
+        "buddy": null,
+        "fields": {},
+        "name": "Central/Jackson (westbound)"
+    },
+    {
+        "description": "",
+        "id": 271,
+        "lat": 42.063057,
+        "lon": -87.697784,
+        "buddy": null,
+        "fields": {},
+        "name": "Metra/Green Bay/Harrison"
+    },
+    {
+        "description": "",
+        "id": 301,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 7:05a, 7:48a, 8:26a, 8:41a, 8:56a, 9:26a, 9:56a, 10:32a, 11:23a, 11:58a, 12:25p, 12:55p, 1:22p, 2:02p, 2:45p, 3:05p, 3:56p, 4:32p, 4:52p, 5:17p, 5:32p, 5:47p, 6:17p, 6:42p, 6:52p, 7:52p, 8:37p, 9:55p, 10:43p<br> Additional Winter Quarter times: 5:07p, 6:32p"
+        },
+        "lat": 42.001682,
+        "lon": -87.660522,
+        "buddy": 241,
+        "fields": {},
+        "name": "Sheridan/Loyola (northbound)"
+    },
+    {
+        "description": null,
+        "id": 489,
+        "lat": 42.033863,
+        "lon": -87.686681,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12694
+        },
+        "name": "Ridge & Main"
+    },
+    {
+        "description": "",
+        "id": 157,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 7:20a, 8:03a, 8:41a, 8:56a, 9:11a, 9:41a, 10:11a, 10:47a, 11:38a, 12:13p, 12:40p, 1:10p, 1:37p, 2:17p, 3:00p, 3:20p, 4:11p, 4:47p, 5:07p, 5:32p, 5:47p, 6:02p, 6:32p, 6:57p, 7:07p, 8:07p, 8:52p, 10:10p, 10:58p<br> Additional Winter Quarter times: 5:22p, 6:47p"
+        },
+        "lat": 42.046238,
+        "lon": -87.679482,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Davis"
+    },
+    {
+        "description": "",
+        "id": 166,
+        "times": {
+            "chicago_express": "12:51p,\t2:46p,\t4:36p,\t6:56p,\t8:46p,\t10:36p"
+        },
+        "lat": 41.891037,
+        "lon": -87.620316,
+        "buddy": null,
+        "fields": {},
+        "name": "Columbus/Illinois"
+    },
+    {
+        "description": "",
+        "id": 273,
+        "lat": 42.05592,
+        "lon": -87.692184,
+        "buddy": null,
+        "fields": {},
+        "name": "Green Bay/Simpson"
+    },
+    {
+        "description": null,
+        "id": 346,
+        "lat": 42.018047,
+        "lon": -87.675796,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14091
+        },
+        "name": "Clark & Birchwood"
+    },
+    {
+        "description": null,
+        "id": 498,
+        "lat": 42.058235,
+        "lon": -87.677084,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14987
+        },
+        "name": "Sheridan & Noyes"
+    },
+    {
+        "description": null,
+        "id": 452,
+        "lat": 42.064368,
+        "lon": -87.699287,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12641
+        },
+        "name": "Central Street & Green Bay Rd"
+    },
+    {
+        "description": null,
+        "id": 444,
+        "lat": 42.064364,
+        "lon": -87.69793,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12637
+        },
+        "name": "Central Street & Broadway/Poplar"
+    },
+    {
+        "description": "",
+        "id": 150,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:00 :30",
+            "campus_frostbite": "7:40am, 8:10am, 8:40am, 9:10am, 9:40am, 10:10am, 11:10am, 11:40am, 12:10pm, 12:40pm, 1:10pm, 2:10pm, 2:40pm, 3:10pm, 3:40pm, 4:10pm, 4:40pm, 5:10pm",
+            "evanston_frostbite": "7:30am, 8:10am, 8:50am, 9:30am, 10:10am, 11:20am, 12:00pm, 12:40pm, 1:20pm, 2:00pm, 2:40pm, 3:50pm, 4:30pm, 5:10pm",
+            "evanston_loop": "6:00p, 6:40p, 7:00p**, 7:20p, 7:40p**, 8:00p, 8:20p**, 8:40p, 9:00p*, 9:20p, 9:40p*, 10:00p, 10:20p*, 10:40p, 11:00p*, 11:20p, 11:40p*, 12:00a, 12:20a*, 12:40a, 1:00a*, 1:20a, 1:40a*, 2:00a, 2:20a*, 2:40a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.05331,
+        "lon": -87.673439,
+        "buddy": null,
+        "fields": {},
+        "name": "Library/Norris Center"
+    },
+    {
+        "description": null,
+        "id": 449,
+        "lat": 42.064347,
+        "lon": -87.695463,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 17511
+        },
+        "name": "Central Street & Eastwood"
+    },
+    {
+        "description": null,
+        "id": 480,
+        "lat": 42.039285,
+        "lon": -87.68792,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14266
+        },
+        "name": "Ridge & Crain"
+    },
+    {
+        "description": null,
+        "id": 464,
+        "lat": 42.048444,
+        "lon": -87.683499,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12708
+        },
+        "name": "Church & Benson"
+    },
+    {
+        "description": null,
+        "id": 322,
+        "lat": 42.06403,
+        "lon": -87.677271,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 15924
+        },
+        "name": "Central & Sheridan"
+    },
+    {
+        "description": null,
+        "id": 349,
+        "lat": 42.047082,
+        "lon": -87.684771,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12686
+        },
+        "name": "Davis & Maple"
+    },
+    {
+        "description": null,
+        "id": 451,
+        "lat": 42.064253,
+        "lon": -87.685468,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12640
+        },
+        "name": "Central Street & Girard (Purple Line)"
+    },
+    {
+        "description": null,
+        "id": 496,
+        "lat": 42.0543,
+        "lon": -87.677175,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 17296
+        },
+        "name": "Sheridan & Foster"
+    },
+    {
+        "description": "",
+        "id": 161,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:13 :43",
+            "campus_frostbite": "8:03am, 8:33am, 9:03am, 9:33am, 10:03am, 10:33am, 11:33am, 12:03pm, 12:33pm, 1:03pm, 1:33pm, 2:33pm, 3:03pm, 3:33pm, 4:03pm, 4:33pm, 5:03pm, 5:33pm",
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:50a, 7:05a, 7:20a, 7:50a, 8:35a, 9:15a, 9:35a, 10:15a, 10:45a, 11:20a, 12:05p, 12:45p, 1:05p, 1:40p, 2:10p, 2:50p, 3:10p, 3:35p, 4:00p, 4:15p, 4:45p, 5:15p, 5:25p, 5:40p, 6:05p, 6:20p, 6:35p, 7:30p, 8:40p, 9:45p<br>Additional Winter Quarter times: 5:05p, 5:55p",
+            "chicago_express": "12:03p,\t1:58p,\t3:48p,\t6:08p,\t7:58p,\t9:48p",
+            "evanston_frostbite": "7:55am, 8:35am, 9:15am, 9:55am, 10:35am, 11:45am, 12:25pm, 1:05pm, 1:45pm, 2:25pm, 3:05pm, 4:15pm, 4:55pm, 5:35pm",
+            "evanston_loop": "6:23p, 7:03p, 7:23p**, 7:43p, 8:03p**, 8:23p, 8:43p**, 9:03p, 9:23p*, 9:43p, 10:03p*, 10:23p, 10:43p*, 11:03p, 11:23p*, 11:43p, 12:03a*, 12:23a, 12:43a*, 1:03a, 1:23a*, 1:43a, 2:03a*, 2:23a, 2:43a*, 3:03a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.058216,
+        "lon": -87.677162,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": "17297"
+        },
+        "name": "Sheridan/Noyes"
+    },
+    {
+        "description": "",
+        "id": 305,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:42a, 6:57a, 7:12a, 7:42a, 8:27a, 9:07a, 9:27a, 10:07a, 10:37a, 11:12a, 11:57a, 12:37p, 12:57p, 1:32p, 2:02p, 2:42p, 3:02p, 3:27p, 3:52p, 4:07p, 4:37p, 5:07p, 5:17p, 5:32p, 5:57p, 6:12p, 6:27p, 7:22p, 8:32p, 9:37p<br>Additional Winter Quarter times: 4:57p,\t5:47p",
+            "evanston_frostbite": "7:41am, 8:21am, 9:01am, 9:41am, 10:21am, 11:31am, 12:11pm, 12:51pm, 1:31pm, 2:11pm, 2:51pm, 4:01pm, 4:41pm, 5:21pm",
+            "evanston_loop": "6:11p, 6:51p, 7:11p**, 7:31p, 7:51p**, 8:11p, 8:31p**, 8:51p, 9:11p*, 9:31p, 9:51p*, 10:11p, 10:31p*, 10:51p, 11:11p*, 11:31p, 11:51p*, 12:11a, 12:31a*, 12:51a, 1:11a*, 1:31a, 1:51a*, 2:11a, 2:31a*, 2:51a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.05315,
+        "lon": -87.687637,
+        "buddy": null,
+        "fields": {},
+        "name": "Ridge/Reserve Apartments"
+    },
+    {
+        "description": null,
+        "id": 493,
+        "lat": 42.028611,
+        "lon": -87.685634,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14256
+        },
+        "name": "Ridge & Seward"
+    },
+    {
+        "description": null,
+        "id": 355,
+        "lat": 42.019386,
+        "lon": -87.677749,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3632
+        },
+        "name": "Howard & Wolcott"
+    },
+    {
+        "description": null,
+        "id": 441,
+        "lat": 42.064293,
+        "lon": -87.689127,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14280
+        },
+        "name": "Central Street & Asbury"
+    },
+    {
+        "description": "",
+        "id": 276,
+        "lat": 42.045437,
+        "lon": -87.684464,
+        "buddy": null,
+        "fields": {},
+        "name": "960 Grove"
+    },
+    {
+        "description": null,
+        "id": 356,
+        "lat": 42.060808,
+        "lon": -87.750764,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3575
+        },
+        "name": "Old Orchard Mall - Bloomingdales"
+    },
+    {
+        "description": null,
+        "id": 345,
+        "lat": 42.046237,
+        "lon": -87.679696,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14692
+        },
+        "name": "Chicago Avenue & Davis"
+    },
+    {
+        "description": null,
+        "id": 457,
+        "lat": 42.064619,
+        "lon": -87.725283,
+        "buddy": 337,
+        "fields": {
+            "cta_stop_id": 12643
+        },
+        "name": "Central Street & Prospect"
+    },
+    {
+        "description": null,
+        "id": 478,
+        "lat": 42.021032,
+        "lon": -87.684776,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14333
+        },
+        "name": "Ridge & Brummel"
+    },
+    {
+        "description": "",
+        "id": 160,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:15 :45",
+            "campus_frostbite": "8:05am, 8:35am, 9:05am, 9:35am, 10:05am, 10:35am, 11:35am, 12:05pm, 12:35pm, 1:05pm, 1:35pm, 2:35pm, 3:05pm, 3:35pm, 4:05pm, 4:35pm, 5:05pm, 5:35pm",
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:52a, 7:07a, 7:22a, 7:52a, 8:37a, 9:17a, 9:37a, 10:17a, 10:47a, 11:22a, 12:07p, 12:47p, 1:07p, 1:42p, 2:12p, 2:52p, 3:12p, 3:37p, 4:02p, 4:17p, 4:47p, 5:17p, 5:27p, 5:42p, 6:07p, 6:22p, 6:37p, 7:32p, 8:42p, 9:47p<br>Additional Winter Quarter times: 5:07p, 5:57p",
+            "chicago_express": "12:04p,\t1:59p,\t3:49p,\t6:09p,\t7:59p,\t9:49p",
+            "evanston_frostbite": "7:57am, 8:37am, 9:17am, 9:57am, 10:37am, 11:47am, 12:27pm, 1:07pm, 1:47pm, 2:27pm, 3:07pm, 4:17pm, 4:57pm, 5:37pm",
+            "evanston_loop": "6:25p, 7:05p, 7:25p**, 7:45p, 8:05p**, 8:25p, 8:45p**, 9:05p, 9:25p*, 9:45p, 10:05p*, 10:25p, 10:45p*, 11:05p, 11:25p*, 11:45p, 12:05a*, 12:25a, 12:45a*, 1:05a, 1:25a*, 1:45a, 2:05a*, 2:25a, 2:45a*, 3:05a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.053658,
+        "lon": -87.677399,
+        "buddy": null,
+        "fields": {},
+        "name": "Sheridan/Foster"
+    },
+    {
+        "description": "",
+        "id": 153,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:05 :35",
+            "student_game_day": null,
+            "campus_frostbite": "7:45am, 8:15am, 8:45am, 9:15am, 9:45am, 10:15am, 11:15am, 11:45am, 12:15pm, 12:45pm, 1:15pm, 2:15pm, 2:45pm, 3:15pm, 3:45pm, 4:15pm, 4:45pm, 5:15pm",
+            "intercampus": "CHICAGO TO EVANSTON <br>Departure times: 7:24a, 8:07a, 8:45a, 9:00a, 9:15a, 9:45a, 10:15a, 10:51a, 11:42a, 12:17p, 12:44p, 1:14p, 1:41p, 2:21p, 3:04p, 3:24p, 4:15p, 4:51p, 5:11p, 5:36p, 5:51p, 6:06p, 6:36p, 7:01p, 7:11p, 8:11p, 8:56p, 10:14p, 11:02p<br>Additional Winter Quarter times: 5:26p, 6:51p",
+            "chicago_express": "1:39p,\t3:34p,\t5:53p,\t7:41p,\t9:31p,\t11:21p",
+            "evanston_frostbite": "7:34am, 8:14am, 8:54am, 9:34am, 10:14am, 11:24am, 12:04pm, 12:44pm, 1:24pm, 2:04pm, 2:44pm, 3:54pm, 4:34pm, 5:14pm",
+            "evanston_loop": "6:05p, 6:45p, 7:05p**, 7:25p, 7:45p**, 8:05p, 8:25p**, 8:45p, 9:05p*, 9:25p, 9:45p*, 10:05p, 10:25p*, 10:45p, 11:05p*, 11:25p, 11:45p*, 12:05a, 12:25a*, 12:45a, 1:05a*, 1:25a, 1:45a*, 2:05a, 2:25a*, 2:45a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.054295,
+        "lon": -87.676994,
+        "buddy": null,
+        "fields": {},
+        "name": "Jacobs Center"
+    },
+    {
+        "description": "",
+        "id": 313,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 7:15a, 7:58a, 8:36a, 8:51a, 9:06a, 9:36a, 10:06a, 10:42a, 11:33a, 12:08p, 12:35p, 1:05p, 1:32p, 2:12p, 2:55p, 3:15p, 4:06p, 4:42p, 5:02p, 5:27p, 5:42p, 5:57p, 6:27p, 6:52p, 7:02p, 8:02p, 8:47p, 10:05p, 10:53p<br> Additional Winter Quarter times: 5:17p, 6:42p"
+        },
+        "lat": 42.032093,
+        "lon": -87.67897,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Kedzie"
+    },
+    {
+        "description": "",
+        "id": 240,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 7:01a, 7:16a, 7:31a, 8:01a, 8:46a, 9:26a, 9:46a, 10:26a, 10:56a, 11:31a, 12:16p, 12:56p, 1:16p, 1:51p, 2:21p, 3:01p, 3:21p, 3:46p, 4:11p, 4:26p, 4:56p, 5:26p, 5:36p, 5:51p, 6:16p, 6:31p, 6:46p, 7:41p, 8:51p, 9:56p<br>Additional Winter Quarter times: 5:16p, 6:06p"
+        },
+        "lat": 42.033577,
+        "lon": -87.679359,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Main"
+    },
+    {
+        "description": null,
+        "id": 347,
+        "lat": 42.019195,
+        "lon": -87.676268,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14056
+        },
+        "name": "Clark & Howard"
+    },
+    {
+        "description": null,
+        "id": 376,
+        "lat": 42.016668,
+        "lon": -87.673844,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 15452
+        },
+        "name": "Rogers & Hermitage"
+    },
+    {
+        "description": "",
+        "id": 272,
+        "lat": 42.058277,
+        "lon": -87.694153,
+        "buddy": null,
+        "fields": {},
+        "name": "Green Bay/Noyes"
+    },
+    {
+        "description": "",
+        "id": 317,
+        "lat": 41.884523,
+        "lon": -87.624711,
+        "buddy": null,
+        "fields": {},
+        "name": "Randolph Station"
+    },
+    {
+        "description": null,
+        "id": 450,
+        "lat": 42.064476,
+        "lon": -87.71243,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14683
+        },
+        "name": "Central Street & Ewing"
+    },
+    {
+        "description": "",
+        "id": 300,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:37a, 6:52a, 7:07a, 7:37a, 8:22a, 9:02a, 9:22a, 10:02a, 10:32a, 11:07a, 11:52a, 12:32p, 12:52p, 1:27p, 1:57p, 2:37p, 2:57p, 3:22p, 3:47p, 4:02p, 4:32p, 5:02p, 5:12p, 5:27p, 5:52p, 6:07p, 6:22p, 7:17p, 8:27p, 9:32p<br>Additional Winter Quarter times: 4:52p, 5:42p"
+        },
+        "lat": 42.064178,
+        "lon": -87.685806,
+        "buddy": null,
+        "fields": {},
+        "name": "Central L Station (eastbound)"
+    },
+    {
+        "description": "",
+        "id": 306,
+        "times": {
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:41a, 6:56a, 7:11a, 7:41a, 8:26a, 9:06a, 9:26a, 10:06a, 10:36a, 11:11a, 11:56a, 12:36p, 12:56p, 1:31p, 2:01p, 2:41p, 3:01p, 3:26p, 3:51p, 4:06p, 4:36p, 5:06p, 5:16p, 5:31p, 5:56p, 6:11p, 6:26p, 7:21p, 8:31p, 9:36p<br>Additional Winter Quarter times: 4:56p, 5:46p",
+            "evanston_frostbite": "7:39am, 8:19am, 8:59am, 9:39am, 10:19am, 11:29am, 12:09pm, 12:49pm, 1:29pm, 2:09pm, 2:49pm, 3:59pm, 4:39pm, 5:19pm",
+            "evanston_loop": "6:10p, 6:50p, 7:10p**, 7:30p, 7:50p**, 8:10p, 8:30p**, 8:50p, 9:10p*, 9:30p, 9:50p*, 10:10p, 10:30p*, 10:50p, 11:10p*, 11:30p, 11:50p*, 12:10a, 12:30a*, 12:50a, 1:10a*, 1:30a, 1:50a*, 2:10a, 2:30a*, 2:50a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.056938,
+        "lon": -87.686562,
+        "buddy": null,
+        "fields": {},
+        "name": "Ridge/Civic Center"
+    },
+    {
+        "description": null,
+        "id": 351,
+        "lat": 42.046719,
+        "lon": -87.681434,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14693
+        },
+        "name": "Davis & Orrington"
+    },
+    {
+        "description": null,
+        "id": 453,
+        "lat": 42.064412,
+        "lon": -87.70323,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14682
+        },
+        "name": "Central Street & Hartrey"
+    },
+    {
+        "description": "",
+        "id": 308,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:18 :48",
+            "intercampus": "EVANSTON TO CHICAGO<br>Departure times: 6:57a, 7:12a, 7:27a, 7:57a, 8:42a, 9:22a, 9:42a, 10:22a, 10:52a, 11:27a, 12:12p, 12:52p, 1:12p, 1:47p, 2:17p, 2:57p, 3:17p, 3:42p, 4:07p, 4:22p, 4:52p, 5:22p, 5:32p, 5:47p, 6:12p, 6:27p, 6:42p, 7:37p, 8:47p, 9:52p<br>Additional Winter Quarter times: 5:12p, 6:02p"
+        },
+        "lat": 42.045109,
+        "lon": -87.680275,
+        "buddy": null,
+        "fields": {},
+        "name": "Chicago/Grove"
+    },
+    {
+        "description": null,
+        "id": 494,
+        "lat": 42.032632,
+        "lon": -87.686375,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14260
+        },
+        "name": "Ridge & Washington"
+    },
+    {
+        "description": "",
+        "id": 242,
+        "times": {
+            "intercampus": "CHICAGO TO EVANSTON<br>Departure times: 6:40a, 7:20a, 8:00a, 8:15a, 8:30a, 9:00a, 9:30a, 10:10a, 11:00a, 11:35a, 12:00p, 12:30p, 1:00p, 1:40p, 2:25p, 2:45p, 3:35p, 4:05p, 4:25p, 4:50p, 5:05p, 5:20p, 5:50p, 6:20p, 6:30p, 7:30p, 8:15p, 9:35p, 10:25p<br> Additional Winter Quarter times: 4:40p, 6:05p"
+        },
+        "lat": 41.896709,
+        "lon": -87.620026,
+        "buddy": null,
+        "fields": {},
+        "name": "Ward Building"
+    },
+    {
+        "description": null,
+        "id": 348,
+        "lat": 42.047066,
+        "lon": -87.683339,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14405
+        },
+        "name": "Davis & Benson"
+    },
+    {
+        "description": null,
+        "id": 472,
+        "lat": 42.019505,
+        "lon": -87.684417,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3517
+        },
+        "name": "Howard & Ridge"
+    },
+    {
+        "description": null,
+        "id": 495,
+        "lat": 42.052009,
+        "lon": -87.677191,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14984
+        },
+        "name": "Sheridan & Emerson"
+    },
+    {
+        "description": null,
+        "id": 448,
+        "lat": 42.064543,
+        "lon": -87.727574,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 12701
+        },
+        "name": "Central Street & Crawford"
+    },
+    {
+        "description": null,
+        "id": 461,
+        "lat": 42.064149,
+        "lon": -87.681772,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14230
+        },
+        "name": "Central Street & Sherman"
+    },
+    {
+        "description": null,
+        "id": 484,
+        "lat": 42.042588,
+        "lon": -87.688392,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14268
+        },
+        "name": "Ridge & Greenwood"
+    },
+    {
+        "description": "",
+        "id": 154,
+        "times": {
+            "campus_loop": "approximate times past each hour:<br>:06 :36",
+            "student_game_day": null,
+            "campus_frostbite": "7:46am, 8:16am, 8:46am, 9:16am, 9:46am, 10:16am, 11:16am, 11:46am, 12:16pm, 12:46pm, 1:16pm, 2:16pm, 2:46pm, 3:16pm, 3:46pm, 4:16pm, 4:46pm, 5:16pm",
+            "intercampus": "CHICAGO TO EVANSTON <br>Departure times: 7:25a, 8:08a, 8:46a, 9:01a, 9:16a, 9:46a, 10:16a, 10:52a, 11:43a, 12:18p, 12:45p, 1:15p, 1:42p, 2:22p, 3:05p, 3:25p, 4:16p, 4:52p, 5:12p, 5:37p, 5:52p, 6:07p, 6:37p, 7:02p, 7:12p, 8:12p, 8:57p, 10:15p, 11:03p<br> Additional Winter Quarter times: 5:27p, 6:52p",
+            "chicago_express": "1:40p,\t3:35p,\t5:54p,\t7:42p,\t9:32p,\t11:22p",
+            "evanston_frostbite": "7:35am, 8:15am, 8:55am, 9:35am, 10:15am, 11:25am, 12:05pm, 12:45pm, 1:25pm, 2:05pm, 2:45pm, 3:55pm, 4:35pm, 5:15pm",
+            "evanston_loop": "6:06p, 6:46p, 7:06p**, 7:26p, 7:46p**, 8:06p, 8:26p**, 8:46p, 9:06p*, 9:26p, 9:46p*, 10:06p, 10:26p*, 10:46p, 11:06p*, 11:26p, 11:46p*, 12:06a, 12:26a*, 12:46a, 1:06a*, 1:26a, 1:46a*, 2:06a, 2:26a*, 2:46a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.05785,
+        "lon": -87.676918,
+        "buddy": null,
+        "fields": {},
+        "name": "Tech Institute"
+    },
+    {
+        "description": "",
+        "id": 264,
+        "lat": 41.875481,
+        "lon": -87.633026,
+        "buddy": null,
+        "fields": {},
+        "name": "LaSalle Station"
+    },
+    {
+        "description": null,
+        "id": 344,
+        "lat": 42.047823,
+        "lon": -87.67894,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14403
+        },
+        "name": "Chicago Avenue & Church"
+    },
+    {
+        "description": null,
+        "id": 342,
+        "lat": 42.049528,
+        "lon": -87.678097,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 15318
+        },
+        "name": "Chicago & Clark"
+    },
+    {
+        "description": "",
+        "id": 292,
+        "lat": 42.019192,
+        "lon": -87.704399,
+        "buddy": null,
+        "fields": {},
+        "name": "Howard/Sacramento"
+    },
+    {
+        "description": "",
+        "id": 263,
+        "lat": 41.895115,
+        "lon": -87.617477,
+        "buddy": null,
+        "fields": {},
+        "name": "Abbott Hall"
+    },
+    {
+        "description": null,
+        "id": 454,
+        "lat": 42.064563,
+        "lon": -87.720551,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 14289
+        },
+        "name": "Central Street & Lawndale"
+    },
+    {
+        "description": "",
+        "id": 186,
+        "times": {
+            "evanston_frostbite": "7:47am, 8:27am, 9:07am, 9:47am, 10:27am, 11:37am, 12:17pm, 12:57pm, 1:37pm, 2:17pm, 2:57pm, 4:07pm, 4:47pm, 5:27pm",
+            "evanston_loop": "6:16p, 6:56p, 7:16p**, 7:36p, 7:56p**, 8:16p, 8:36p**, 8:56p, 9:16p*, 9:36p, 9:56p*, 10:16p, 10:36p*, 10:56p, 11:16p*, 11:36p, 11:56p*, 12:16a, 12:36a*, 12:56a, 1:16a*, 1:36a, 1:56a*, 2:16a, 2:36a*, 2:56a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only"
+        },
+        "lat": 42.047237,
+        "lon": -87.686539,
+        "buddy": null,
+        "fields": {},
+        "name": "Davis/Oak"
+    },
+    {
+        "description": null,
+        "id": 468,
+        "lat": 42.019434,
+        "lon": -87.676182,
+        "buddy": null,
+        "fields": {
+            "cta_stop_id": 3513
+        },
+        "name": "Howard & Chicago Avenue"
+    }
+]

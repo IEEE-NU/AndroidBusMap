@@ -1,0 +1,1907 @@
+[
+  {
+    "id": 241,
+    "name": "Sheridan/Loyola (southbound)",
+    "description": "",
+    "lat": 42.001522,
+    "lon": -87.661049,
+    "buddy": 301,
+    "fields": {}
+  },
+  {
+    "id": 152,
+    "name": "Weber Arch",
+    "description": "",
+    "lat": 42.051987,
+    "lon": -87.677032,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 301,
+    "name": "Sheridan/Loyola (northbound)",
+    "description": "",
+    "lat": 42.001682,
+    "lon": -87.660522,
+    "buddy": 241,
+    "fields": {}
+  },
+  {
+    "id": 320,
+    "name": "4700 W Old Orchard Rd",
+    "description": null,
+    "lat": 42.062397,
+    "lon": -87.744772,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 15423
+    }
+  },
+  {
+    "id": 321,
+    "name": "Central & Orrington",
+    "description": null,
+    "lat": 42.064062,
+    "lon": -87.679632,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14991
+    }
+  },
+  {
+    "id": 322,
+    "name": "Central & Sheridan",
+    "description": null,
+    "lat": 42.06403,
+    "lon": -87.677271,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 15924
+    }
+  },
+  {
+    "id": 323,
+    "name": "Central Street & Asbury",
+    "description": null,
+    "lat": 42.064229,
+    "lon": -87.689475,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14402
+    }
+  },
+  {
+    "id": 324,
+    "name": "Central Street & Ashland",
+    "description": null,
+    "lat": 42.064257,
+    "lon": -87.693987,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14282
+    }
+  },
+  {
+    "id": 325,
+    "name": "Central Street & Bennett",
+    "description": null,
+    "lat": 42.064392,
+    "lon": -87.710794,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14286
+    }
+  },
+  {
+    "id": 326,
+    "name": "Central Street & Broadway/Poplar",
+    "description": null,
+    "lat": 42.064308,
+    "lon": -87.698144,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12636
+    }
+  },
+  {
+    "id": 327,
+    "name": "Central Street & Central Park",
+    "description": null,
+    "lat": 42.06448,
+    "lon": -87.717918,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14233
+    }
+  },
+  {
+    "id": 328,
+    "name": "Central Street & Cowper",
+    "description": null,
+    "lat": 42.064529,
+    "lon": -87.723904,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17910
+    }
+  },
+  {
+    "id": 330,
+    "name": "Central Street & Eastwood",
+    "description": null,
+    "lat": 42.064285,
+    "lon": -87.695768,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14689
+    }
+  },
+  {
+    "id": 331,
+    "name": "Central Street & Girard (Purple Line)",
+    "description": null,
+    "lat": 42.064193,
+    "lon": -87.685838,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12639
+    }
+  },
+  {
+    "id": 332,
+    "name": "Central Street & Green Bay Rd",
+    "description": null,
+    "lat": 42.064297,
+    "lon": -87.698826,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12642
+    }
+  },
+  {
+    "id": 333,
+    "name": "Central Street & Hartrey",
+    "description": null,
+    "lat": 42.064352,
+    "lon": -87.70353,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14688
+    }
+  },
+  {
+    "id": 334,
+    "name": "Central Street & Lawndale",
+    "description": null,
+    "lat": 42.064508,
+    "lon": -87.720632,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14290
+    }
+  },
+  {
+    "id": 335,
+    "name": "Central Street & Lincolnwood",
+    "description": null,
+    "lat": 42.064448,
+    "lon": -87.7156,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14687
+    }
+  },
+  {
+    "id": 336,
+    "name": "Central Street & McDaniel",
+    "description": null,
+    "lat": 42.064384,
+    "lon": -87.707779,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14232
+    }
+  },
+  {
+    "id": 338,
+    "name": "Central Street & Reese",
+    "description": null,
+    "lat": 42.064424,
+    "lon": -87.713959,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14288
+    }
+  },
+  {
+    "id": 339,
+    "name": "Central Street & Ridge",
+    "description": null,
+    "lat": 42.064141,
+    "lon": -87.68366,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14690
+    }
+  },
+  {
+    "id": 340,
+    "name": "Central Street & Sherman",
+    "description": null,
+    "lat": 42.064085,
+    "lon": -87.681794,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14231
+    }
+  },
+  {
+    "id": 341,
+    "name": "Central Street & Walnut",
+    "description": null,
+    "lat": 42.064368,
+    "lon": -87.704877,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14284
+    }
+  },
+  {
+    "id": 342,
+    "name": "Chicago & Clark",
+    "description": null,
+    "lat": 42.049528,
+    "lon": -87.678097,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 15318
+    }
+  },
+  {
+    "id": 343,
+    "name": "Chicago & Sheridan",
+    "description": null,
+    "lat": 42.050193,
+    "lon": -87.677792,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17302
+    }
+  },
+  {
+    "id": 344,
+    "name": "Chicago Avenue & Church",
+    "description": null,
+    "lat": 42.047823,
+    "lon": -87.67894,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14403
+    }
+  },
+  {
+    "id": 345,
+    "name": "Chicago Avenue & Davis",
+    "description": null,
+    "lat": 42.046237,
+    "lon": -87.679696,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14692
+    }
+  },
+  {
+    "id": 346,
+    "name": "Clark & Birchwood",
+    "description": null,
+    "lat": 42.018047,
+    "lon": -87.675796,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14091
+    }
+  },
+  {
+    "id": 347,
+    "name": "Clark & Howard",
+    "description": null,
+    "lat": 42.019195,
+    "lon": -87.676268,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14056
+    }
+  },
+  {
+    "id": 348,
+    "name": "Davis & Benson",
+    "description": null,
+    "lat": 42.047066,
+    "lon": -87.683339,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14405
+    }
+  },
+  {
+    "id": 349,
+    "name": "Davis & Maple",
+    "description": null,
+    "lat": 42.047082,
+    "lon": -87.684771,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12686
+    }
+  },
+  {
+    "id": 350,
+    "name": "Davis & Oak",
+    "description": null,
+    "lat": 42.047106,
+    "lon": -87.686627,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12687
+    }
+  },
+  {
+    "id": 329,
+    "name": "Central Street & Crawford",
+    "description": "",
+    "lat": 42.064551,
+    "lon": -87.727584,
+    "buddy": 447,
+    "fields": {
+      "cta_stop_id": 12701
+    }
+  },
+  {
+    "id": 337,
+    "name": "Central Street & Prospect",
+    "description": "",
+    "lat": 42.064563,
+    "lon": -87.72575,
+    "buddy": 457,
+    "fields": {
+      "cta_stop_id": 14686
+    }
+  },
+  {
+    "id": 156,
+    "name": "Henry Crown Sports Pavilion",
+    "description": "",
+    "lat": 42.058796,
+    "lon": -87.674194,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 181,
+    "name": "Sherman/Noyes",
+    "description": "",
+    "lat": 42.058086,
+    "lon": -87.681541,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 351,
+    "name": "Davis & Orrington",
+    "description": null,
+    "lat": 42.046719,
+    "lon": -87.681434,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14693
+    }
+  },
+  {
+    "id": 352,
+    "name": "Howard & Damen",
+    "description": null,
+    "lat": 42.01941,
+    "lon": -87.680554,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3631
+    }
+  },
+  {
+    "id": 353,
+    "name": "Howard & Hoyne",
+    "description": null,
+    "lat": 42.019442,
+    "lon": -87.683102,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3630
+    }
+  },
+  {
+    "id": 354,
+    "name": "Howard & Ridge",
+    "description": null,
+    "lat": 42.01945,
+    "lon": -87.684272,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3629
+    }
+  },
+  {
+    "id": 355,
+    "name": "Howard & Wolcott",
+    "description": null,
+    "lat": 42.019386,
+    "lon": -87.677749,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3632
+    }
+  },
+  {
+    "id": 356,
+    "name": "Old Orchard Mall - Bloomingdales",
+    "description": null,
+    "lat": 42.060808,
+    "lon": -87.750764,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3575
+    }
+  },
+  {
+    "id": 358,
+    "name": "Old Orchard Rd & Skokie Blvd",
+    "description": null,
+    "lat": 42.062401,
+    "lon": -87.746885,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14234
+    }
+  },
+  {
+    "id": 360,
+    "name": "Ridge & Brummel",
+    "description": null,
+    "lat": 42.021785,
+    "lon": -87.684937,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14334
+    }
+  },
+  {
+    "id": 361,
+    "name": "Ridge & Crain",
+    "description": null,
+    "lat": 42.039524,
+    "lon": -87.688059,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14267
+    }
+  },
+  {
+    "id": 362,
+    "name": "Ridge & Davis",
+    "description": null,
+    "lat": 42.046942,
+    "lon": -87.688735,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12691
+    }
+  },
+  {
+    "id": 363,
+    "name": "Ridge & Dempster",
+    "description": null,
+    "lat": 42.041409,
+    "lon": -87.688419,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14241
+    }
+  },
+  {
+    "id": 364,
+    "name": "Ridge & Greenleaf",
+    "description": null,
+    "lat": 42.037811,
+    "lon": -87.687662,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14265
+    }
+  },
+  {
+    "id": 365,
+    "name": "Ridge & Greenwood",
+    "description": null,
+    "lat": 42.042839,
+    "lon": -87.688488,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14269
+    }
+  },
+  {
+    "id": 366,
+    "name": "Ridge & Grove",
+    "description": null,
+    "lat": 42.045767,
+    "lon": -87.68866,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12692
+    }
+  },
+  {
+    "id": 367,
+    "name": "Ridge & Hull Terrace",
+    "description": null,
+    "lat": 42.02467,
+    "lon": -87.685254,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 13148
+    }
+  },
+  {
+    "id": 368,
+    "name": "Ridge & Lake",
+    "description": null,
+    "lat": 42.044405,
+    "lon": -87.688585,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14271
+    }
+  },
+  {
+    "id": 369,
+    "name": "Ridge & Lee",
+    "description": null,
+    "lat": 42.036006,
+    "lon": -87.687233,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14263
+    }
+  },
+  {
+    "id": 370,
+    "name": "Ridge & Main",
+    "description": null,
+    "lat": 42.034166,
+    "lon": -87.686831,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12695
+    }
+  },
+  {
+    "id": 371,
+    "name": "Ridge & Monroe",
+    "description": null,
+    "lat": 42.03101,
+    "lon": -87.686101,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14259
+    }
+  },
+  {
+    "id": 372,
+    "name": "Ridge & Mulford",
+    "description": null,
+    "lat": 42.02357,
+    "lon": -87.685109,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14338
+    }
+  },
+  {
+    "id": 373,
+    "name": "Ridge & Oakton",
+    "description": null,
+    "lat": 42.026838,
+    "lon": -87.685495,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14255
+    }
+  },
+  {
+    "id": 374,
+    "name": "Ridge & Seward",
+    "description": null,
+    "lat": 42.029141,
+    "lon": -87.685774,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14257
+    }
+  },
+  {
+    "id": 375,
+    "name": "Ridge & Washington",
+    "description": null,
+    "lat": 42.033006,
+    "lon": -87.686552,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14261
+    }
+  },
+  {
+    "id": 376,
+    "name": "Rogers & Hermitage",
+    "description": null,
+    "lat": 42.016668,
+    "lon": -87.673844,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 15452
+    }
+  },
+  {
+    "id": 377,
+    "name": "Sheridan & Foster",
+    "description": null,
+    "lat": 42.053658,
+    "lon": -87.67725,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17295
+    }
+  },
+  {
+    "id": 378,
+    "name": "Sheridan & Lincoln",
+    "description": null,
+    "lat": 42.061302,
+    "lon": -87.67711,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17301
+    }
+  },
+  {
+    "id": 379,
+    "name": "Sheridan & Noyes",
+    "description": null,
+    "lat": 42.058211,
+    "lon": -87.677164,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17297
+    }
+  },
+  {
+    "id": 357,
+    "name": "Old Orchard Mall - Macys",
+    "description": "",
+    "lat": 42.059521,
+    "lon": -87.750415,
+    "buddy": 473,
+    "fields": {
+      "cta_stop_id": 3574
+    }
+  },
+  {
+    "id": 182,
+    "name": "Sherman/Simpson",
+    "description": "",
+    "lat": 42.055954,
+    "lon": -87.681885,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 359,
+    "name": "Paulina & Howard Terminal",
+    "description": "",
+    "lat": 42.018218,
+    "lon": -87.672974,
+    "buddy": 359,
+    "fields": {
+      "cta_stop_id": 14093
+    }
+  },
+  {
+    "id": 183,
+    "name": "Sherman/Emerson",
+    "description": "",
+    "lat": 42.051952,
+    "lon": -87.681694,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 447,
+    "name": "Central Street & Crawford",
+    "description": null,
+    "lat": 42.064675,
+    "lon": -87.727166,
+    "buddy": 329,
+    "fields": {
+      "cta_stop_id": 12702
+    }
+  },
+  {
+    "id": 440,
+    "name": "Central & Orrington",
+    "description": null,
+    "lat": 42.064113,
+    "lon": -87.679304,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14990
+    }
+  },
+  {
+    "id": 441,
+    "name": "Central Street & Asbury",
+    "description": null,
+    "lat": 42.064293,
+    "lon": -87.689127,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14280
+    }
+  },
+  {
+    "id": 442,
+    "name": "Central Street & Ashland",
+    "description": null,
+    "lat": 42.064316,
+    "lon": -87.693676,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14281
+    }
+  },
+  {
+    "id": 443,
+    "name": "Central Street & Bennett",
+    "description": null,
+    "lat": 42.064452,
+    "lon": -87.710493,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14285
+    }
+  },
+  {
+    "id": 444,
+    "name": "Central Street & Broadway/Poplar",
+    "description": null,
+    "lat": 42.064364,
+    "lon": -87.69793,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12637
+    }
+  },
+  {
+    "id": 445,
+    "name": "Central Street & Central Park",
+    "description": null,
+    "lat": 42.064539,
+    "lon": -87.717564,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14236
+    }
+  },
+  {
+    "id": 448,
+    "name": "Central Street & Crawford",
+    "description": null,
+    "lat": 42.064543,
+    "lon": -87.727574,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12701
+    }
+  },
+  {
+    "id": 449,
+    "name": "Central Street & Eastwood",
+    "description": null,
+    "lat": 42.064347,
+    "lon": -87.695463,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17511
+    }
+  },
+  {
+    "id": 450,
+    "name": "Central Street & Ewing",
+    "description": null,
+    "lat": 42.064476,
+    "lon": -87.71243,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14683
+    }
+  },
+  {
+    "id": 451,
+    "name": "Central Street & Girard (Purple Line)",
+    "description": null,
+    "lat": 42.064253,
+    "lon": -87.685468,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12640
+    }
+  },
+  {
+    "id": 452,
+    "name": "Central Street & Green Bay Rd",
+    "description": null,
+    "lat": 42.064368,
+    "lon": -87.699287,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12641
+    }
+  },
+  {
+    "id": 453,
+    "name": "Central Street & Hartrey",
+    "description": null,
+    "lat": 42.064412,
+    "lon": -87.70323,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14682
+    }
+  },
+  {
+    "id": 454,
+    "name": "Central Street & Lawndale",
+    "description": null,
+    "lat": 42.064563,
+    "lon": -87.720551,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14289
+    }
+  },
+  {
+    "id": 455,
+    "name": "Central Street & Lincolnwood",
+    "description": null,
+    "lat": 42.064508,
+    "lon": -87.715064,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14684
+    }
+  },
+  {
+    "id": 456,
+    "name": "Central Street & McDaniel",
+    "description": null,
+    "lat": 42.06444,
+    "lon": -87.707521,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14237
+    }
+  },
+  {
+    "id": 458,
+    "name": "Central Street & Prospect",
+    "description": null,
+    "lat": 42.064555,
+    "lon": -87.72575,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14686
+    }
+  },
+  {
+    "id": 459,
+    "name": "Central Street & Reese",
+    "description": null,
+    "lat": 42.06448,
+    "lon": -87.713787,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14287
+    }
+  },
+  {
+    "id": 460,
+    "name": "Central Street & Ridge",
+    "description": null,
+    "lat": 42.064197,
+    "lon": -87.683285,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14681
+    }
+  },
+  {
+    "id": 461,
+    "name": "Central Street & Sherman",
+    "description": null,
+    "lat": 42.064149,
+    "lon": -87.681772,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14230
+    }
+  },
+  {
+    "id": 462,
+    "name": "Central Street & Walnut",
+    "description": null,
+    "lat": 42.064424,
+    "lon": -87.704678,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14283
+    }
+  },
+  {
+    "id": 463,
+    "name": "Chicago & Church",
+    "description": null,
+    "lat": 42.047867,
+    "lon": -87.678827,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 15489
+    }
+  },
+  {
+    "id": 464,
+    "name": "Church & Benson",
+    "description": null,
+    "lat": 42.048444,
+    "lon": -87.683499,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12708
+    }
+  },
+  {
+    "id": 465,
+    "name": "Church & Maple",
+    "description": null,
+    "lat": 42.048468,
+    "lon": -87.685592,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12680
+    }
+  },
+  {
+    "id": 466,
+    "name": "Church & Sherman",
+    "description": null,
+    "lat": 42.048448,
+    "lon": -87.681997,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12648
+    }
+  },
+  {
+    "id": 467,
+    "name": "Gross Point & Harrison",
+    "description": null,
+    "lat": 42.062524,
+    "lon": -87.730674,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14685
+    }
+  },
+  {
+    "id": 468,
+    "name": "Howard & Chicago Avenue",
+    "description": null,
+    "lat": 42.019434,
+    "lon": -87.676182,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3513
+    }
+  },
+  {
+    "id": 469,
+    "name": "Howard & Clyde",
+    "description": null,
+    "lat": 42.01945,
+    "lon": -87.677781,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3514
+    }
+  },
+  {
+    "id": 470,
+    "name": "Howard & Custer",
+    "description": null,
+    "lat": 42.019474,
+    "lon": -87.680281,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3515
+    }
+  },
+  {
+    "id": 471,
+    "name": "Howard & Elmwood",
+    "description": null,
+    "lat": 42.019501,
+    "lon": -87.682684,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3516
+    }
+  },
+  {
+    "id": 472,
+    "name": "Howard & Ridge",
+    "description": null,
+    "lat": 42.019505,
+    "lon": -87.684417,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 3517
+    }
+  },
+  {
+    "id": 474,
+    "name": "Old Orchard Rd & Beverly",
+    "description": null,
+    "lat": 42.06256,
+    "lon": -87.744418,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 15424
+    }
+  },
+  {
+    "id": 457,
+    "name": "Central Street & Prospect",
+    "description": null,
+    "lat": 42.064619,
+    "lon": -87.725283,
+    "buddy": 337,
+    "fields": {
+      "cta_stop_id": 12643
+    }
+  },
+  {
+    "id": 473,
+    "name": "Old Orchard Mall - Macys",
+    "description": null,
+    "lat": 42.059513,
+    "lon": -87.750415,
+    "buddy": 357,
+    "fields": {
+      "cta_stop_id": 3574
+    }
+  },
+  {
+    "id": 264,
+    "name": "LaSalle Station",
+    "description": "",
+    "lat": 41.875481,
+    "lon": -87.633026,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 475,
+    "name": "Old Orchard Rd & Skokie Blvd",
+    "description": null,
+    "lat": 42.062564,
+    "lon": -87.746403,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14235
+    }
+  },
+  {
+    "id": 476,
+    "name": "Paulina & Howard Terminal",
+    "description": null,
+    "lat": 42.018218,
+    "lon": -87.672964,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14093
+    }
+  },
+  {
+    "id": 477,
+    "name": "Ridge & Austin",
+    "description": null,
+    "lat": 42.02532,
+    "lon": -87.685232,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17150
+    }
+  },
+  {
+    "id": 478,
+    "name": "Ridge & Brummel",
+    "description": null,
+    "lat": 42.021032,
+    "lon": -87.684776,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14333
+    }
+  },
+  {
+    "id": 479,
+    "name": "Ridge & Church",
+    "description": null,
+    "lat": 42.048408,
+    "lon": -87.688751,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12689
+    }
+  },
+  {
+    "id": 480,
+    "name": "Ridge & Crain",
+    "description": null,
+    "lat": 42.039285,
+    "lon": -87.68792,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14266
+    }
+  },
+  {
+    "id": 481,
+    "name": "Ridge & Davis",
+    "description": null,
+    "lat": 42.046986,
+    "lon": -87.68866,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12690
+    }
+  },
+  {
+    "id": 482,
+    "name": "Ridge & Dempster",
+    "description": null,
+    "lat": 42.04103,
+    "lon": -87.688274,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14240
+    }
+  },
+  {
+    "id": 483,
+    "name": "Ridge & Greenleaf",
+    "description": null,
+    "lat": 42.037512,
+    "lon": -87.687512,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14264
+    }
+  },
+  {
+    "id": 484,
+    "name": "Ridge & Greenwood",
+    "description": null,
+    "lat": 42.042588,
+    "lon": -87.688392,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14268
+    }
+  },
+  {
+    "id": 485,
+    "name": "Ridge & Grove",
+    "description": null,
+    "lat": 42.045484,
+    "lon": -87.688558,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12693
+    }
+  },
+  {
+    "id": 486,
+    "name": "Ridge & Hull Terrace",
+    "description": null,
+    "lat": 42.024439,
+    "lon": -87.685141,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 13149
+    }
+  },
+  {
+    "id": 487,
+    "name": "Ridge & Lake",
+    "description": null,
+    "lat": 42.044022,
+    "lon": -87.688478,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14270
+    }
+  },
+  {
+    "id": 488,
+    "name": "Ridge & Lee",
+    "description": null,
+    "lat": 42.035736,
+    "lon": -87.687094,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14262
+    }
+  },
+  {
+    "id": 489,
+    "name": "Ridge & Main",
+    "description": null,
+    "lat": 42.033863,
+    "lon": -87.686681,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 12694
+    }
+  },
+  {
+    "id": 490,
+    "name": "Ridge & Monroe",
+    "description": null,
+    "lat": 42.030611,
+    "lon": -87.685924,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14258
+    }
+  },
+  {
+    "id": 491,
+    "name": "Ridge & Mulford",
+    "description": null,
+    "lat": 42.022837,
+    "lon": -87.684953,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14337
+    }
+  },
+  {
+    "id": 492,
+    "name": "Ridge & Oakton",
+    "description": null,
+    "lat": 42.026483,
+    "lon": -87.685372,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14254
+    }
+  },
+  {
+    "id": 493,
+    "name": "Ridge & Seward",
+    "description": null,
+    "lat": 42.028611,
+    "lon": -87.685634,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14256
+    }
+  },
+  {
+    "id": 494,
+    "name": "Ridge & Washington",
+    "description": null,
+    "lat": 42.032632,
+    "lon": -87.686375,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14260
+    }
+  },
+  {
+    "id": 495,
+    "name": "Sheridan & Emerson",
+    "description": null,
+    "lat": 42.052009,
+    "lon": -87.677191,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14984
+    }
+  },
+  {
+    "id": 496,
+    "name": "Sheridan & Foster",
+    "description": null,
+    "lat": 42.0543,
+    "lon": -87.677175,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17296
+    }
+  },
+  {
+    "id": 497,
+    "name": "Sheridan & Lincoln",
+    "description": null,
+    "lat": 42.061493,
+    "lon": -87.677025,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14989
+    }
+  },
+  {
+    "id": 498,
+    "name": "Sheridan & Noyes",
+    "description": null,
+    "lat": 42.058235,
+    "lon": -87.677084,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 14987
+    }
+  },
+  {
+    "id": 160,
+    "name": "Sheridan/Foster",
+    "description": "",
+    "lat": 42.053658,
+    "lon": -87.677399,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 159,
+    "name": "Chicago/Sheridan",
+    "description": "",
+    "lat": 42.050869,
+    "lon": -87.677765,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 157,
+    "name": "Chicago/Davis",
+    "description": "",
+    "lat": 42.046238,
+    "lon": -87.679482,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 166,
+    "name": "Columbus/Illinois",
+    "description": "",
+    "lat": 41.891037,
+    "lon": -87.620316,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 167,
+    "name": "Columbus/Monroe",
+    "description": "",
+    "lat": 41.880791,
+    "lon": -87.620834,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 168,
+    "name": "Columbus/Roosevelt",
+    "description": "",
+    "lat": 41.867607,
+    "lon": -87.620567,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 186,
+    "name": "Davis/Oak",
+    "description": "",
+    "lat": 42.047237,
+    "lon": -87.686539,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 185,
+    "name": "Davis/Sherman",
+    "description": "",
+    "lat": 42.047173,
+    "lon": -87.682442,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 154,
+    "name": "Tech Institute",
+    "description": "",
+    "lat": 42.05785,
+    "lon": -87.676918,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 151,
+    "name": "Fisk Hall",
+    "description": "",
+    "lat": 42.050648,
+    "lon": -87.673988,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 187,
+    "name": "Maple/Clark",
+    "description": "",
+    "lat": 42.050282,
+    "lon": -87.684525,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 150,
+    "name": "Library/Norris Center",
+    "description": "",
+    "lat": 42.05331,
+    "lon": -87.673439,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 165,
+    "name": "Pearson/Mies Van Der Rohe",
+    "description": "",
+    "lat": 41.897655,
+    "lon": -87.621758,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 158,
+    "name": "Orrington/Clark",
+    "description": "",
+    "lat": 42.049549,
+    "lon": -87.679886,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 184,
+    "name": "Sherman/Clark",
+    "description": "",
+    "lat": 42.050152,
+    "lon": -87.682098,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 162,
+    "name": "Sheridan/Lincoln",
+    "description": "",
+    "lat": 42.061329,
+    "lon": -87.677361,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 155,
+    "name": "Patten Gym",
+    "description": "",
+    "lat": 42.061234,
+    "lon": -87.67701,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 239,
+    "name": "Chicago/Greenleaf",
+    "description": "",
+    "lat": 42.037678,
+    "lon": -87.680328,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 240,
+    "name": "Chicago/Main",
+    "description": "",
+    "lat": 42.033577,
+    "lon": -87.679359,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 271,
+    "name": "Metra/Green Bay/Harrison",
+    "description": "",
+    "lat": 42.063057,
+    "lon": -87.697784,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 274,
+    "name": "Asbury/Emerson",
+    "description": "",
+    "lat": 42.052345,
+    "lon": -87.690117,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 275,
+    "name": "Oak/Post Office",
+    "description": "",
+    "lat": 42.047802,
+    "lon": -87.686844,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 276,
+    "name": "960 Grove",
+    "description": "",
+    "lat": 42.045437,
+    "lon": -87.684464,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 292,
+    "name": "Howard/Sacramento",
+    "description": "",
+    "lat": 42.019192,
+    "lon": -87.704399,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 294,
+    "name": "Emerson/Maple",
+    "description": "",
+    "lat": 42.052071,
+    "lon": -87.684875,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 253,
+    "name": "Ryan Field",
+    "description": "",
+    "lat": 42.066414,
+    "lon": -87.693939,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 252,
+    "name": "Central/Jackson (westbound)",
+    "description": "",
+    "lat": 42.064346,
+    "lon": -87.691994,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 226,
+    "name": "Central/Jackson (eastbound)",
+    "description": "",
+    "lat": 42.064213,
+    "lon": -87.692017,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 282,
+    "name": "Central L Station (westbound)",
+    "description": "",
+    "lat": 42.064228,
+    "lon": -87.685852,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 242,
+    "name": "Ward Building",
+    "description": "",
+    "lat": 41.896709,
+    "lon": -87.620026,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 263,
+    "name": "Abbott Hall",
+    "description": "",
+    "lat": 41.895115,
+    "lon": -87.617477,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 293,
+    "name": "Clark/Burger King",
+    "description": "",
+    "lat": 42.049816,
+    "lon": -87.680321,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 272,
+    "name": "Green Bay/Noyes",
+    "description": "",
+    "lat": 42.058277,
+    "lon": -87.694153,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 273,
+    "name": "Green Bay/Simpson",
+    "description": "",
+    "lat": 42.05592,
+    "lon": -87.692184,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 257,
+    "name": "Northwestern Memorial Hospital",
+    "description": "",
+    "lat": 41.895027,
+    "lon": -87.620132,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 285,
+    "name": "Hinman/Sheridan",
+    "description": "",
+    "lat": 42.050392,
+    "lon": -87.675522,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 265,
+    "name": "Randolph Street Station",
+    "description": "",
+    "lat": 41.886688,
+    "lon": -87.623047,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 153,
+    "name": "Jacobs Center",
+    "description": "",
+    "lat": 42.054295,
+    "lon": -87.676994,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 258,
+    "name": "Ogilvie Transportation Center",
+    "description": "",
+    "lat": 41.883774,
+    "lon": -87.641319,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 259,
+    "name": "Union Station",
+    "description": "",
+    "lat": 41.878124,
+    "lon": -87.64122,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 305,
+    "name": "Ridge/Reserve Apartments",
+    "description": "",
+    "lat": 42.05315,
+    "lon": -87.687637,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 306,
+    "name": "Ridge/Civic Center",
+    "description": "",
+    "lat": 42.056938,
+    "lon": -87.686562,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 307,
+    "name": "Noyes L Station",
+    "description": "",
+    "lat": 42.058483,
+    "lon": -87.683502,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 308,
+    "name": "Chicago/Grove",
+    "description": "",
+    "lat": 42.045109,
+    "lon": -87.680275,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 309,
+    "name": "Sherman/Foster",
+    "description": "",
+    "lat": 42.053944,
+    "lon": -87.681671,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 310,
+    "name": "Old Orchard",
+    "description": "",
+    "lat": 42.05946,
+    "lon": -87.750313,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 311,
+    "name": "Sherman/Noyes (Southbound)",
+    "description": "",
+    "lat": 42.058254,
+    "lon": -87.681755,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 312,
+    "name": "Sherman/Emerson (Southbound)",
+    "description": "",
+    "lat": 42.052135,
+    "lon": -87.681839,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 313,
+    "name": "Chicago/Kedzie",
+    "description": "",
+    "lat": 42.032093,
+    "lon": -87.67897,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 314,
+    "name": "Chicago/Lee",
+    "description": "",
+    "lat": 42.035637,
+    "lon": -87.679672,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 300,
+    "name": "Central L Station (eastbound)",
+    "description": "",
+    "lat": 42.064178,
+    "lon": -87.685806,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 316,
+    "name": "Sherman/Gaffield",
+    "description": "",
+    "lat": 42.056873,
+    "lon": -87.681648,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 315,
+    "name": "CTA 'L' Station at Thompson Center",
+    "description": "",
+    "lat": 41.884491,
+    "lon": -87.630971,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 317,
+    "name": "Randolph Station",
+    "description": "",
+    "lat": 41.884523,
+    "lon": -87.624711,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 318,
+    "name": "Millenium Station",
+    "description": "",
+    "lat": 41.886756,
+    "lon": -87.623219,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 319,
+    "name": "Millenium Station",
+    "description": "",
+    "lat": 41.884507,
+    "lon": -87.624636,
+    "buddy": null,
+    "fields": {}
+  },
+  {
+    "id": 161,
+    "name": "Sheridan/Noyes",
+    "description": "",
+    "lat": 42.058216,
+    "lon": -87.677162,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": "17297"
+    }
+  },
+  {
+    "id": 446,
+    "name": "Central Street & Cowper",
+    "description": "",
+    "lat": 42.06455,
+    "lon": -87.7231,
+    "buddy": null,
+    "fields": {
+      "cta_stop_id": 17910
+    }
+  },
+  {
+    "id": 262,
+    "name": "TimeLife Building",
+    "description": "",
+    "lat": 41.892506,
+    "lon": -87.620361,
+    "buddy": 0,
+    "fields": {}
+  }
+]

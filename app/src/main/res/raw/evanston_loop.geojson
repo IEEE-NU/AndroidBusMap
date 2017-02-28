@@ -1,1 +1,649 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"Library/Norris Center","description":"6:00p, 6:40p, 7:00p**, 7:20p, 7:40p**, 8:00p, 8:20p**, 8:40p, 9:00p*, 9:20p, 9:40p*, 10:00p, 10:20p*, 10:40p, 11:00p*, 11:20p, 11:40p*, 12:00a, 12:20a*, 12:40a, 1:00a*, 1:20a, 1:40a*, 2:00a, 2:20a*, 2:40a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6734036,42.052979,0]}},{"type":"Feature","properties":{"Name":"Fisk Hall","description":"6:02p, 6:42p, 7:02p**, 7:22p, 7:42p**, 8:02p, 8:22p**, 8:42p, 9:02p*, 9:22p, 9:42p*, 10:02p, 10:22p*, 10:42p, 11:02p*, 11:22p, 11:42p*, 12:02a, 12:22a*, 12:42a, 1:02a*, 1:22a, 1:42a*, 2:02a, 2:22a*, 2:42a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.67401,42.050599,0]}},{"type":"Feature","properties":{"Name":"Weber Arch","description":"6:04p, 6:44p, 7:04p**, 7:24p, 7:44p**, 8:04p, 8:24p**, 8:44p, 9:04p*, 9:24p, 9:44p*, 10:04p, 10:24p*, 10:44p, 11:04p*, 11:24p, 11:44p*, 12:04a, 12:24a*, 12:44a, 1:04a*, 1:24a, 1:44a*, 2:04a, 2:24a*, 2:44a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677057,42.051858,0]}},{"type":"Feature","properties":{"Name":"Jacobs Center","description":"6:05p, 6:45p, 7:05p**, 7:25p, 7:45p**, 8:05p, 8:25p**, 8:45p, 9:05p*, 9:25p, 9:45p*, 10:05p, 10:25p*, 10:45p, 11:05p*, 11:25p, 11:45p*, 12:05a, 12:25a*, 12:45a, 1:05a*, 1:25a, 1:45a*, 2:05a, 2:25a*, 2:45a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.676971,42.053993,0]}},{"type":"Feature","properties":{"Name":"Tech Institute","description":"6:06p, 6:46p, 7:06p**, 7:26p, 7:46p**, 8:06p, 8:26p**, 8:46p, 9:06p*, 9:26p, 9:46p*, 10:06p, 10:26p*, 10:46p, 11:06p*, 11:26p, 11:46p*, 12:06a, 12:26a*, 12:46a, 1:06a*, 1:26a, 1:46a*, 2:06a, 2:26a*, 2:46a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.676864,42.057673,0]}},{"type":"Feature","properties":{"Name":"Noyes L Station","description":"6:08p, 6:48p, 7:08p**, 7:28p, 7:48p**, 8:08p, 8:28p**, 8:48p, 9:08p*, 9:28p, 9:48p*, 10:08p, 10:28p*, 10:48p, 11:08p*, 11:28p, 11:48p*, 12:08a, 12:28a*, 12:48a, 1:080a*, 1:28a, 1:48a*, 2:08a, 2:28a*, 2:48a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.683505,42.058526,0]}},{"type":"Feature","properties":{"Name":"Ridge/Civic Center","description":"6:10p, 6:50p, 7:10p**, 7:30p, 7:50p**, 8:10p, 8:30p**, 8:50p, 9:10p*, 9:30p, 9:50p*, 10:10p, 10:30p*, 10:50p, 11:10p*, 11:30p, 11:50p*, 12:10a, 12:30a*, 12:50a, 1:10a*, 1:30a, 1:50a*, 2:10a, 2:30a*, 2:50a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.686777,42.056606,0]}},{"type":"Feature","properties":{"Name":"Ridge/Reserve Apartments","description":"6:11p, 6:51p, 7:11p**, 7:31p, 7:51p**, 8:11p, 8:31p**, 8:51p, 9:11p*, 9:31p, 9:51p*, 10:11p, 10:31p*, 10:51p, 11:11p*, 11:31p, 11:51p*, 12:11a, 12:31a*, 12:51a, 1:11a*, 1:31a, 1:51a*, 2:11a, 2:31a*, 2:51a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.687796,42.053149,0]}},{"type":"Feature","properties":{"Name":"Emerson/Maple","description":"6:12p, 6:52p, 7:12p**, 7:32p, 7:52p**, 8:12p, 8:32p**, 8:52p, 9:12p*, 9:32p, 9:52p*, 10:12p, 10:32p*, 10:52p, 11:12p*, 11:32p, 11:52p*, 12:12a, 12:32a*, 12:52a, 1:12a*, 1:32a, 1:52a*, 2:12a, 2:32a*, 2:52a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.68505,42.052049,0]}},{"type":"Feature","properties":{"Name":"Sherman/Clark","description":"6:13p, 6:53p, 7:13p**, 7:33p, 7:53p**, 8:13p, 8:33p**, 8:53p, 9:13p*, 9:33p, 9:53p*, 10:13p, 10:33p*, 10:53p, 11:13p*, 11:33p, 11:53p*, 12:13a, 12:33a*, 12:53a, 1:13a*, 1:33a, 1:53a*, 2:13a, 2:33a*, 2:53a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.682014,42.050042,0]}},{"type":"Feature","properties":{"Name":"Davis/Sherman","description":"6:15p, 6:55p, 7:15p**, 7:35p, 7:55p**, 8:15p, 8:35p**, 8:55p, 9:15p*, 9:35p, 9:55p*, 10:15p, 10:35p*, 10:55p, 11:15p*, 11:35p, 11:55p*, 12:15a, 12:35a*, 12:55a, 1:15a*, 1:35a, 1:55a*, 2:15a, 2:35a*, 2:55a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.682164,42.046974,0]}},{"type":"Feature","properties":{"Name":"Davis/Oak","description":"6:16p, 6:56p, 7:16p**, 7:36p, 7:56p**, 8:16p, 8:36p**, 8:56p, 9:16p*, 9:36p, 9:56p*, 10:16p, 10:36p*, 10:56p, 11:16p*, 11:36p, 11:56p*, 12:16a, 12:36a*, 12:56a, 1:16a*, 1:36a, 1:56a*, 2:16a, 2:36a*, 2:56a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.686595,42.047142,0]}},{"type":"Feature","properties":{"Name":"Maple/Clark","description":"6:18p, 6:58p, 7:18p**, 7:38p, 7:58p**, 8:18p, 8:38p**, 8:58p, 9:18p*, 9:38p, 9:58p*, 10:18p, 10:38p*, 10:58p, 11:18p*, 11:38p, 11:58p*, 12:18a, 12:38a*, 12:58a, 1:18a*, 1:38a, 1:58a*, 2:18a, 2:38a*, 2:58a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.684685,42.050161,0]}},{"type":"Feature","properties":{"Name":"Sherman/Emerson","description":"6:20p, 7:00p, 7:20p**, 7:40p, 8:00p**, 8:20p, 8:40p**, 9:00p, 9:20p*, 9:40p, 10:00p*, 10:20p, 10:40p*, 11:00p, 11:20p*, 11:40p, 12:00a*, 12:20a, 12:40a*, 1:00a, 1:20a*, 1:40a, 2:00a*, 2:20a, 2:40a*, 3:00a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.681649,42.052193,0]}},{"type":"Feature","properties":{"Name":"Sherman/Foster","description":"6:21p, 7:01p, 7:21p**, 7:41p, 8:01p**, 8:21p, 8:41p**, 9:01p, 9:21p*, 9:41p, 10:01p*, 10:21p, 10:41p*, 11:01p, 11:21p*, 11:41p, 12:01a*, 12:21a, 12:41a*, 1:01a, 1:21a*, 1:41a, 2:01a*, 2:21a, 2:41a*, 3:01a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.681595,42.053961,0]}},{"type":"Feature","properties":{"Name":"Sherman/Gaffield","description":"6:22p, 7:02p, 7:22p**, 7:42p, 8:02p**, 8:22p, 8:42p**, 9:02p, 9:22p*, 9:42p, 10:02p*, 10:22p, 10:42p*, 11:02p, 11:22p*, 11:42p, 12:02a*, 12:22a, 12:42a*, 1:02a, 1:22a*, 1:42a, 2:02a*, 2:22a, 2:42a*, 3:02a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6815419,42.0570198,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Noyes","description":"6:23p, 7:03p, 7:23p**, 7:43p, 8:03p**, 8:23p, 8:43p**, 9:03p, 9:23p*, 9:43p, 10:03p*, 10:23p, 10:43p*, 11:03p, 11:23p*, 11:43p, 12:03a*, 12:23a, 12:43a*, 1:03a, 1:23a*, 1:43a, 2:03a*, 2:23a, 2:43a*, 3:03a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677422,42.058072,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Foster","description":"6:25p, 7:05p, 7:25p**, 7:45p, 8:05p**, 8:25p, 8:45p**, 9:05p, 9:25p*, 9:45p, 10:05p*, 10:25p, 10:45p*, 11:05p, 11:25p*, 11:45p, 12:05a*, 12:25a, 12:45a*, 1:05a, 1:25a*, 1:45a, 2:05a*, 2:25a, 2:45a*, 3:05a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677464,42.053642,0]}},{"type":"Feature","properties":{"Name":"Evanston Loop","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"LineString","coordinates":[[-87.6734,42.05314,0],[-87.673543,42.05191,0],[-87.673586,42.051535,0],[-87.673527,42.051165,0],[-87.673613,42.050878,0],[-87.673752,42.050679,0],[-87.6738287,42.0504846,0],[-87.673967,42.050316,0],[-87.6741518,42.0502261,0],[-87.67435,42.05017,0],[-87.67723,42.05107,0],[-87.67712,42.0584,0],[-87.68557,42.05847,0],[-87.68587,42.05843,0],[-87.68703,42.05569,0],[-87.68793,42.05217,0],[-87.68414,42.05212,0],[-87.68191,42.05058,0],[-87.68199,42.04695,0],[-87.68683,42.04711,0],[-87.68675,42.04852,0],[-87.68481,42.04848,0],[-87.68473,42.05215,0],[-87.68404,42.05205,0],[-87.68173,42.05061,0],[-87.68161,42.05835,0],[-87.67721,42.05831,0],[-87.67737,42.05105,0],[-87.67433,42.05011,0],[-87.6740683,42.0501911,0],[-87.67382,42.0503,0],[-87.67362,42.05063,0],[-87.67365,42.05071,0],[-87.67347,42.05114,0],[-87.67357,42.05151,0],[-87.6734099,42.0525451,0],[-87.6733826,42.053138,0]]}}]}
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Library/Norris Center",
+        "description": "6:00p, 6:40p, 7:00p**, 7:20p, 7:40p**, 8:00p, 8:20p**, 8:40p, 9:00p*, 9:20p, 9:40p*, 10:00p, 10:20p*, 10:40p, 11:00p*, 11:20p, 11:40p*, 12:00a, 12:20a*, 12:40a, 1:00a*, 1:20a, 1:40a*, 2:00a, 2:20a*, 2:40a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6734036,
+          42.052979,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fisk Hall",
+        "description": "6:02p, 6:42p, 7:02p**, 7:22p, 7:42p**, 8:02p, 8:22p**, 8:42p, 9:02p*, 9:22p, 9:42p*, 10:02p, 10:22p*, 10:42p, 11:02p*, 11:22p, 11:42p*, 12:02a, 12:22a*, 12:42a, 1:02a*, 1:22a, 1:42a*, 2:02a, 2:22a*, 2:42a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67401,
+          42.050599,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Weber Arch",
+        "description": "6:04p, 6:44p, 7:04p**, 7:24p, 7:44p**, 8:04p, 8:24p**, 8:44p, 9:04p*, 9:24p, 9:44p*, 10:04p, 10:24p*, 10:44p, 11:04p*, 11:24p, 11:44p*, 12:04a, 12:24a*, 12:44a, 1:04a*, 1:24a, 1:44a*, 2:04a, 2:24a*, 2:44a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677057,
+          42.051858,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jacobs Center",
+        "description": "6:05p, 6:45p, 7:05p**, 7:25p, 7:45p**, 8:05p, 8:25p**, 8:45p, 9:05p*, 9:25p, 9:45p*, 10:05p, 10:25p*, 10:45p, 11:05p*, 11:25p, 11:45p*, 12:05a, 12:25a*, 12:45a, 1:05a*, 1:25a, 1:45a*, 2:05a, 2:25a*, 2:45a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676971,
+          42.053993,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tech Institute",
+        "description": "6:06p, 6:46p, 7:06p**, 7:26p, 7:46p**, 8:06p, 8:26p**, 8:46p, 9:06p*, 9:26p, 9:46p*, 10:06p, 10:26p*, 10:46p, 11:06p*, 11:26p, 11:46p*, 12:06a, 12:26a*, 12:46a, 1:06a*, 1:26a, 1:46a*, 2:06a, 2:26a*, 2:46a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676864,
+          42.057673,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Noyes L Station",
+        "description": "6:08p, 6:48p, 7:08p**, 7:28p, 7:48p**, 8:08p, 8:28p**, 8:48p, 9:08p*, 9:28p, 9:48p*, 10:08p, 10:28p*, 10:48p, 11:08p*, 11:28p, 11:48p*, 12:08a, 12:28a*, 12:48a, 1:080a*, 1:28a, 1:48a*, 2:08a, 2:28a*, 2:48a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.683505,
+          42.058526,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ridge/Civic Center",
+        "description": "6:10p, 6:50p, 7:10p**, 7:30p, 7:50p**, 8:10p, 8:30p**, 8:50p, 9:10p*, 9:30p, 9:50p*, 10:10p, 10:30p*, 10:50p, 11:10p*, 11:30p, 11:50p*, 12:10a, 12:30a*, 12:50a, 1:10a*, 1:30a, 1:50a*, 2:10a, 2:30a*, 2:50a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.686777,
+          42.056606,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ridge/Reserve Apartments",
+        "description": "6:11p, 6:51p, 7:11p**, 7:31p, 7:51p**, 8:11p, 8:31p**, 8:51p, 9:11p*, 9:31p, 9:51p*, 10:11p, 10:31p*, 10:51p, 11:11p*, 11:31p, 11:51p*, 12:11a, 12:31a*, 12:51a, 1:11a*, 1:31a, 1:51a*, 2:11a, 2:31a*, 2:51a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.687796,
+          42.053149,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Emerson/Maple",
+        "description": "6:12p, 6:52p, 7:12p**, 7:32p, 7:52p**, 8:12p, 8:32p**, 8:52p, 9:12p*, 9:32p, 9:52p*, 10:12p, 10:32p*, 10:52p, 11:12p*, 11:32p, 11:52p*, 12:12a, 12:32a*, 12:52a, 1:12a*, 1:32a, 1:52a*, 2:12a, 2:32a*, 2:52a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68505,
+          42.052049,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Clark",
+        "description": "6:13p, 6:53p, 7:13p**, 7:33p, 7:53p**, 8:13p, 8:33p**, 8:53p, 9:13p*, 9:33p, 9:53p*, 10:13p, 10:33p*, 10:53p, 11:13p*, 11:33p, 11:53p*, 12:13a, 12:33a*, 12:53a, 1:13a*, 1:33a, 1:53a*, 2:13a, 2:33a*, 2:53a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.682014,
+          42.050042,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Davis/Sherman",
+        "description": "6:15p, 6:55p, 7:15p**, 7:35p, 7:55p**, 8:15p, 8:35p**, 8:55p, 9:15p*, 9:35p, 9:55p*, 10:15p, 10:35p*, 10:55p, 11:15p*, 11:35p, 11:55p*, 12:15a, 12:35a*, 12:55a, 1:15a*, 1:35a, 1:55a*, 2:15a, 2:35a*, 2:55a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.682164,
+          42.046974,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Davis/Oak",
+        "description": "6:16p, 6:56p, 7:16p**, 7:36p, 7:56p**, 8:16p, 8:36p**, 8:56p, 9:16p*, 9:36p, 9:56p*, 10:16p, 10:36p*, 10:56p, 11:16p*, 11:36p, 11:56p*, 12:16a, 12:36a*, 12:56a, 1:16a*, 1:36a, 1:56a*, 2:16a, 2:36a*, 2:56a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.686595,
+          42.047142,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Maple/Clark",
+        "description": "6:18p, 6:58p, 7:18p**, 7:38p, 7:58p**, 8:18p, 8:38p**, 8:58p, 9:18p*, 9:38p, 9:58p*, 10:18p, 10:38p*, 10:58p, 11:18p*, 11:38p, 11:58p*, 12:18a, 12:38a*, 12:58a, 1:18a*, 1:38a, 1:58a*, 2:18a, 2:38a*, 2:58a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.684685,
+          42.050161,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Emerson",
+        "description": "6:20p, 7:00p, 7:20p**, 7:40p, 8:00p**, 8:20p, 8:40p**, 9:00p, 9:20p*, 9:40p, 10:00p*, 10:20p, 10:40p*, 11:00p, 11:20p*, 11:40p, 12:00a*, 12:20a, 12:40a*, 1:00a, 1:20a*, 1:40a, 2:00a*, 2:20a, 2:40a*, 3:00a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.681649,
+          42.052193,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Foster",
+        "description": "6:21p, 7:01p, 7:21p**, 7:41p, 8:01p**, 8:21p, 8:41p**, 9:01p, 9:21p*, 9:41p, 10:01p*, 10:21p, 10:41p*, 11:01p, 11:21p*, 11:41p, 12:01a*, 12:21a, 12:41a*, 1:01a, 1:21a*, 1:41a, 2:01a*, 2:21a, 2:41a*, 3:01a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.681595,
+          42.053961,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Gaffield",
+        "description": "6:22p, 7:02p, 7:22p**, 7:42p, 8:02p**, 8:22p, 8:42p**, 9:02p, 9:22p*, 9:42p, 10:02p*, 10:22p, 10:42p*, 11:02p, 11:22p*, 11:42p, 12:02a*, 12:22a, 12:42a*, 1:02a, 1:22a*, 1:42a, 2:02a*, 2:22a, 2:42a*, 3:02a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6815419,
+          42.0570198,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Noyes",
+        "description": "6:23p, 7:03p, 7:23p**, 7:43p, 8:03p**, 8:23p, 8:43p**, 9:03p, 9:23p*, 9:43p, 10:03p*, 10:23p, 10:43p*, 11:03p, 11:23p*, 11:43p, 12:03a*, 12:23a, 12:43a*, 1:03a, 1:23a*, 1:43a, 2:03a*, 2:23a, 2:43a*, 3:03a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677422,
+          42.058072,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Foster",
+        "description": "6:25p, 7:05p, 7:25p**, 7:45p, 8:05p**, 8:25p, 8:45p**, 9:05p, 9:25p*, 9:45p, 10:05p*, 10:25p, 10:45p*, 11:05p, 11:25p*, 11:45p, 12:05a*, 12:25a, 12:45a*, 1:05a, 1:25a*, 1:45a, 2:05a*, 2:25a, 2:45a*, 3:05a<br>* Runs Thurs-Sat only<br>** Runs Thurs-Sat during standard time only",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677464,
+          42.053642,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Evanston Loop",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": 1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6734,
+            42.05314,
+            0
+          ],
+          [
+            -87.673543,
+            42.05191,
+            0
+          ],
+          [
+            -87.673586,
+            42.051535,
+            0
+          ],
+          [
+            -87.673527,
+            42.051165,
+            0
+          ],
+          [
+            -87.673613,
+            42.050878,
+            0
+          ],
+          [
+            -87.673752,
+            42.050679,
+            0
+          ],
+          [
+            -87.6738287,
+            42.0504846,
+            0
+          ],
+          [
+            -87.673967,
+            42.050316,
+            0
+          ],
+          [
+            -87.6741518,
+            42.0502261,
+            0
+          ],
+          [
+            -87.67435,
+            42.05017,
+            0
+          ],
+          [
+            -87.67723,
+            42.05107,
+            0
+          ],
+          [
+            -87.67712,
+            42.0584,
+            0
+          ],
+          [
+            -87.68557,
+            42.05847,
+            0
+          ],
+          [
+            -87.68587,
+            42.05843,
+            0
+          ],
+          [
+            -87.68703,
+            42.05569,
+            0
+          ],
+          [
+            -87.68793,
+            42.05217,
+            0
+          ],
+          [
+            -87.68414,
+            42.05212,
+            0
+          ],
+          [
+            -87.68191,
+            42.05058,
+            0
+          ],
+          [
+            -87.68199,
+            42.04695,
+            0
+          ],
+          [
+            -87.68683,
+            42.04711,
+            0
+          ],
+          [
+            -87.68675,
+            42.04852,
+            0
+          ],
+          [
+            -87.68481,
+            42.04848,
+            0
+          ],
+          [
+            -87.68473,
+            42.05215,
+            0
+          ],
+          [
+            -87.68404,
+            42.05205,
+            0
+          ],
+          [
+            -87.68173,
+            42.05061,
+            0
+          ],
+          [
+            -87.68161,
+            42.05835,
+            0
+          ],
+          [
+            -87.67721,
+            42.05831,
+            0
+          ],
+          [
+            -87.67737,
+            42.05105,
+            0
+          ],
+          [
+            -87.67433,
+            42.05011,
+            0
+          ],
+          [
+            -87.6740683,
+            42.0501911,
+            0
+          ],
+          [
+            -87.67382,
+            42.0503,
+            0
+          ],
+          [
+            -87.67362,
+            42.05063,
+            0
+          ],
+          [
+            -87.67365,
+            42.05071,
+            0
+          ],
+          [
+            -87.67347,
+            42.05114,
+            0
+          ],
+          [
+            -87.67357,
+            42.05151,
+            0
+          ],
+          [
+            -87.6734099,
+            42.0525451,
+            0
+          ],
+          [
+            -87.6733826,
+            42.053138,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

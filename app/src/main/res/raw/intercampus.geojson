@@ -1,1 +1,1632 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"Ryan Field","description":"EVANSTON TO CHICAGO<br>Departure Times: 6:35a, 6:50a, 7:05a, 7:35a, 8:20a, 9:00a, 9:20a, 10:00a, 10:30a, 11:05a, 11:50a, 12:30p, 12:50p, 1:25p, 1:55p, 2:35p, 2:55p, 3:20p, 3:45p, 4:00p, 4:30p, 5:00p, 5:10p, 5:25p, 5:50p, 6:05p, 6:20p, 7:15p, 8:25p, 9:30p<br>Additional Winter Quarter times: 4:50p, 5:40p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.694287,42.065304,0]}},{"type":"Feature","properties":{"Name":"Central/Jackson (eastbound)","description":"EVANSTON TO CHICAGO<br>Departure times: 6:36a, 6:51a, 7:06a, 7:36a, 8:21a, 9:01a, 9:21a, 10:01a, 10:31a, 11:06a, 11:51a, 12:31p, 12:51p, 1:26p, 1:56p, 2:36p, 2:56p, 3:21p, 3:46p, 4:01p, 4:31p, 5:01p, 5:11p, 5:26p, 5:51p, 6:06p, 6:21p, 7:16p, 8:26p, 9:31p<br>Additional Winter Quarter times: 4:51p, 5:41p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.692056,42.063982,0]}},{"type":"Feature","properties":{"Name":"Central L Station (eastbound)","description":"EVANSTON TO CHICAGO<br>Departure times: 6:37a, 6:52a, 7:07a, 7:37a, 8:22a, 9:02a, 9:22a, 10:02a, 10:32a, 11:07a, 11:52a, 12:32p, 12:52p, 1:27p, 1:57p, 2:37p, 2:57p, 3:22p, 3:47p, 4:02p, 4:32p, 5:02p, 5:12p, 5:27p, 5:52p, 6:07p, 6:22p, 7:17p, 8:27p, 9:32p<br>Additional Winter Quarter times: 4:52p, 5:42p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.685747,42.06399,0]}},{"type":"Feature","properties":{"Name":"Noyes L Station","description":"EVANSTON TO CHICAGO<br>Departure times: 6:39a, 6:54a, 7:09a, 7:39a, 8:24a, 9:04a, 9:24a, 10:04a, 10:34a, 11:09a, 11:54a, 12:34p, 12:54p, 1:29p, 1:59p, 2:39p, 2:59p, 3:24p, 3:49p, 4:04p, 4:34p, 5:04p, 5:14p, 5:29p, 5:54p, 6:09p, 6:24p, 7:19p, 8:29p, 9:34p<br>Additional Winter Quarter times: 4:54p, 5:44p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.68358,42.058486,0]}},{"type":"Feature","properties":{"Name":"Ridge/Civic Center","description":"EVANSTON TO CHICAGO<br>Departure times: 6:41a, 6:56a, 7:11a, 7:41a, 8:26a, 9:06a, 9:26a, 10:06a, 10:36a, 11:11a, 11:56a, 12:36p, 12:56p, 1:31p, 2:01p, 2:41p, 3:01p, 3:26p, 3:51p, 4:06p, 4:36p, 5:06p, 5:16p, 5:31p, 5:56p, 6:11p, 6:26p, 7:21p, 8:31p, 9:36p<br>Additional Winter Quarter times: 4:56p, 5:46p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.686756,42.056733,0]}},{"type":"Feature","properties":{"Name":"Ridge/Reserve Apartments","description":"EVANSTON TO CHICAGO<br>Departure times: 6:42a, 6:57a, 7:12a, 7:42a, 8:27a, 9:07a, 9:27a, 10:07a, 10:37a, 11:12a, 11:57a, 12:37p, 12:57p, 1:32p, 2:02p, 2:42p, 3:02p, 3:27p, 3:52p, 4:07p, 4:37p, 5:07p, 5:17p, 5:32p, 5:57p, 6:12p, 6:27p, 7:22p, 8:32p, 9:37p<br>Additional Winter Quarter times: 4:57p,\t5:47p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.68785,42.053133,0]}},{"type":"Feature","properties":{"Name":"Emerson/Maple","description":"EVANSTON TO CHICAGO <br>Departure times: 6:44a, 6:59a, 7:14a, 7:44a, 8:29a, 9:09a, 9:29a, 10:09a, 10:39a, 11:14a, 11:59a, 12:39p, 12:59p, 1:34p, 2:04p, 2:44p, 3:04p, 3:29p, 3:54p, 4:09p, 4:39p, 5:09p, 5:19p, 5:34p, 5:59p, 6:14p, 6:29p, 7:24p, 8:34p, 9:39p<br>Additional Winter Quarter times: 4:59p, 5:49p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.684996,42.051938,0]}},{"type":"Feature","properties":{"Name":"Sherman/Emerson","description":"EVANSTON TO CHICAGO <br>Departure times: 6:46a, 7:01a, 7:16a, 7:46a, 8:31a, 9:11a, 9:31a, 10:11a, 10:41a, 11:16a, 12:01p, 12:41p, 1:01p, 1:36p, 2:06p, 2:46p, 3:06p, 3:31p, 3:56p, 4:11p, 4:41p, 5:11p, 5:21p, 5:36p, 6:01p, 6:16p, 6:31p, 7:26p, 8:36p, 9:41p<br>Additional Winter Quarter times: 5:01p, 5:51p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.681584,42.05181,0]}},{"type":"Feature","properties":{"Name":"Sherman/Foster","description":"EVANSTON TO CHICAGO<br>Departure times: 6:47a, 7:02a, 7:17a, 7:47a, 8:32a, 9:12a, 9:32a, 10:12a, 10:42a, 11:17a, 12:02p, 12:42p, 1:02p, 1:37p, 2:07p, 2:47p, 3:07p, 3:32p, 3:57p, 4:12p, 4:42p, 5:12p, 5:22p, 5:37p, 6:02p, 6:17p, 6:32p, 7:27p, 8:37p, 9:42p<br>Additional Winter Quarter times: 5:02p, 5:52p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.68152,42.054057,0]}},{"type":"Feature","properties":{"Name":"Sherman/Gaffield","description":"EVANSTON TO CHICAGO<br>Departure times: 6:48a, 7:03a, 7:18a, 7:48a, 8:33a, 9:13a, 9:33a, 10:13a, 10:43a, 11:18a, 12:03p, 12:43p, 1:03p, 1:38p, 2:08p, 2:48p, 3:08p, 3:33p, 3:58p, 4:13p, 4:43p, 5:13p, 5:23p, 5:38p, 6:03p, 6:18p, 6:33p, 7:28p, 8:38p, 9:43p<br>Additional Winter Quarter times: 5:03p, 5:53p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6815418,42.0570046,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Noyes","description":"EVANSTON TO CHICAGO<br>Departure times: 6:50a, 7:05a, 7:20a, 7:50a, 8:35a, 9:15a, 9:35a, 10:15a, 10:45a, 11:20a, 12:05p, 12:45p, 1:05p, 1:40p, 2:10p, 2:50p, 3:10p, 3:35p, 4:00p, 4:15p, 4:45p, 5:15p, 5:25p, 5:40p, 6:05p, 6:20p, 6:35p, 7:30p, 8:40p, 9:45p<br>Additional Winter Quarter times: 5:05p, 5:55p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677443,42.057801,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Foster","description":"EVANSTON TO CHICAGO<br>Departure times: 6:52a, 7:07a, 7:22a, 7:52a, 8:37a, 9:17a, 9:37a, 10:17a, 10:47a, 11:22a, 12:07p, 12:47p, 1:07p, 1:42p, 2:12p, 2:52p, 3:12p, 3:37p, 4:02p, 4:17p, 4:47p, 5:17p, 5:27p, 5:42p, 6:07p, 6:22p, 6:37p, 7:32p, 8:42p, 9:47p<br>Additional Winter Quarter times: 5:07p, 5:57p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677486,42.053467,0]}},{"type":"Feature","properties":{"Name":"Chicago/Sheridan","description":"EVANSTON TO CHICAGO<br>Departure times: 6:54a, 7:09a, 7:24a, 7:54a, 8:39a, 9:19a, 9:39a, 10:19a, 10:49a, 11:24a, 12:09p, 12:49p, 1:09p, 1:44p, 2:14p, 2:54p, 3:14p, 3:39p, 4:04p, 4:19p, 4:49p, 5:19p, 5:29p, 5:44p, 6:09p, 6:24p, 6:39p, 7:34p, 8:44p, 9:49p<br>Additional Winter Quarter times: 5:09p, 5:59p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677722,42.050918,0]}},{"type":"Feature","properties":{"Name":"Chicago/Grove","description":"EVANSTON TO CHICAGO<br>Departure times: 6:57a, 7:12a, 7:27a, 7:57a, 8:42a, 9:22a, 9:42a, 10:22a, 10:52a, 11:27a, 12:12p, 12:52p, 1:12p, 1:47p, 2:17p, 2:57p, 3:17p, 3:42p, 4:07p, 4:22p, 4:52p, 5:22p, 5:32p, 5:47p, 6:12p, 6:27p, 6:42p, 7:37p, 8:47p, 9:52p<br>Additional Winter Quarter times: 5:12p, 6:02p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.680426,42.045198,0]}},{"type":"Feature","properties":{"Name":"Chicago/Greenleaf","description":"EVANSTON TO CHICAGO<br>Departure times: 7:00a, 7:15a, 7:30a, 8:00a, 8:45a, 9:25a, 9:45a, 10:25a, 10:55a, 11:30a, 12:15p, 12:55p, 1:15p, 1:50p, 2:20p, 3:00p, 3:20p, 3:45p, 4:10p, 4:25p, 4:55p, 5:25p, 5:35p, 5:50p, 6:15p, 6:30p, 6:45p, 7:40p, 8:50p, 9:55p<br>Additional Winter Quarter times: 5:15p, 6:05p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.680329,42.037676,0]}},{"type":"Feature","properties":{"Name":"Chicago/Main","description":"EVANSTON TO CHICAGO<br>Departure times: 7:01a, 7:16a, 7:31a, 8:01a, 8:46a, 9:26a, 9:46a, 10:26a, 10:56a, 11:31a, 12:16p, 12:56p, 1:16p, 1:51p, 2:21p, 3:01p, 3:21p, 3:46p, 4:11p, 4:26p, 4:56p, 5:26p, 5:36p, 5:51p, 6:16p, 6:31p, 6:46p, 7:41p, 8:51p, 9:56p<br>Additional Winter Quarter times: 5:16p, 6:06p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.679546,42.03366,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Loyola","description":"EVANSTON TO CHICAGO<br>Departure times: 7:11a, 7:26a, 7:41a, 8:11a, 8:56a, 9:36a, 9:56a, 10:36a, 11:06a, 11:41a, 12:26p, 1:06p, 1:26p, 2:01p, 2:31p, 3:11p, 3:31p, 3:56p, 4:21p, 4:36p, 5:06p, 5:36p, 5:46p, 6:01p, 6:26p, 6:41p, 6:56p, 7:51p, 9:01p, 10:06p<br>Additional Winter Quarter times: 5:26p, 6:16p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.661049,42.001521,0]}},{"type":"Feature","properties":{"Name":"Ward Building","description":"EVANSTON TO CHICAGO<br>Arrival times: 7:51a, 8:06a, 8:21a, 8:51a, 9:26a, 10:06a, 10:21a, 10:53a, 11:23a, 11:58a, 12:43p, 1:23p, 1:43p, 2:18p, 2:48p, 3:28p, 3:56p, 4:21p, 4:46p, 5:11p, 5:41p, 6:16p, 6:26p, 6:41p, 6:56p, 7:11p, 7:26p, 8:11p, 9:18p, 10:23p<br>Additional Winter Quarter times: 6:01p, 6:56p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.619314,41.896703,0]}},{"type":"Feature","properties":{"Name":"Ward Building","description":"CHICAGO TO EVANSTON<br>Departure times: 6:40a, 7:20a, 8:00a, 8:15a, 8:30a, 9:00a, 9:30a, 10:10a, 11:00a, 11:35a, 12:00p, 12:30p, 1:00p, 1:40p, 2:25p, 2:45p, 3:35p, 4:05p, 4:25p, 4:50p, 5:05p, 5:20p, 5:50p, 6:20p, 6:30p, 7:30p, 8:15p, 9:35p, 10:25p<br> Additional Winter Quarter times: 4:40p, 6:05p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.619497,41.896703,0]}},{"type":"Feature","properties":{"Name":"Sheridan/Loyola","description":"CHICAGO TO EVANSTON<br>Departure times: 7:05a, 7:48a, 8:26a, 8:41a, 8:56a, 9:26a, 9:56a, 10:32a, 11:23a, 11:58a, 12:25p, 12:55p, 1:22p, 2:02p, 2:45p, 3:05p, 3:56p, 4:32p, 4:52p, 5:17p, 5:32p, 5:47p, 6:17p, 6:42p, 6:52p, 7:52p, 8:37p, 9:55p, 10:43p<br> Additional Winter Quarter times: 5:07p, 6:32p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.660524,42.001681,0]}},{"type":"Feature","properties":{"Name":"Chicago/Kedzie","description":"CHICAGO TO EVANSTON<br>Departure times: 7:15a, 7:58a, 8:36a, 8:51a, 9:06a, 9:36a, 10:06a, 10:42a, 11:33a, 12:08p, 12:35p, 1:05p, 1:32p, 2:12p, 2:55p, 3:15p, 4:06p, 4:42p, 5:02p, 5:27p, 5:42p, 5:57p, 6:27p, 6:52p, 7:02p, 8:02p, 8:47p, 10:05p, 10:53p<br> Additional Winter Quarter times: 5:17p, 6:42p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.67873,42.031986,0]}},{"type":"Feature","properties":{"Name":"Chicago/Lee","description":"CHICAGO TO EVANSTON<br>Departure times: 7:17a, 8:00a, 8:38a, 8:53a, 9:08a, 9:38a, 10:08a, 10:44a, 11:35a, 12:10p, 12:37p, 1:07p, 1:34p, 2:14p, 2:57p, 3:17p, 4:08p, 4:44p, 5:04p, 5:29p, 5:44p, 5:59p, 6:29p, 6:54p, 7:04p, 8:04p, 8:49p, 10:07p, 10:55p<br> Additional Winter Quarter times: 5:19p, 6:44p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.679482,42.035524,0]}},{"type":"Feature","properties":{"Name":"Chicago/Davis","description":"CHICAGO TO EVANSTON<br>Departure times: 7:20a, 8:03a, 8:41a, 8:56a, 9:11a, 9:41a, 10:11a, 10:47a, 11:38a, 12:13p, 12:40p, 1:10p, 1:37p, 2:17p, 3:00p, 3:20p, 4:11p, 4:47p, 5:07p, 5:32p, 5:47p, 6:02p, 6:32p, 6:57p, 7:07p, 8:07p, 8:52p, 10:10p, 10:58p<br> Additional Winter Quarter times: 5:22p, 6:47p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.679331,42.046273,0]}},{"type":"Feature","properties":{"Name":"Weber Arch","description":"CHICAGO TO EVANSTON <br>Departure times: 7:23a, 8:06a, 8:44a, 8:59a, 9:14a, 9:44a, 10:14a, 10:50a, 11:41a, 12:16p, 12:43p, 1:13p, 1:40p, 2:20p, 3:03p, 3:23p, 4:14p, 4:50p, 5:10p, 5:35p, 5:50p, 6:05p, 6:35p, 7:00p, 7:10p, 8:10p, 8:55p, 10:13p, 11:01p<br> Additional Winter Quarter times: 5:25p, 6:50p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.67695,42.051938,0]}},{"type":"Feature","properties":{"Name":"Jacobs Center","description":"CHICAGO TO EVANSTON <br>Departure times: 7:24a, 8:07a, 8:45a, 9:00a, 9:15a, 9:45a, 10:15a, 10:51a, 11:42a, 12:17p, 12:44p, 1:14p, 1:41p, 2:21p, 3:04p, 3:24p, 4:15p, 4:51p, 5:11p, 5:36p, 5:51p, 6:06p, 6:36p, 7:01p, 7:11p, 8:11p, 8:56p, 10:14p, 11:02p<br>Additional Winter Quarter times: 5:26p, 6:51p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.676928,42.054057,0]}},{"type":"Feature","properties":{"Name":"Tech Institute","description":"CHICAGO TO EVANSTON <br>Departure times: 7:25a, 8:08a, 8:46a, 9:01a, 9:16a, 9:46a, 10:16a, 10:52a, 11:43a, 12:18p, 12:45p, 1:15p, 1:42p, 2:22p, 3:05p, 3:25p, 4:16p, 4:52p, 5:12p, 5:37p, 5:52p, 6:07p, 6:37p, 7:02p, 7:12p, 8:12p, 8:57p, 10:15p, 11:03p<br> Additional Winter Quarter times: 5:27p, 6:52p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.676821,42.057944,0]}},{"type":"Feature","properties":{"Name":"Patten Gym","description":"CHICAGO TO EVANSTON<br>Departure times: 7:26a, 8:09a, 8:47a, 9:02a, 9:17a, 9:47a, 10:17a, 10:53a, 11:44a, 12:19p, 12:46p, 1:16p, 1:43p, 2:23p, 3:06p, 3:26p, 4:17p, 4:53p, 5:13p, 5:38p, 5:53p, 6:08p, 6:38p, 7:03p, 7:13p, 8:13p, 8:58p, 10:16p, 11:04p<br> Additional Winter Quarter times: 5:28p, 6:53p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.676842,42.060923,0]}},{"type":"Feature","properties":{"Name":"Central L Station (westbound)","description":"CHICAGO TO EVANSTON<br>Departure times: 7:29a, 8:12a, 8:50a, 9:05a, 9:20a, 9:50a, 10:20a, 10:56a, 11:47a, 12:22p, 12:49p, 1:19p, 1:46p, 2:26p, 3:09p, 3:29p, 4:20p, 4:56p, 5:16p, 5:41p, 5:56p, 6:11p, 6:41p, 7:06p, 7:16p, 8:16p, 9:01p, 10:19p, 11:07p<br> Additional Winter Quarter times: 5:31p, 6:56p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.686048,42.064348,0]}},{"type":"Feature","properties":{"Name":"Central/Jackson (westbound)","description":"CHICAGO TO EVANSTON <br>Departure times: 7:30a, 8:13a, 8:51a, 9:06a, 9:21a, 9:51a, 10:21a, 10:57a, 11:48a, 12:23p, 12:50p, 1:20p, 1:47p, 2:27p, 3:10p, 3:30p, 4:21p, 4:57p, 5:17p, 5:42p, 5:57p, 6:12p, 6:42p, 7:07p, 7:17p, 8:17p, 9:02p, 10:20p, 11:08p<br> Additional Winter Quarter times: 5:32p, 6:57p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.691991,42.064348,0]}},{"type":"Feature","properties":{"Name":"Ryan Field","description":"CHICAGO TO EVANSTON<br>Arrival times: 7:32a, 8:15a, 8:53a, 9:08a, 9:23a, 9:53a, 10:23a, 10:59a, 11:50a, 12:25p, 12:52p, 1:22p, 1:49p, 2:29p, 3:12p, 3:32p, 4:23p, 4:59p, 5:19p, 5:44p, 5:59p, 6:14p, 6:44p, 7:09p, 7:19p, 8:19p, 9:04p, 10:22p, 11:10p<br>Additional Winter Quarter times: 5:34p, 6:59p","timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.694137,42.065479,0]}},{"type":"Feature","properties":{"Name":"Intercampus Shuttle","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"LineString","coordinates":[[-87.69415,42.06541,0],[-87.69395,42.06543,0],[-87.69392,42.06425,0],[-87.68164,42.0641,0],[-87.68169,42.06121,0],[-87.68165,42.05847,0],[-87.68186,42.05061,0],[-87.6842,42.05209,0],[-87.687914,42.052145,0],[-87.687056,42.055634,0],[-87.685897,42.058486,0],[-87.67722,42.05835,0],[-87.67722,42.05621,0],[-87.67734,42.05124,0],[-87.68029,42.04507,0],[-87.68061,42.0441,0],[-87.68062,42.0402,0],[-87.68014,42.03742,0],[-87.67844,42.02883,0],[-87.67828,42.02725,0],[-87.67688,42.02122,0],[-87.67641,42.01961,0],[-87.67596,42.01856,0],[-87.67579,42.018,0],[-87.67551,42.01746,0],[-87.67534,42.0169,0],[-87.6748,42.01328,0],[-87.67426,42.01011,0],[-87.67377,42.00777,0],[-87.66175,42.00799,0],[-87.66098,42.00553,0],[-87.66067,41.99884,0],[-87.65982,41.99823,0],[-87.65969,41.99818,0],[-87.65613,41.99822,0],[-87.65585,41.9981,0],[-87.6557,41.9979,0],[-87.65561,41.99765,0],[-87.65544,41.99165,0],[-87.65541,41.98664,0],[-87.65533,41.98549,0],[-87.6542,41.98552,0],[-87.65377,41.98546,0],[-87.65325,41.98518,0],[-87.65315,41.98499,0],[-87.65309,41.9848,0],[-87.65305,41.9839,0],[-87.65308,41.98302,0],[-87.65297,41.98228,0],[-87.65264,41.98104,0],[-87.6522,41.97999,0],[-87.64952,41.97424,0],[-87.64911,41.97309,0],[-87.64879,41.97195,0],[-87.64644,41.96182,0],[-87.6463,41.96061,0],[-87.64624,41.95941,0],[-87.64597,41.95805,0],[-87.64539,41.95667,0],[-87.64493,41.9553,0],[-87.64478,41.95452,0],[-87.6448,41.95163,0],[-87.64451,41.95067,0],[-87.64285,41.94792,0],[-87.64109,41.94488,0],[-87.63961,41.94203,0],[-87.63902,41.94111,0],[-87.63776,41.93968,0],[-87.63709,41.9391,0],[-87.63408,41.93686,0],[-87.63316,41.93587,0],[-87.63247,41.93469,0],[-87.63224,41.93393,0],[-87.63211,41.93314,0],[-87.63217,41.93092,0],[-87.63211,41.9287,0],[-87.63089,41.92456,0],[-87.63022,41.92252,0],[-87.62931,41.91911,0],[-87.62889,41.91777,0],[-87.62607,41.9121,0],[-87.6259,41.90902,0],[-87.62416,41.90235,0],[-87.62358,41.90183,0],[-87.62238,41.90131,0],[-87.62017,41.90113,0],[-87.61971,41.90089,0],[-87.61761,41.89777,0],[-87.62188,41.89767,0],[-87.62191,41.89676,0],[-87.61672,41.89685,0],[-87.61945,41.90094,0],[-87.61959,41.90107,0],[-87.61982,41.90122,0],[-87.6201,41.90131,0],[-87.62038,41.90137,0],[-87.6218,41.90147,0],[-87.62235,41.90159,0],[-87.62296,41.90183,0],[-87.62351,41.9022,0],[-87.62379,41.90251,0],[-87.624,41.90288,0],[-87.62427,41.90359,0],[-87.62502,41.90638,0],[-87.62567,41.90919,0],[-87.6258,41.9118,0],[-87.6259,41.91226,0],[-87.62824,41.9168,0],[-87.62887,41.91834,0],[-87.62928,41.91964,0],[-87.62955,41.92095,0],[-87.63195,41.92877,0],[-87.63188,41.93323,0],[-87.63197,41.93385,0],[-87.63214,41.93437,0],[-87.63257,41.9353,0],[-87.6332,41.93624,0],[-87.63413,41.93711,0],[-87.6358,41.93832,0],[-87.63745,41.93963,0],[-87.63832,41.94051,0],[-87.6387,41.94099,0],[-87.63903,41.94149,0],[-87.64179,41.94631,0],[-87.64448,41.95116,0],[-87.64463,41.95161,0],[-87.64454,41.9535,0],[-87.6446,41.95493,0],[-87.64501,41.95625,0],[-87.64549,41.95744,0],[-87.64589,41.95866,0],[-87.64603,41.95935,0],[-87.64623,41.96193,0],[-87.64869,41.9729,0],[-87.64922,41.97445,0],[-87.65085,41.97785,0],[-87.65238,41.98133,0],[-87.65256,41.9821,0],[-87.65272,41.9847,0],[-87.65277,41.98487,0],[-87.65289,41.98507,0],[-87.65337,41.98544,0],[-87.65362,41.98554,0],[-87.65441,41.98563,0],[-87.6552,41.98559,0],[-87.65555,41.99769,0],[-87.65574,41.9981,0],[-87.65612,41.99826,0],[-87.65972,41.99824,0],[-87.6606,41.99887,0],[-87.66082,42.00555,0],[-87.66136,42.00734,0],[-87.6628,42.01153,0],[-87.66336,42.01283,0],[-87.66485,42.01544,0],[-87.66678,42.02212,0],[-87.66674,42.02228,0],[-87.66651,42.0224,0],[-87.66598,42.02254,0],[-87.66545,42.02277,0],[-87.66526,42.02307,0],[-87.66535,42.02341,0],[-87.66696,42.02632,0],[-87.66763,42.02695,0],[-87.66832,42.02721,0],[-87.67815,42.02733,0],[-87.67843,42.02946,0],[-87.68053,42.04021,0],[-87.68049,42.04409,0],[-87.68017,42.04502,0],[-87.67969,42.04609,0],[-87.67722,42.05122,0],[-87.67699,42.06411,0],[-87.69383,42.06436,0],[-87.69381,42.06553,0],[-87.69414,42.06551,0]]}}]}
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ryan Field",
+        "description": "EVANSTON TO CHICAGO<br>Departure Times: 6:35a, 6:50a, 7:05a, 7:35a, 8:20a, 9:00a, 9:20a, 10:00a, 10:30a, 11:05a, 11:50a, 12:30p, 12:50p, 1:25p, 1:55p, 2:35p, 2:55p, 3:20p, 3:45p, 4:00p, 4:30p, 5:00p, 5:10p, 5:25p, 5:50p, 6:05p, 6:20p, 7:15p, 8:25p, 9:30p<br>Additional Winter Quarter times: 4:50p, 5:40p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.694287,
+          42.065304,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Central/Jackson (eastbound)",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:36a, 6:51a, 7:06a, 7:36a, 8:21a, 9:01a, 9:21a, 10:01a, 10:31a, 11:06a, 11:51a, 12:31p, 12:51p, 1:26p, 1:56p, 2:36p, 2:56p, 3:21p, 3:46p, 4:01p, 4:31p, 5:01p, 5:11p, 5:26p, 5:51p, 6:06p, 6:21p, 7:16p, 8:26p, 9:31p<br>Additional Winter Quarter times: 4:51p, 5:41p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.692056,
+          42.063982,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Central L Station (eastbound)",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:37a, 6:52a, 7:07a, 7:37a, 8:22a, 9:02a, 9:22a, 10:02a, 10:32a, 11:07a, 11:52a, 12:32p, 12:52p, 1:27p, 1:57p, 2:37p, 2:57p, 3:22p, 3:47p, 4:02p, 4:32p, 5:02p, 5:12p, 5:27p, 5:52p, 6:07p, 6:22p, 7:17p, 8:27p, 9:32p<br>Additional Winter Quarter times: 4:52p, 5:42p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.685747,
+          42.06399,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Noyes L Station",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:39a, 6:54a, 7:09a, 7:39a, 8:24a, 9:04a, 9:24a, 10:04a, 10:34a, 11:09a, 11:54a, 12:34p, 12:54p, 1:29p, 1:59p, 2:39p, 2:59p, 3:24p, 3:49p, 4:04p, 4:34p, 5:04p, 5:14p, 5:29p, 5:54p, 6:09p, 6:24p, 7:19p, 8:29p, 9:34p<br>Additional Winter Quarter times: 4:54p, 5:44p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68358,
+          42.058486,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ridge/Civic Center",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:41a, 6:56a, 7:11a, 7:41a, 8:26a, 9:06a, 9:26a, 10:06a, 10:36a, 11:11a, 11:56a, 12:36p, 12:56p, 1:31p, 2:01p, 2:41p, 3:01p, 3:26p, 3:51p, 4:06p, 4:36p, 5:06p, 5:16p, 5:31p, 5:56p, 6:11p, 6:26p, 7:21p, 8:31p, 9:36p<br>Additional Winter Quarter times: 4:56p, 5:46p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.686756,
+          42.056733,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ridge/Reserve Apartments",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:42a, 6:57a, 7:12a, 7:42a, 8:27a, 9:07a, 9:27a, 10:07a, 10:37a, 11:12a, 11:57a, 12:37p, 12:57p, 1:32p, 2:02p, 2:42p, 3:02p, 3:27p, 3:52p, 4:07p, 4:37p, 5:07p, 5:17p, 5:32p, 5:57p, 6:12p, 6:27p, 7:22p, 8:32p, 9:37p<br>Additional Winter Quarter times: 4:57p,\t5:47p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68785,
+          42.053133,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Emerson/Maple",
+        "description": "EVANSTON TO CHICAGO <br>Departure times: 6:44a, 6:59a, 7:14a, 7:44a, 8:29a, 9:09a, 9:29a, 10:09a, 10:39a, 11:14a, 11:59a, 12:39p, 12:59p, 1:34p, 2:04p, 2:44p, 3:04p, 3:29p, 3:54p, 4:09p, 4:39p, 5:09p, 5:19p, 5:34p, 5:59p, 6:14p, 6:29p, 7:24p, 8:34p, 9:39p<br>Additional Winter Quarter times: 4:59p, 5:49p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.684996,
+          42.051938,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Emerson",
+        "description": "EVANSTON TO CHICAGO <br>Departure times: 6:46a, 7:01a, 7:16a, 7:46a, 8:31a, 9:11a, 9:31a, 10:11a, 10:41a, 11:16a, 12:01p, 12:41p, 1:01p, 1:36p, 2:06p, 2:46p, 3:06p, 3:31p, 3:56p, 4:11p, 4:41p, 5:11p, 5:21p, 5:36p, 6:01p, 6:16p, 6:31p, 7:26p, 8:36p, 9:41p<br>Additional Winter Quarter times: 5:01p, 5:51p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.681584,
+          42.05181,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Foster",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:47a, 7:02a, 7:17a, 7:47a, 8:32a, 9:12a, 9:32a, 10:12a, 10:42a, 11:17a, 12:02p, 12:42p, 1:02p, 1:37p, 2:07p, 2:47p, 3:07p, 3:32p, 3:57p, 4:12p, 4:42p, 5:12p, 5:22p, 5:37p, 6:02p, 6:17p, 6:32p, 7:27p, 8:37p, 9:42p<br>Additional Winter Quarter times: 5:02p, 5:52p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68152,
+          42.054057,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Gaffield",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:48a, 7:03a, 7:18a, 7:48a, 8:33a, 9:13a, 9:33a, 10:13a, 10:43a, 11:18a, 12:03p, 12:43p, 1:03p, 1:38p, 2:08p, 2:48p, 3:08p, 3:33p, 3:58p, 4:13p, 4:43p, 5:13p, 5:23p, 5:38p, 6:03p, 6:18p, 6:33p, 7:28p, 8:38p, 9:43p<br>Additional Winter Quarter times: 5:03p, 5:53p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6815418,
+          42.0570046,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Noyes",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:50a, 7:05a, 7:20a, 7:50a, 8:35a, 9:15a, 9:35a, 10:15a, 10:45a, 11:20a, 12:05p, 12:45p, 1:05p, 1:40p, 2:10p, 2:50p, 3:10p, 3:35p, 4:00p, 4:15p, 4:45p, 5:15p, 5:25p, 5:40p, 6:05p, 6:20p, 6:35p, 7:30p, 8:40p, 9:45p<br>Additional Winter Quarter times: 5:05p, 5:55p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677443,
+          42.057801,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Foster",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:52a, 7:07a, 7:22a, 7:52a, 8:37a, 9:17a, 9:37a, 10:17a, 10:47a, 11:22a, 12:07p, 12:47p, 1:07p, 1:42p, 2:12p, 2:52p, 3:12p, 3:37p, 4:02p, 4:17p, 4:47p, 5:17p, 5:27p, 5:42p, 6:07p, 6:22p, 6:37p, 7:32p, 8:42p, 9:47p<br>Additional Winter Quarter times: 5:07p, 5:57p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677486,
+          42.053467,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Sheridan",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:54a, 7:09a, 7:24a, 7:54a, 8:39a, 9:19a, 9:39a, 10:19a, 10:49a, 11:24a, 12:09p, 12:49p, 1:09p, 1:44p, 2:14p, 2:54p, 3:14p, 3:39p, 4:04p, 4:19p, 4:49p, 5:19p, 5:29p, 5:44p, 6:09p, 6:24p, 6:39p, 7:34p, 8:44p, 9:49p<br>Additional Winter Quarter times: 5:09p, 5:59p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677722,
+          42.050918,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Grove",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 6:57a, 7:12a, 7:27a, 7:57a, 8:42a, 9:22a, 9:42a, 10:22a, 10:52a, 11:27a, 12:12p, 12:52p, 1:12p, 1:47p, 2:17p, 2:57p, 3:17p, 3:42p, 4:07p, 4:22p, 4:52p, 5:22p, 5:32p, 5:47p, 6:12p, 6:27p, 6:42p, 7:37p, 8:47p, 9:52p<br>Additional Winter Quarter times: 5:12p, 6:02p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.680426,
+          42.045198,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Greenleaf",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 7:00a, 7:15a, 7:30a, 8:00a, 8:45a, 9:25a, 9:45a, 10:25a, 10:55a, 11:30a, 12:15p, 12:55p, 1:15p, 1:50p, 2:20p, 3:00p, 3:20p, 3:45p, 4:10p, 4:25p, 4:55p, 5:25p, 5:35p, 5:50p, 6:15p, 6:30p, 6:45p, 7:40p, 8:50p, 9:55p<br>Additional Winter Quarter times: 5:15p, 6:05p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.680329,
+          42.037676,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Main",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 7:01a, 7:16a, 7:31a, 8:01a, 8:46a, 9:26a, 9:46a, 10:26a, 10:56a, 11:31a, 12:16p, 12:56p, 1:16p, 1:51p, 2:21p, 3:01p, 3:21p, 3:46p, 4:11p, 4:26p, 4:56p, 5:26p, 5:36p, 5:51p, 6:16p, 6:31p, 6:46p, 7:41p, 8:51p, 9:56p<br>Additional Winter Quarter times: 5:16p, 6:06p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.679546,
+          42.03366,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Loyola",
+        "description": "EVANSTON TO CHICAGO<br>Departure times: 7:11a, 7:26a, 7:41a, 8:11a, 8:56a, 9:36a, 9:56a, 10:36a, 11:06a, 11:41a, 12:26p, 1:06p, 1:26p, 2:01p, 2:31p, 3:11p, 3:31p, 3:56p, 4:21p, 4:36p, 5:06p, 5:36p, 5:46p, 6:01p, 6:26p, 6:41p, 6:56p, 7:51p, 9:01p, 10:06p<br>Additional Winter Quarter times: 5:26p, 6:16p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.661049,
+          42.001521,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ward Building",
+        "description": "EVANSTON TO CHICAGO<br>Arrival times: 7:51a, 8:06a, 8:21a, 8:51a, 9:26a, 10:06a, 10:21a, 10:53a, 11:23a, 11:58a, 12:43p, 1:23p, 1:43p, 2:18p, 2:48p, 3:28p, 3:56p, 4:21p, 4:46p, 5:11p, 5:41p, 6:16p, 6:26p, 6:41p, 6:56p, 7:11p, 7:26p, 8:11p, 9:18p, 10:23p<br>Additional Winter Quarter times: 6:01p, 6:56p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.619314,
+          41.896703,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ward Building",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 6:40a, 7:20a, 8:00a, 8:15a, 8:30a, 9:00a, 9:30a, 10:10a, 11:00a, 11:35a, 12:00p, 12:30p, 1:00p, 1:40p, 2:25p, 2:45p, 3:35p, 4:05p, 4:25p, 4:50p, 5:05p, 5:20p, 5:50p, 6:20p, 6:30p, 7:30p, 8:15p, 9:35p, 10:25p<br> Additional Winter Quarter times: 4:40p, 6:05p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.619497,
+          41.896703,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sheridan/Loyola",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 7:05a, 7:48a, 8:26a, 8:41a, 8:56a, 9:26a, 9:56a, 10:32a, 11:23a, 11:58a, 12:25p, 12:55p, 1:22p, 2:02p, 2:45p, 3:05p, 3:56p, 4:32p, 4:52p, 5:17p, 5:32p, 5:47p, 6:17p, 6:42p, 6:52p, 7:52p, 8:37p, 9:55p, 10:43p<br> Additional Winter Quarter times: 5:07p, 6:32p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.660524,
+          42.001681,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Kedzie",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 7:15a, 7:58a, 8:36a, 8:51a, 9:06a, 9:36a, 10:06a, 10:42a, 11:33a, 12:08p, 12:35p, 1:05p, 1:32p, 2:12p, 2:55p, 3:15p, 4:06p, 4:42p, 5:02p, 5:27p, 5:42p, 5:57p, 6:27p, 6:52p, 7:02p, 8:02p, 8:47p, 10:05p, 10:53p<br> Additional Winter Quarter times: 5:17p, 6:42p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67873,
+          42.031986,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Lee",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 7:17a, 8:00a, 8:38a, 8:53a, 9:08a, 9:38a, 10:08a, 10:44a, 11:35a, 12:10p, 12:37p, 1:07p, 1:34p, 2:14p, 2:57p, 3:17p, 4:08p, 4:44p, 5:04p, 5:29p, 5:44p, 5:59p, 6:29p, 6:54p, 7:04p, 8:04p, 8:49p, 10:07p, 10:55p<br> Additional Winter Quarter times: 5:19p, 6:44p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.679482,
+          42.035524,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chicago/Davis",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 7:20a, 8:03a, 8:41a, 8:56a, 9:11a, 9:41a, 10:11a, 10:47a, 11:38a, 12:13p, 12:40p, 1:10p, 1:37p, 2:17p, 3:00p, 3:20p, 4:11p, 4:47p, 5:07p, 5:32p, 5:47p, 6:02p, 6:32p, 6:57p, 7:07p, 8:07p, 8:52p, 10:10p, 10:58p<br> Additional Winter Quarter times: 5:22p, 6:47p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.679331,
+          42.046273,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Weber Arch",
+        "description": "CHICAGO TO EVANSTON <br>Departure times: 7:23a, 8:06a, 8:44a, 8:59a, 9:14a, 9:44a, 10:14a, 10:50a, 11:41a, 12:16p, 12:43p, 1:13p, 1:40p, 2:20p, 3:03p, 3:23p, 4:14p, 4:50p, 5:10p, 5:35p, 5:50p, 6:05p, 6:35p, 7:00p, 7:10p, 8:10p, 8:55p, 10:13p, 11:01p<br> Additional Winter Quarter times: 5:25p, 6:50p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67695,
+          42.051938,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jacobs Center",
+        "description": "CHICAGO TO EVANSTON <br>Departure times: 7:24a, 8:07a, 8:45a, 9:00a, 9:15a, 9:45a, 10:15a, 10:51a, 11:42a, 12:17p, 12:44p, 1:14p, 1:41p, 2:21p, 3:04p, 3:24p, 4:15p, 4:51p, 5:11p, 5:36p, 5:51p, 6:06p, 6:36p, 7:01p, 7:11p, 8:11p, 8:56p, 10:14p, 11:02p<br>Additional Winter Quarter times: 5:26p, 6:51p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676928,
+          42.054057,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tech Institute",
+        "description": "CHICAGO TO EVANSTON <br>Departure times: 7:25a, 8:08a, 8:46a, 9:01a, 9:16a, 9:46a, 10:16a, 10:52a, 11:43a, 12:18p, 12:45p, 1:15p, 1:42p, 2:22p, 3:05p, 3:25p, 4:16p, 4:52p, 5:12p, 5:37p, 5:52p, 6:07p, 6:37p, 7:02p, 7:12p, 8:12p, 8:57p, 10:15p, 11:03p<br> Additional Winter Quarter times: 5:27p, 6:52p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676821,
+          42.057944,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Patten Gym",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 7:26a, 8:09a, 8:47a, 9:02a, 9:17a, 9:47a, 10:17a, 10:53a, 11:44a, 12:19p, 12:46p, 1:16p, 1:43p, 2:23p, 3:06p, 3:26p, 4:17p, 4:53p, 5:13p, 5:38p, 5:53p, 6:08p, 6:38p, 7:03p, 7:13p, 8:13p, 8:58p, 10:16p, 11:04p<br> Additional Winter Quarter times: 5:28p, 6:53p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.676842,
+          42.060923,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Central L Station (westbound)",
+        "description": "CHICAGO TO EVANSTON<br>Departure times: 7:29a, 8:12a, 8:50a, 9:05a, 9:20a, 9:50a, 10:20a, 10:56a, 11:47a, 12:22p, 12:49p, 1:19p, 1:46p, 2:26p, 3:09p, 3:29p, 4:20p, 4:56p, 5:16p, 5:41p, 5:56p, 6:11p, 6:41p, 7:06p, 7:16p, 8:16p, 9:01p, 10:19p, 11:07p<br> Additional Winter Quarter times: 5:31p, 6:56p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.686048,
+          42.064348,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Central/Jackson (westbound)",
+        "description": "CHICAGO TO EVANSTON <br>Departure times: 7:30a, 8:13a, 8:51a, 9:06a, 9:21a, 9:51a, 10:21a, 10:57a, 11:48a, 12:23p, 12:50p, 1:20p, 1:47p, 2:27p, 3:10p, 3:30p, 4:21p, 4:57p, 5:17p, 5:42p, 5:57p, 6:12p, 6:42p, 7:07p, 7:17p, 8:17p, 9:02p, 10:20p, 11:08p<br> Additional Winter Quarter times: 5:32p, 6:57p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.691991,
+          42.064348,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ryan Field",
+        "description": "CHICAGO TO EVANSTON<br>Arrival times: 7:32a, 8:15a, 8:53a, 9:08a, 9:23a, 9:53a, 10:23a, 10:59a, 11:50a, 12:25p, 12:52p, 1:22p, 1:49p, 2:29p, 3:12p, 3:32p, 4:23p, 4:59p, 5:19p, 5:44p, 5:59p, 6:14p, 6:44p, 7:09p, 7:19p, 8:19p, 9:04p, 10:22p, 11:10p<br>Additional Winter Quarter times: 5:34p, 6:59p",
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.694137,
+          42.065479,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Intercampus Shuttle",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": 1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.69415,
+            42.06541,
+            0
+          ],
+          [
+            -87.69395,
+            42.06543,
+            0
+          ],
+          [
+            -87.69392,
+            42.06425,
+            0
+          ],
+          [
+            -87.68164,
+            42.0641,
+            0
+          ],
+          [
+            -87.68169,
+            42.06121,
+            0
+          ],
+          [
+            -87.68165,
+            42.05847,
+            0
+          ],
+          [
+            -87.68186,
+            42.05061,
+            0
+          ],
+          [
+            -87.6842,
+            42.05209,
+            0
+          ],
+          [
+            -87.687914,
+            42.052145,
+            0
+          ],
+          [
+            -87.687056,
+            42.055634,
+            0
+          ],
+          [
+            -87.685897,
+            42.058486,
+            0
+          ],
+          [
+            -87.67722,
+            42.05835,
+            0
+          ],
+          [
+            -87.67722,
+            42.05621,
+            0
+          ],
+          [
+            -87.67734,
+            42.05124,
+            0
+          ],
+          [
+            -87.68029,
+            42.04507,
+            0
+          ],
+          [
+            -87.68061,
+            42.0441,
+            0
+          ],
+          [
+            -87.68062,
+            42.0402,
+            0
+          ],
+          [
+            -87.68014,
+            42.03742,
+            0
+          ],
+          [
+            -87.67844,
+            42.02883,
+            0
+          ],
+          [
+            -87.67828,
+            42.02725,
+            0
+          ],
+          [
+            -87.67688,
+            42.02122,
+            0
+          ],
+          [
+            -87.67641,
+            42.01961,
+            0
+          ],
+          [
+            -87.67596,
+            42.01856,
+            0
+          ],
+          [
+            -87.67579,
+            42.018,
+            0
+          ],
+          [
+            -87.67551,
+            42.01746,
+            0
+          ],
+          [
+            -87.67534,
+            42.0169,
+            0
+          ],
+          [
+            -87.6748,
+            42.01328,
+            0
+          ],
+          [
+            -87.67426,
+            42.01011,
+            0
+          ],
+          [
+            -87.67377,
+            42.00777,
+            0
+          ],
+          [
+            -87.66175,
+            42.00799,
+            0
+          ],
+          [
+            -87.66098,
+            42.00553,
+            0
+          ],
+          [
+            -87.66067,
+            41.99884,
+            0
+          ],
+          [
+            -87.65982,
+            41.99823,
+            0
+          ],
+          [
+            -87.65969,
+            41.99818,
+            0
+          ],
+          [
+            -87.65613,
+            41.99822,
+            0
+          ],
+          [
+            -87.65585,
+            41.9981,
+            0
+          ],
+          [
+            -87.6557,
+            41.9979,
+            0
+          ],
+          [
+            -87.65561,
+            41.99765,
+            0
+          ],
+          [
+            -87.65544,
+            41.99165,
+            0
+          ],
+          [
+            -87.65541,
+            41.98664,
+            0
+          ],
+          [
+            -87.65533,
+            41.98549,
+            0
+          ],
+          [
+            -87.6542,
+            41.98552,
+            0
+          ],
+          [
+            -87.65377,
+            41.98546,
+            0
+          ],
+          [
+            -87.65325,
+            41.98518,
+            0
+          ],
+          [
+            -87.65315,
+            41.98499,
+            0
+          ],
+          [
+            -87.65309,
+            41.9848,
+            0
+          ],
+          [
+            -87.65305,
+            41.9839,
+            0
+          ],
+          [
+            -87.65308,
+            41.98302,
+            0
+          ],
+          [
+            -87.65297,
+            41.98228,
+            0
+          ],
+          [
+            -87.65264,
+            41.98104,
+            0
+          ],
+          [
+            -87.6522,
+            41.97999,
+            0
+          ],
+          [
+            -87.64952,
+            41.97424,
+            0
+          ],
+          [
+            -87.64911,
+            41.97309,
+            0
+          ],
+          [
+            -87.64879,
+            41.97195,
+            0
+          ],
+          [
+            -87.64644,
+            41.96182,
+            0
+          ],
+          [
+            -87.6463,
+            41.96061,
+            0
+          ],
+          [
+            -87.64624,
+            41.95941,
+            0
+          ],
+          [
+            -87.64597,
+            41.95805,
+            0
+          ],
+          [
+            -87.64539,
+            41.95667,
+            0
+          ],
+          [
+            -87.64493,
+            41.9553,
+            0
+          ],
+          [
+            -87.64478,
+            41.95452,
+            0
+          ],
+          [
+            -87.6448,
+            41.95163,
+            0
+          ],
+          [
+            -87.64451,
+            41.95067,
+            0
+          ],
+          [
+            -87.64285,
+            41.94792,
+            0
+          ],
+          [
+            -87.64109,
+            41.94488,
+            0
+          ],
+          [
+            -87.63961,
+            41.94203,
+            0
+          ],
+          [
+            -87.63902,
+            41.94111,
+            0
+          ],
+          [
+            -87.63776,
+            41.93968,
+            0
+          ],
+          [
+            -87.63709,
+            41.9391,
+            0
+          ],
+          [
+            -87.63408,
+            41.93686,
+            0
+          ],
+          [
+            -87.63316,
+            41.93587,
+            0
+          ],
+          [
+            -87.63247,
+            41.93469,
+            0
+          ],
+          [
+            -87.63224,
+            41.93393,
+            0
+          ],
+          [
+            -87.63211,
+            41.93314,
+            0
+          ],
+          [
+            -87.63217,
+            41.93092,
+            0
+          ],
+          [
+            -87.63211,
+            41.9287,
+            0
+          ],
+          [
+            -87.63089,
+            41.92456,
+            0
+          ],
+          [
+            -87.63022,
+            41.92252,
+            0
+          ],
+          [
+            -87.62931,
+            41.91911,
+            0
+          ],
+          [
+            -87.62889,
+            41.91777,
+            0
+          ],
+          [
+            -87.62607,
+            41.9121,
+            0
+          ],
+          [
+            -87.6259,
+            41.90902,
+            0
+          ],
+          [
+            -87.62416,
+            41.90235,
+            0
+          ],
+          [
+            -87.62358,
+            41.90183,
+            0
+          ],
+          [
+            -87.62238,
+            41.90131,
+            0
+          ],
+          [
+            -87.62017,
+            41.90113,
+            0
+          ],
+          [
+            -87.61971,
+            41.90089,
+            0
+          ],
+          [
+            -87.61761,
+            41.89777,
+            0
+          ],
+          [
+            -87.62188,
+            41.89767,
+            0
+          ],
+          [
+            -87.62191,
+            41.89676,
+            0
+          ],
+          [
+            -87.61672,
+            41.89685,
+            0
+          ],
+          [
+            -87.61945,
+            41.90094,
+            0
+          ],
+          [
+            -87.61959,
+            41.90107,
+            0
+          ],
+          [
+            -87.61982,
+            41.90122,
+            0
+          ],
+          [
+            -87.6201,
+            41.90131,
+            0
+          ],
+          [
+            -87.62038,
+            41.90137,
+            0
+          ],
+          [
+            -87.6218,
+            41.90147,
+            0
+          ],
+          [
+            -87.62235,
+            41.90159,
+            0
+          ],
+          [
+            -87.62296,
+            41.90183,
+            0
+          ],
+          [
+            -87.62351,
+            41.9022,
+            0
+          ],
+          [
+            -87.62379,
+            41.90251,
+            0
+          ],
+          [
+            -87.624,
+            41.90288,
+            0
+          ],
+          [
+            -87.62427,
+            41.90359,
+            0
+          ],
+          [
+            -87.62502,
+            41.90638,
+            0
+          ],
+          [
+            -87.62567,
+            41.90919,
+            0
+          ],
+          [
+            -87.6258,
+            41.9118,
+            0
+          ],
+          [
+            -87.6259,
+            41.91226,
+            0
+          ],
+          [
+            -87.62824,
+            41.9168,
+            0
+          ],
+          [
+            -87.62887,
+            41.91834,
+            0
+          ],
+          [
+            -87.62928,
+            41.91964,
+            0
+          ],
+          [
+            -87.62955,
+            41.92095,
+            0
+          ],
+          [
+            -87.63195,
+            41.92877,
+            0
+          ],
+          [
+            -87.63188,
+            41.93323,
+            0
+          ],
+          [
+            -87.63197,
+            41.93385,
+            0
+          ],
+          [
+            -87.63214,
+            41.93437,
+            0
+          ],
+          [
+            -87.63257,
+            41.9353,
+            0
+          ],
+          [
+            -87.6332,
+            41.93624,
+            0
+          ],
+          [
+            -87.63413,
+            41.93711,
+            0
+          ],
+          [
+            -87.6358,
+            41.93832,
+            0
+          ],
+          [
+            -87.63745,
+            41.93963,
+            0
+          ],
+          [
+            -87.63832,
+            41.94051,
+            0
+          ],
+          [
+            -87.6387,
+            41.94099,
+            0
+          ],
+          [
+            -87.63903,
+            41.94149,
+            0
+          ],
+          [
+            -87.64179,
+            41.94631,
+            0
+          ],
+          [
+            -87.64448,
+            41.95116,
+            0
+          ],
+          [
+            -87.64463,
+            41.95161,
+            0
+          ],
+          [
+            -87.64454,
+            41.9535,
+            0
+          ],
+          [
+            -87.6446,
+            41.95493,
+            0
+          ],
+          [
+            -87.64501,
+            41.95625,
+            0
+          ],
+          [
+            -87.64549,
+            41.95744,
+            0
+          ],
+          [
+            -87.64589,
+            41.95866,
+            0
+          ],
+          [
+            -87.64603,
+            41.95935,
+            0
+          ],
+          [
+            -87.64623,
+            41.96193,
+            0
+          ],
+          [
+            -87.64869,
+            41.9729,
+            0
+          ],
+          [
+            -87.64922,
+            41.97445,
+            0
+          ],
+          [
+            -87.65085,
+            41.97785,
+            0
+          ],
+          [
+            -87.65238,
+            41.98133,
+            0
+          ],
+          [
+            -87.65256,
+            41.9821,
+            0
+          ],
+          [
+            -87.65272,
+            41.9847,
+            0
+          ],
+          [
+            -87.65277,
+            41.98487,
+            0
+          ],
+          [
+            -87.65289,
+            41.98507,
+            0
+          ],
+          [
+            -87.65337,
+            41.98544,
+            0
+          ],
+          [
+            -87.65362,
+            41.98554,
+            0
+          ],
+          [
+            -87.65441,
+            41.98563,
+            0
+          ],
+          [
+            -87.6552,
+            41.98559,
+            0
+          ],
+          [
+            -87.65555,
+            41.99769,
+            0
+          ],
+          [
+            -87.65574,
+            41.9981,
+            0
+          ],
+          [
+            -87.65612,
+            41.99826,
+            0
+          ],
+          [
+            -87.65972,
+            41.99824,
+            0
+          ],
+          [
+            -87.6606,
+            41.99887,
+            0
+          ],
+          [
+            -87.66082,
+            42.00555,
+            0
+          ],
+          [
+            -87.66136,
+            42.00734,
+            0
+          ],
+          [
+            -87.6628,
+            42.01153,
+            0
+          ],
+          [
+            -87.66336,
+            42.01283,
+            0
+          ],
+          [
+            -87.66485,
+            42.01544,
+            0
+          ],
+          [
+            -87.66678,
+            42.02212,
+            0
+          ],
+          [
+            -87.66674,
+            42.02228,
+            0
+          ],
+          [
+            -87.66651,
+            42.0224,
+            0
+          ],
+          [
+            -87.66598,
+            42.02254,
+            0
+          ],
+          [
+            -87.66545,
+            42.02277,
+            0
+          ],
+          [
+            -87.66526,
+            42.02307,
+            0
+          ],
+          [
+            -87.66535,
+            42.02341,
+            0
+          ],
+          [
+            -87.66696,
+            42.02632,
+            0
+          ],
+          [
+            -87.66763,
+            42.02695,
+            0
+          ],
+          [
+            -87.66832,
+            42.02721,
+            0
+          ],
+          [
+            -87.67815,
+            42.02733,
+            0
+          ],
+          [
+            -87.67843,
+            42.02946,
+            0
+          ],
+          [
+            -87.68053,
+            42.04021,
+            0
+          ],
+          [
+            -87.68049,
+            42.04409,
+            0
+          ],
+          [
+            -87.68017,
+            42.04502,
+            0
+          ],
+          [
+            -87.67969,
+            42.04609,
+            0
+          ],
+          [
+            -87.67722,
+            42.05122,
+            0
+          ],
+          [
+            -87.67699,
+            42.06411,
+            0
+          ],
+          [
+            -87.69383,
+            42.06436,
+            0
+          ],
+          [
+            -87.69381,
+            42.06553,
+            0
+          ],
+          [
+            -87.69414,
+            42.06551,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}
