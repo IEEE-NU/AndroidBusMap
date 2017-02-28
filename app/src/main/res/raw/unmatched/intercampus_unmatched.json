@@ -1,0 +1,50 @@
+[
+    {
+        "geometry": {
+            "coordinates": [
+                -87.661049,
+                42.001521,
+                0
+            ],
+            "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+            "description": "EVANSTON TO CHICAGO<br>Departure times: 7:11a, 7:26a, 7:41a, 8:11a, 8:56a, 9:36a, 9:56a, 10:36a, 11:06a, 11:41a, 12:26p, 1:06p, 1:26p, 2:01p, 2:31p, 3:11p, 3:31p, 3:56p, 4:21p, 4:36p, 5:06p, 5:36p, 5:46p, 6:01p, 6:26p, 6:41p, 6:56p, 7:51p, 9:01p, 10:06p<br>Additional Winter Quarter times: 5:26p, 6:16p",
+            "drawOrder": null,
+            "altitudeMode": null,
+            "visibility": -1,
+            "icon": null,
+            "tessellate": -1,
+            "begin": null,
+            "Name": "Sheridan/Loyola",
+            "extrude": -1,
+            "timestamp": null,
+            "end": null
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                -87.660524,
+                42.001681,
+                0
+            ],
+            "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+            "description": "CHICAGO TO EVANSTON<br>Departure times: 7:05a, 7:48a, 8:26a, 8:41a, 8:56a, 9:26a, 9:56a, 10:32a, 11:23a, 11:58a, 12:25p, 12:55p, 1:22p, 2:02p, 2:45p, 3:05p, 3:56p, 4:32p, 4:52p, 5:17p, 5:32p, 5:47p, 6:17p, 6:42p, 6:52p, 7:52p, 8:37p, 9:55p, 10:43p<br> Additional Winter Quarter times: 5:07p, 6:32p",
+            "drawOrder": null,
+            "altitudeMode": null,
+            "visibility": -1,
+            "icon": null,
+            "tessellate": -1,
+            "begin": null,
+            "Name": "Sheridan/Loyola",
+            "extrude": -1,
+            "timestamp": null,
+            "end": null
+        }
+    }
+]
