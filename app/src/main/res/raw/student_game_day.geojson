@@ -1,1 +1,353 @@
-{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Name":"Ryan Field","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6939788,42.0654285,0]}},{"type":"Feature","properties":{"Name":"Sherman/Noyes","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6816596,42.0584678,0]}},{"type":"Feature","properties":{"Name":"Sherman/Emerson","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.681815,42.0521328,0]}},{"type":"Feature","properties":{"Name":"Sherman/Simpson","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6817835,42.0558795,0]}},{"type":"Feature","properties":{"Name":"Clark/Burger King","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6800381,42.0498842,0]}},{"type":"Feature","properties":{"Name":"Weber Arch","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.677156,42.0519834,0]}},{"type":"Feature","properties":{"Name":"Jacobs Center","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6770863,42.0540447,0]}},{"type":"Feature","properties":{"Name":"Tech Institute","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6770904,42.0579222,0]}},{"type":"Feature","properties":{"Name":"Patten Gym","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-87.6769985,42.0612687,0]}},{"type":"Feature","properties":{"Name":"Route","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":1,"extrude":-1,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"LineString","coordinates":[[-87.6938152,42.0654634,0],[-87.6937428,42.0687976,0],[-87.6828289,42.0686811,0],[-87.6830864,42.0661484,0],[-87.6835223,42.0641581,0],[-87.6828336,42.0641088,0],[-87.6815495,42.0641153,0],[-87.6817667,42.0516508,0],[-87.6818848,42.0512365,0],[-87.681874,42.0505036,0],[-87.6799066,42.0498992,0],[-87.6796317,42.0498663,0],[-87.6780894,42.0494341,0],[-87.6772875,42.0510533,0],[-87.6770172,42.0640195,0],[-87.6838184,42.0641779,0],[-87.6938705,42.0642878,0],[-87.6938152,42.0654634,0],[-87.6938705,42.0642878,0],[-87.6838184,42.0641779,0],[-87.6770172,42.0640195,0]]}}]}
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ryan Field",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6939788,
+          42.0654285,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Noyes",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6816596,
+          42.0584678,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Emerson",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.681815,
+          42.0521328,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherman/Simpson",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6817835,
+          42.0558795,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Clark/Burger King",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6800381,
+          42.0498842,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Weber Arch",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.677156,
+          42.0519834,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jacobs Center",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6770863,
+          42.0540447,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tech Institute",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6770904,
+          42.0579222,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Patten Gym",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6769985,
+          42.0612687,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Route",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": 1,
+        "extrude": -1,
+        "visibility": -1,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6938152,
+            42.0654634,
+            0
+          ],
+          [
+            -87.6937428,
+            42.0687976,
+            0
+          ],
+          [
+            -87.6828289,
+            42.0686811,
+            0
+          ],
+          [
+            -87.6830864,
+            42.0661484,
+            0
+          ],
+          [
+            -87.6835223,
+            42.0641581,
+            0
+          ],
+          [
+            -87.6828336,
+            42.0641088,
+            0
+          ],
+          [
+            -87.6815495,
+            42.0641153,
+            0
+          ],
+          [
+            -87.6817667,
+            42.0516508,
+            0
+          ],
+          [
+            -87.6818848,
+            42.0512365,
+            0
+          ],
+          [
+            -87.681874,
+            42.0505036,
+            0
+          ],
+          [
+            -87.6799066,
+            42.0498992,
+            0
+          ],
+          [
+            -87.6796317,
+            42.0498663,
+            0
+          ],
+          [
+            -87.6780894,
+            42.0494341,
+            0
+          ],
+          [
+            -87.6772875,
+            42.0510533,
+            0
+          ],
+          [
+            -87.6770172,
+            42.0640195,
+            0
+          ],
+          [
+            -87.6838184,
+            42.0641779,
+            0
+          ],
+          [
+            -87.6938705,
+            42.0642878,
+            0
+          ],
+          [
+            -87.6938152,
+            42.0654634,
+            0
+          ],
+          [
+            -87.6938705,
+            42.0642878,
+            0
+          ],
+          [
+            -87.6838184,
+            42.0641779,
+            0
+          ],
+          [
+            -87.6770172,
+            42.0640195,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}
