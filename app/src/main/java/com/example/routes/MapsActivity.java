@@ -17,6 +17,10 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AlertDialog;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -61,6 +65,7 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
 import static android.graphics.Color.parseColor;
@@ -73,7 +78,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private List<Stop> mStopList;
     private List<Route> mRouteList;
     private HashMap<Integer, Marker> mMarkerMap; // maps stop id to google maps marker
-    private HashMap<Integer, Polyline> mPolylineMap; // maps route id to google maps polyline
+    private HashMap<String, Polyline> mPolylineMap; // maps route name to google maps polyline
     private RequestQueue mRequestQueue;
     private boolean[] mSelectedRoutes;
     private Bitmap imageBitmap;
@@ -196,99 +201,100 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mGoogleApiClient.connect();
     }
 
+    public String getJSONString(String filename) {
+        InputStream is = getResources().openRawResource(
+                getResources().getIdentifier(filename, "raw", getPackageName()));
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String jsonString = writer.toString();
+        return jsonString;
+    }
+
     public void getRoutes() {
-        String url = "https://northwestern.doublemap.com/map/v2/routes";
-        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
-            @Override
-            public void onResponse(JSONArray response) {
-                try {
-                    for (int i = 0; i < response.length(); i++) {
-                        JSONObject object = response.getJSONObject(i);
-                        Route route = new Route();
-                        route.id = object.getInt("id");
-                        route.name = object.getString("name");
-                        route.short_name = object.getString("short_name");
-                        route.color = parseColor("#" + object.getString("color"));
+        String jsonString = getJSONString("routes_info");
+        try {
+            JSONArray jsonArray = new JSONArray(jsonString);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                Route route = new Route();
+                route.name = jsonObject.getString("name");
+                route.formalName = jsonObject.getString("formal_name");
+                route.color = parseColor(jsonObject.getString("color"));
 
-                        // get points on route's path
-                        JSONArray path_arr = object.getJSONArray("path");
-                        route.path = new ArrayList<>();
-                        for (int j = 0; j < path_arr.length() && j + 1 < path_arr.length(); j += 2) {
-                            route.path.add(new LatLng(path_arr.getDouble(j), path_arr.getDouble(j + 1)));
-                        }
-
-                        // get points on route's path
-                        JSONArray stops_arr = object.getJSONArray("stops");
-                        route.stops = new ArrayList<>();
-                        for (int j = 0; j < stops_arr.length(); j++) {
-                            route.stops.add(stops_arr.getInt(j));
-                        }
-
-                        mRouteList.add(route);
-                    }
-
-                    // by default, show all routes
-                    mSelectedRoutes = new boolean[mRouteList.size()];
-                    for (int i = 0; i < mRouteList.size(); i++) {
-                        mSelectedRoutes[i] = mPrefRoutes == null || mPrefRoutes.contains(mRouteList.get(i).name);
-                    }
-
-                    if (mPrefRoutes == null) {
-                        mPrefRoutes = new HashSet<>();
-                    }
-
-                    drawMaps();
-                    displayClosestStop(findClosestStop());
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                JSONArray coordinates = jsonObject.getJSONArray("coordinates");
+                route.path = new ArrayList<>();
+                for (int j = 0; j < coordinates.length(); j++) {
+                    JSONArray coordinate = coordinates.getJSONArray(j);
+                    // lat and lon are stored in (lon, lat) for some reason ugh
+                    route.path.add(new LatLng(coordinate.getDouble(1), coordinate.getDouble(0)));
                 }
+
+                // initialize stops list, we will fill it in get stops
+                route.stops = new ArrayList<>();
+                mRouteList.add(route);
             }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
 
+            mSelectedRoutes = new boolean[mRouteList.size()];
+            for (int i = 0; i < mRouteList.size(); i++) {
+                mSelectedRoutes[i] = mPrefRoutes == null || mPrefRoutes.contains(mRouteList.get(i).name);
             }
-        });
 
-        mRequestQueue.add(jsonArrayRequest);
+            if (mPrefRoutes == null) {
+                mPrefRoutes = new HashSet<>();
+            }
 
+            drawMaps();
+            displayClosestStop(findClosestStop());
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     public void getStops() {
-        String url = "https://northwestern.doublemap.com/map/v2/stops";
-        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
-            @Override
-            public void onResponse(JSONArray response) {
-                try {
-                    for (int i = 0; i < response.length(); i++) {
-                        JSONObject object = response.getJSONObject(i);
-                        Stop stop = new Stop();
-                        stop.id = object.getInt("id");
-                        stop.name = object.getString("name");
-                        stop.lat = object.getDouble("lat");
-                        stop.lon = object.getDouble("lon");
-
-                        // TODO
-                        // actually get stop times
-                        stop.nextStopTime = "N: 3:52pm \nS: 3:57pm";
-                        mStopList.add(stop);
+        String jsonString = getJSONString("stops_times");
+        try {
+            JSONArray jsonArray = new JSONArray(jsonString);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                Stop stop = new Stop();
+                stop.id = jsonObject.getInt("id");
+                stop.name = jsonObject.getString("name");
+                stop.lat = jsonObject.getDouble("lat");
+                stop.lon = jsonObject.getDouble("lon");
+                if (jsonObject.has("times")) {
+                    JSONObject times = jsonObject.getJSONObject("times");
+                    stop.stopTimeStrings = new HashMap<>();
+                    for (Iterator<String> iter = times.keys(); iter.hasNext(); ) {
+                        String routeName = iter.next();
+                        stop.stopTimeStrings.put(routeName, times.getString(routeName));
+                        for (int j = 0; j < mRouteList.size(); j++) {
+                            if (mRouteList.get(j).name.equals(routeName)) {
+                                mRouteList.get(j).stops.add(stop.id);
+                            }
+                        }
                     }
-
-                    drawMaps();
-                    displayClosestStop(findClosestStop());
-                } catch (JSONException e) {
-                    e.printStackTrace();
                 }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
+                mStopList.add(stop);
 
             }
-        });
 
-        mRequestQueue.add(jsonArrayRequest);
-        displayClosestStop(findClosestStop());
+            drawMaps();
+            displayClosestStop(findClosestStop());
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     public void drawMaps() {
@@ -331,9 +337,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(stop.getLatLng())
                 .title(stop.name)
                 .icon(BitmapDescriptorFactory.fromBitmap(imageBitmap))
-                .snippet(stop.nextStopTime)
                 .visible(false);
         Marker marker = mMap.addMarker(markerOptions);
+        marker.setTag(stop.stopTimeStrings);
         mMarkerMap.put(stop.id, marker);
     }
 
@@ -343,7 +349,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .color(route.color)
                 .visible(false);
         Polyline polyline = mMap.addPolyline(polylineOptions);
-        mPolylineMap.put(route.id, polyline);
+        mPolylineMap.put(route.name, polyline);
     }
 
     private void updateMaps() {
@@ -364,7 +370,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void setRouteVisibility(Route route, Boolean visibility) {
-        Polyline polyline = mPolylineMap.get(route.id);
+        Polyline polyline = mPolylineMap.get(route.name);
         polyline.setVisible(visibility);
         for (int j = 0; j < route.stops.size(); j++) {
             int stop_id = route.stops.get(j);
@@ -403,9 +409,32 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 TextView stopName = (TextView) view.findViewById(R.id.stop_name);
                 stopName.setText(marker.getTitle());
                 stopName.setTypeface(null, Typeface.BOLD);
+                stopName.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
 
                 TextView stopTime = (TextView) view.findViewById(R.id.stop_time);
-                stopTime.setText(marker.getSnippet());
+                HashMap<String, String> stopTimeStrings = (HashMap<String, String>) marker.getTag();
+                SpannableStringBuilder builder = new SpannableStringBuilder(); // allows multicolor
+                boolean moreThanOneRoute = false;
+                for(int i = 0; i < mRouteList.size(); i++) {
+                    if (mSelectedRoutes[i]) {
+                        String stopTimeString = stopTimeStrings.get(mRouteList.get(i).name);
+                        if (stopTimeString != null) {
+                            if (moreThanOneRoute) {
+                                // if we're adding more than one route's times, need line break
+                                builder.append(System.getProperty("line.separator"));
+                            }
+                            SpannableString nameSpannable= new SpannableString(mRouteList.get(i).formalName);
+                            nameSpannable.setSpan(new ForegroundColorSpan(
+                                    mRouteList.get(i).color), 0, mRouteList.get(i).formalName.length(), 0);
+                            builder.append(nameSpannable);
+                            builder.append(System.getProperty("line.separator"));
+                            builder.append("    "); //tab
+                            builder.append(stopTimeString);
+                            moreThanOneRoute = true;
+                        }
+                    }
+                }
+                stopTime.setText(builder, TextView.BufferType.SPANNABLE);
 
                 return view;
             }
@@ -417,7 +446,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void routeSelectionDialog() {
         String[] routeNames = new String[mRouteList.size()];
         for (int i = 0; i < mRouteList.size(); i++) {
-            routeNames[i] = mRouteList.get(i).name;
+            routeNames[i] = mRouteList.get(i).formalName;
         }
         AlertDialog.Builder builder = new AlertDialog.Builder(this)
                 .setMultiChoiceItems(routeNames, mSelectedRoutes, new DialogInterface.OnMultiChoiceClickListener() {
