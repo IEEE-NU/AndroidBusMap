@@ -2,7 +2,7 @@
   {
 	"name": "campus_frostbite",
 	"formal_name": "Campus Frostbite",
-	"color": "red",
+	"color": "navy",
 	"coordinates": [
 	  [
 	    -87.67725,
@@ -230,7 +230,7 @@
   {
   	"name": "campus_loop",
   	"formal_name": "Campus Loop",
-  	"color": "blue",
+  	"color": "green",
   	"coordinates": [
       [
         -87.67725,
@@ -394,7 +394,7 @@
   {
   	"name": "chicago_express",
   	"formal_name": "Chicago Express",
-  	"color": "green",
+  	"color": "blue",
   	"coordinates": [
 	  [
         -87.61608,
@@ -1545,7 +1545,7 @@
   {
   	"name": "evanston_loop",
   	"formal_name": "Evanston Loop",
-  	"color": "maroon",
+  	"color": "purple",
   	"coordinates": [
 	  [
         -87.6734,
@@ -1738,7 +1738,7 @@
   {
   	"name": "intercampus",
   	"formal_name": "Intercampus",
-  	"color": "cyan",
+  	"color": "red",
   	"coordinates": [
       [
         -87.69415,
@@ -2626,7 +2626,7 @@
   {
   	"name": "student_game_day",
   	"formal_name": "Student Game Day",
-  	"color": "yellow",
+  	"color": "maroon",
   	"coordinates": [
       [
         -87.6938152,

@@ -2,6 +2,8 @@ package com.example.routes;
 
 import com.google.android.gms.maps.model.LatLng;
 
+import java.util.HashMap;
+
 /**
  * Represents a bus stop
  */
@@ -11,7 +13,7 @@ public class Stop {
     double lat;
     double lon;
     int buddy;
-    String nextStopTime;
+    HashMap<String, String> stopTimeStrings; //maps route name to stop time string
 
     LatLng getLatLng() {
         return new LatLng(lat, lon);

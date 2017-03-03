@@ -6,6 +6,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
+        //classpath 'com.android.tools.build:gradle:2.2.3'
+        // changed per http://stackoverflow.com/questions/34985837/errorexecution-failed-for-task-appcompiledebugjavawithjavac-java-io-fileno
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
