@@ -10,7 +10,7 @@ import java.util.List;
 public class Route {
     int id;
     String name;
-    String short_name;
+    String formalName;
     int color;
     List<LatLng> path;
     List<Integer> stops;
