@@ -3,8 +3,7 @@
         "description": "",
         "id": 253,
         "times": {
-            "intercampus": "CHICAGO TO EVANSTON Arrival times: 7:32a, 8:15a, 8:53a, 9:08a, 9:23a, 9:53a, 10:23a, 10:59a, 11:50a, 12:25p, 12:52p, 1:22p, 1:49p, 2:29p, 3:12p, 3:32p, 4:23p, 4:59p, 5:19p, 5:44p, 5:59p, 6:14p, 6:44p, 7:09p, 7:19p, 8:19p, 9:04p, 10:22p, 11:10p Additional Winter Quarter times: 5:34p, 6:59p",
-            "student_game_day": null
+            "intercampus": "CHICAGO TO EVANSTON Arrival times: 7:32a, 8:15a, 8:53a, 9:08a, 9:23a, 9:53a, 10:23a, 10:59a, 11:50a, 12:25p, 12:52p, 1:22p, 1:49p, 2:29p, 3:12p, 3:32p, 4:23p, 4:59p, 5:19p, 5:44p, 5:59p, 6:14p, 6:44p, 7:09p, 7:19p, 8:19p, 9:04p, 10:22p, 11:10p Additional Winter Quarter times: 5:34p, 6:59p"
         },
         "lat": 42.066414,
         "lon": -87.693939,
@@ -143,7 +142,6 @@
         "description": "",
         "id": 181,
         "times": {
-            "student_game_day": null,
             "evanston_frostbite": "7:54am, 8:34am, 9:14am, 9:54am, 10:34am, 11:44am, 12:24pm, 1:04pm, 1:44pm, 2:24pm, 3:04pm, 4:14pm, 4:54pm, 5:34pm"
         },
         "lat": 42.058086,
@@ -366,9 +364,6 @@
     {
         "description": "",
         "id": 182,
-        "times": {
-            "student_game_day": null
-        },
         "lat": 42.055954,
         "lon": -87.681885,
         "buddy": null,
@@ -601,7 +596,6 @@
             "campus_loop": "approximate times past each hour: :07 :37",
             "intercampus": "CHICAGO TO EVANSTON Departure times: 7:26a, 8:09a, 8:47a, 9:02a, 9:17a, 9:47a, 10:17a, 10:53a, 11:44a, 12:19p, 12:46p, 1:16p, 1:43p, 2:23p, 3:06p, 3:26p, 4:17p, 4:53p, 5:13p, 5:38p, 5:53p, 6:08p, 6:38p, 7:03p, 7:13p, 8:13p, 8:58p, 10:16p, 11:04p  Additional Winter Quarter times: 5:28p, 6:53p",
             "campus_frostbite": "7:47am, 8:17am, 8:47am, 9:17am, 9:47am, 10:17am, 11:17am, 11:47am, 12:17pm, 12:47pm, 1:17pm, 2:17pm, 2:47pm, 3:17pm, 3:47pm, 4:17pm, 4:47pm, 5:17pm",
-            "student_game_day": null,
             "chicago_express": "1:41p,\t3:36p,\t5:55p,\t7:43p,\t9:33p,\t11:23p"
         },
         "lat": 42.061234,
@@ -774,7 +768,6 @@
         "id": 152,
         "times": {
             "campus_loop": "approximate times past each hour: :04 :34",
-            "student_game_day": null,
             "campus_frostbite": "7:44am, 8:14am, 8:44am, 9:14am, 9:44am, 10:14am, 11:14am, 11:44am, 12:14pm, 12:44pm, 1:14pm, 2:14pm, 2:44pm, 3:14pm, 3:44pm, 4:14pm, 4:44pm, 5:14pm",
             "intercampus": "CHICAGO TO EVANSTON  Departure times: 7:23a, 8:06a, 8:44a, 8:59a, 9:14a, 9:44a, 10:14a, 10:50a, 11:41a, 12:16p, 12:43p, 1:13p, 1:40p, 2:20p, 3:03p, 3:23p, 4:14p, 4:50p, 5:10p, 5:35p, 5:50p, 6:05p, 6:35p, 7:00p, 7:10p, 8:10p, 8:55p, 10:13p, 11:01p  Additional Winter Quarter times: 5:25p, 6:50p",
             "chicago_express": "1:38p,\t3:33p,\t5:52p,\t7:40p,\t9:30p,\t11:20p",
@@ -806,7 +799,6 @@
         "id": 183,
         "times": {
             "intercampus": "EVANSTON TO CHICAGO  Departure times: 6:46a, 7:01a, 7:16a, 7:46a, 8:31a, 9:11a, 9:31a, 10:11a, 10:41a, 11:16a, 12:01p, 12:41p, 1:01p, 1:36p, 2:06p, 2:46p, 3:06p, 3:31p, 3:56p, 4:11p, 4:41p, 5:11p, 5:21p, 5:36p, 6:01p, 6:16p, 6:31p, 7:26p, 8:36p, 9:41p Additional Winter Quarter times: 5:01p, 5:51p",
-            "student_game_day": null,
             "evanston_frostbite": "7:51am, 8:31am, 9:11am, 9:51am, 10:31am, 11:41am, 12:21pm, 1:01pm, 1:41pm, 2:21pm, 3:01pm, 4:11pm, 4:51pm, 5:31pm",
             "evanston_loop": "6:20p, 7:00p, 7:20p**, 7:40p, 8:00p**, 8:20p, 8:40p**, 9:00p, 9:20p*, 9:40p, 10:00p*, 10:20p, 10:40p*, 11:00p, 11:20p*, 11:40p, 12:00a*, 12:20a, 12:40a*, 1:00a, 1:20a*, 1:40a, 2:00a*, 2:20a, 2:40a*, 3:00a * Runs Thurs-Sat only ** Runs Thurs-Sat during standard time only"
         },
@@ -861,9 +853,6 @@
     {
         "description": "",
         "id": 293,
-        "times": {
-            "student_game_day": null
-        },
         "lat": 42.049816,
         "lon": -87.680321,
         "buddy": null,
@@ -1257,7 +1246,6 @@
         "id": 153,
         "times": {
             "campus_loop": "approximate times past each hour: :05 :35",
-            "student_game_day": null,
             "campus_frostbite": "7:45am, 8:15am, 8:45am, 9:15am, 9:45am, 10:15am, 11:15am, 11:45am, 12:15pm, 12:45pm, 1:15pm, 2:15pm, 2:45pm, 3:15pm, 3:45pm, 4:15pm, 4:45pm, 5:15pm",
             "intercampus": "CHICAGO TO EVANSTON  Departure times: 7:24a, 8:07a, 8:45a, 9:00a, 9:15a, 9:45a, 10:15a, 10:51a, 11:42a, 12:17p, 12:44p, 1:14p, 1:41p, 2:21p, 3:04p, 3:24p, 4:15p, 4:51p, 5:11p, 5:36p, 5:51p, 6:06p, 6:36p, 7:01p, 7:11p, 8:11p, 8:56p, 10:14p, 11:02p Additional Winter Quarter times: 5:26p, 6:51p",
             "chicago_express": "1:39p,\t3:34p,\t5:53p,\t7:41p,\t9:31p,\t11:21p",
@@ -1500,7 +1488,6 @@
         "id": 154,
         "times": {
             "campus_loop": "approximate times past each hour: :06 :36",
-            "student_game_day": null,
             "campus_frostbite": "7:46am, 8:16am, 8:46am, 9:16am, 9:46am, 10:16am, 11:16am, 11:46am, 12:16pm, 12:46pm, 1:16pm, 2:16pm, 2:46pm, 3:16pm, 3:46pm, 4:16pm, 4:46pm, 5:16pm",
             "intercampus": "CHICAGO TO EVANSTON  Departure times: 7:25a, 8:08a, 8:46a, 9:01a, 9:16a, 9:46a, 10:16a, 10:52a, 11:43a, 12:18p, 12:45p, 1:15p, 1:42p, 2:22p, 3:05p, 3:25p, 4:16p, 4:52p, 5:12p, 5:37p, 5:52p, 6:07p, 6:37p, 7:02p, 7:12p, 8:12p, 8:57p, 10:15p, 11:03p  Additional Winter Quarter times: 5:27p, 6:52p",
             "chicago_express": "1:40p,\t3:35p,\t5:54p,\t7:42p,\t9:32p,\t11:22p",
