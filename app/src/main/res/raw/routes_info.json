@@ -3,6 +3,8 @@
 	"name": "campus_frostbite",
 	"formal_name": "Campus Frostbite",
 	"color": "navy",
+  "start_time": "7:30a",
+  "end_time": "5:57p",
 	"coordinates": [
 	  [
 	    -87.67725,
@@ -231,6 +233,8 @@
   	"name": "campus_loop",
   	"formal_name": "Campus Loop",
   	"color": "green",
+    "start_time": "6:00p",
+    "end_time": "3:25a",
   	"coordinates": [
       [
         -87.67725,
@@ -395,6 +399,8 @@
   	"name": "chicago_express",
   	"formal_name": "Chicago Express",
   	"color": "blue",
+    "start_time": "12:00p",
+    "end_time": "11:23p",
   	"coordinates": [
 	  [
         -87.61608,
@@ -1358,6 +1364,8 @@
   	"name": "evanston_frostbite",
   	"formal_name": "Evanston Frostbite",
   	"color": "magenta",
+    "start_time": "7:30a",
+    "end_time": "5:38p",
   	"coordinates": [
       [
         -87.6733692,
@@ -1546,6 +1554,8 @@
   	"name": "evanston_loop",
   	"formal_name": "Evanston Loop",
   	"color": "purple",
+    "start_time": "6:00p",
+    "end_time": "3:05a",
   	"coordinates": [
 	  [
         -87.6734,
@@ -1739,6 +1749,8 @@
   	"name": "intercampus",
   	"formal_name": "Intercampus",
   	"color": "red",
+    "start_time": "6:35a",
+    "end_time": "11:10p",
   	"coordinates": [
       [
         -87.69415,
@@ -2618,119 +2630,6 @@
       [
         -87.69414,
         42.06551,
-        0
-      ]
-  	]
-  },
-
-  {
-  	"name": "student_game_day",
-  	"formal_name": "Student Game Day",
-  	"color": "maroon",
-  	"coordinates": [
-      [
-        -87.6938152,
-        42.0654634,
-        0
-      ],
-      [
-        -87.6937428,
-        42.0687976,
-        0
-      ],
-      [
-        -87.6828289,
-        42.0686811,
-        0
-      ],
-      [
-        -87.6830864,
-        42.0661484,
-        0
-      ],
-      [
-        -87.6835223,
-        42.0641581,
-        0
-      ],
-      [
-        -87.6828336,
-        42.0641088,
-        0
-      ],
-      [
-        -87.6815495,
-        42.0641153,
-        0
-      ],
-      [
-        -87.6817667,
-        42.0516508,
-        0
-      ],
-      [
-        -87.6818848,
-        42.0512365,
-        0
-      ],
-      [
-        -87.681874,
-        42.0505036,
-        0
-      ],
-      [
-        -87.6799066,
-        42.0498992,
-        0
-      ],
-      [
-        -87.6796317,
-        42.0498663,
-        0
-      ],
-      [
-        -87.6780894,
-        42.0494341,
-        0
-      ],
-      [
-        -87.6772875,
-        42.0510533,
-        0
-      ],
-      [
-        -87.6770172,
-        42.0640195,
-        0
-      ],
-      [
-        -87.6838184,
-        42.0641779,
-        0
-      ],
-      [
-        -87.6938705,
-        42.0642878,
-        0
-      ],
-      [
-        -87.6938152,
-        42.0654634,
-        0
-      ],
-      [
-        -87.6938705,
-        42.0642878,
-        0
-      ],
-      [
-        -87.6838184,
-        42.0641779,
-        0
-      ],
-      [
-        -87.6770172,
-        42.0640195,
         0
       ]
   	]
