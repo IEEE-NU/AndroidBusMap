@@ -1,52 +1,36 @@
 package com.example.routes;
 
-import android.*;
 import android.Manifest;
 import android.content.DialogInterface;
-
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.content.pm.PackageManager;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.ColorFilter;
-import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
-import android.graphics.drawable.Drawable;
-import android.location.Location;
-import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.graphics.Typeface;
+import android.location.Location;
 import android.net.Uri;
-import android.preference.PreferenceManager;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
-import android.view.Display;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.ImageLoader;
-import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -69,7 +53,6 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
-import com.google.android.gms.vision.text.Text;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -109,6 +92,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private SharedPreferences mPref;
     private HashSet<String> mPrefRoutes;
 
+    private Button closestStop;
+
     @Override
     public void onConnected(@Nullable Bundle bundle) {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission
@@ -137,7 +122,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LocationServices.SettingsApi.checkLocationSettings(mGoogleApiClient, builder.build());
 
         startLocationUpdates();
-        displayClosestStop(findClosestStop());
+
     }
 
     protected void startLocationUpdates() {
@@ -189,6 +174,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        closestStop = (Button) findViewById(R.id.closestStop);
+        closestStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                displayClosestStop(findClosestStop());
+            }
+        });
 
         imageBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.piny);
         imageBitmap = resizeMapIcons(imageBitmap, 30, 30);
@@ -278,7 +271,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
 
             drawMaps();
-            displayClosestStop(findClosestStop());
+
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -320,7 +313,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
 
             drawMaps();
-            displayClosestStop(findClosestStop());
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -533,7 +526,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             if (mLocation.distanceTo(stop) < min){
                 index = i;
             }
-
         }
         return mStopList.get(index);
     }
@@ -542,8 +534,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if (closest_stop == null) {
             return;
         }
-        TextView text = (TextView) findViewById(R.id.textView);
-        text.setText("You are closest to " + closest_stop.name );
+        mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(closest_stop.lat, closest_stop.lon)));
     }
 
     /**
