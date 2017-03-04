@@ -1,14 +1,27 @@
 package com.example.routes;
 
+import android.*;
+import android.Manifest;
 import android.content.DialogInterface;
 
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.content.pm.PackageManager;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.ColorFilter;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffColorFilter;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -16,20 +29,28 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
+import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
+import android.view.Display;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
@@ -90,13 +111,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission
                 .ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat
-                .checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                .checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(this,
-                    new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                     2);
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -120,9 +141,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     protected void startLocationUpdates() {
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this,
-                android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
+                Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
         {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -169,14 +190,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        imageBitmap = BitmapFactory.decodeResource(getResources(),R.drawable.piny);
-        imageBitmap = resizeMapIcons(imageBitmap,30,30);
+        imageBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.piny);
+        imageBitmap = resizeMapIcons(imageBitmap, 30, 30);
 
         // set up queue for http requests (for route/stop info)
         mRequestQueue = Volley.newRequestQueue(this);
-        
+
         mPref = PreferenceManager.getDefaultSharedPreferences(this);
-        mPrefRoutes = (HashSet<String>) mPref.getStringSet(ROUTE_KEY,null);
+        mPrefRoutes = (HashSet<String>) mPref.getStringSet(ROUTE_KEY, null);
 
         mRouteList = new ArrayList<>();
         getRoutes();
@@ -192,11 +213,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
+        // ATTENTION: This "addApi(AppIndex.API)"was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .addApi(LocationServices.API)
-                .build();
+                .addApi(AppIndex.API).build();
 
         mGoogleApiClient.connect();
     }
@@ -280,8 +303,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         String routeName = iter.next();
                         stop.stopTimeStrings.put(routeName, times.getString(routeName));
                         for (int j = 0; j < mRouteList.size(); j++) {
-                            if (mRouteList.get(j).name.equals(routeName)) {
-                                mRouteList.get(j).stops.add(stop.id);
+                            Route route = mRouteList.get(j);
+                            if (route.name.equals(routeName)) {
+                                route.stops.add(stop.id);
+                                if (stop.color==null)
+                                    stop.color = route.color;
+                                else
+                                    stop.color = ContextCompat.getColor(this, R.color.gray);
+
                             }
                         }
                     }
@@ -332,12 +361,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return resizedBitmap;
     }
 
+    public Bitmap changeBitmapColor(Bitmap sourceBitmap, int newColor){
+        Paint paint = new Paint();
+        ColorFilter filter = new PorterDuffColorFilter(newColor, PorterDuff.Mode.SRC_IN);
+        paint.setColorFilter(filter);
+
+        Canvas canvas = new Canvas(sourceBitmap);
+        canvas.drawBitmap(sourceBitmap, 0, 0, paint);
+        return sourceBitmap;
+    }
     private void drawStopMarker(Stop stop) {
+        Bitmap stopMarker = imageBitmap;
+
+        if (stop.color != null){
+            int markerColor = stop.color;
+            stopMarker = changeBitmapColor(imageBitmap, markerColor);
+        }
+
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(stop.getLatLng())
                 .title(stop.name)
-                .icon(BitmapDescriptorFactory.fromBitmap(imageBitmap))
-                .visible(false);
+                .visible(false)
+                .icon(BitmapDescriptorFactory.fromBitmap(stopMarker));
         Marker marker = mMap.addMarker(markerOptions);
         marker.setTag(stop.stopTimeStrings);
         mMarkerMap.put(stop.id, marker);
@@ -379,15 +424,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -508,6 +544,41 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         TextView text = (TextView) findViewById(R.id.textView);
         text.setText("You are closest to " + closest_stop.name );
+    }
+
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    public Action getIndexApiAction() {
+        Thing object = new Thing.Builder()
+                .setName("Maps Page") // TODO: Define a title for the content shown.
+                // TODO: Make sure this auto-generated URL is correct.
+                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+                .build();
+        return new Action.Builder(Action.TYPE_VIEW)
+                .setObject(object)
+                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+                .build();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        mGoogleApiClient.connect();
+        AppIndex.AppIndexApi.start(mGoogleApiClient, getIndexApiAction());
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.end(mGoogleApiClient, getIndexApiAction());
+        mGoogleApiClient.disconnect();
     }
 }
 

@@ -13,6 +13,7 @@ public class Stop {
     double lat;
     double lon;
     int buddy;
+    Integer color;
     HashMap<String, String> stopTimeStrings; //maps route name to stop time string
 
     LatLng getLatLng() {
