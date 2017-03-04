@@ -92,7 +92,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private SharedPreferences mPref;
     private HashSet<String> mPrefRoutes;
 
-    private Button closestStop;
+    //private Button closestStop;
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
@@ -175,13 +175,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        closestStop = (Button) findViewById(R.id.closestStop);
+        /*closestStop = (Button) findViewById(R.id.closestStop);
         closestStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 displayClosestStop(findClosestStop());
             }
         });
+        */
 
         imageBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.piny);
         imageBitmap = resizeMapIcons(imageBitmap, 30, 30);
@@ -510,6 +511,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         dialog.show();
     }
 
+    /*
     private Stop findClosestStop(){
         if (mLocation == null) {
             return null;
@@ -536,6 +538,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(closest_stop.lat, closest_stop.lon)));
     }
+    */
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
