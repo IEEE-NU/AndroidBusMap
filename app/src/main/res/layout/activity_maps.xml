@@ -20,11 +20,5 @@
         android:layout_alignParentTop="true"
         android:text="Select Routes"/>
 
-    <Button
-        android:id="@+id/closestStop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/select_route_button"
-        android:text="Closest stop"/>
+
 </RelativeLayout>
